@@ -3,10 +3,6 @@ import {MDBBtn, MDBCol, MDBContainer, MDBIcon, MDBRow} from "mdb-react-ui-kit";
 import BuildingList from "./BuildingList";
 import {useContext, useState} from "react";
 import BuildingPage from "./BuildingPage";
-import boardwalkVideo from '../Assets/board2.mp4'
-import building2 from '../Assets/building2.mp4'
-import front from '../Assets/frontbuilding.mp4'
-import back from '../Assets/back1.mp4'
 import move3 from '../Assets/move3.mp4'
 import FloorPlan from "./FloorPlan";
 import {CFAContext} from "../State/Context";

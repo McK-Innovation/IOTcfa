@@ -22,7 +22,7 @@ const BuildingList = (props) => {
     const [room, setRoom] = useState('')
     let [total, setTotal] = useState(0)
     let [buildingArray, setArray] = useState( [
-        {images: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg',
+        {images: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg', imagePath: '../Assets/OakmontA.jpg',
         name: 'oakmontA', floors: [{name: "1", path: 'OakmontAExample.json', info: {}}, ], buildingInformation: {} }
     ])
 
