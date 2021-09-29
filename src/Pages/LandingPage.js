@@ -28,14 +28,14 @@ const LandingPage = () => {
                     <MDBCol size = '2' className= 'rounded-6 whiteBackgroundRed p-3 m-1'>
                         <div>
                             <span className= 'font-weight-bold text-center'>Campus Total <MDBIcon icon="circle" />
-                            </span><span className= 'biggerFont'> 274</span>
+                            </span><span className= 'biggerFont'> 32</span>
                         </div>
                     {building&&<div><hr/><MDBIcon far icon="building" /><span className='newFont font-weight-bold'> {building}</span></div>}
                     {floorName&&<div><MDBIcon icon="layer-group" /><span className='newFont font-weight-bold'> {floorName}</span></div>}
                     </MDBCol>
                 </MDBRow>
                 <MDBRow center className={'justify-content-start'}>
-                     <MDBCol size='8' className=''>
+                     <MDBCol size= '10' className=''>
                          <Switch>
                            <Route exact path = '/'>
                                <BuildingList/>

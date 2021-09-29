@@ -9,8 +9,8 @@ import {
 import {useContext, useEffect, useState} from "react";
 import {useHistory} from "react-router";
 import {CFAContext} from "../State/Context";
-import exampleData from "../Assets/OakmontAExample.json";
-
+import exampleData from "../Assets/OakmontA.json";
+import image from "../Assets/OakmontA.JPG";
 
 
 const BuildingList = (props) => {
@@ -133,7 +133,7 @@ const BuildingList = (props) => {
                     <MDBCol size = '12' key = {value.name} className="justify-content-center backgroundColorforMain rounded-6 minWidthC center m-1 ">
                        <MDBRow className= 'p-3'>
                            <MDBCol size = '4' className= 'align-items-end'>
-                           <img src = {value.images} className='img-fluid rounded-6' height='80'/>
+                           <img src = {image} className='img-fluid rounded-6' height='80'/>
                            <p className= 'font-weight-bold newFont'> {value.name}</p>
                            <p className='biggerFont textColor'><strong>{total}</strong></p>
                            </MDBCol>

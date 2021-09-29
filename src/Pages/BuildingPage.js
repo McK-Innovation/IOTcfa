@@ -11,15 +11,19 @@ const BuildingPage = (props) => {
     //splashscreen
     let [obj, setobj] = useState({})
     useEffect(() => {
-            console.log(campusData[building][room])
-            setobj(campusData[building][room])
-            // console.log(obj)
+            console.log(campusData.restAPI[room])
+            setobj(campusData['restAPI'][room])
+            console.log(obj)
         } //get data to pull into the dom
         , [])
 
     const modifiedCard = (title, data) => {
-        data = Math.ceil(data)
-        return(
+        if(data && data !== 'NULL') {
+            data = Math.ceil(data)
+        }
+        else
+            data = 0
+        return (
             <>
                 <div className='redBackWhite rounded-6 p-3 mb-3'>
                     <div>
@@ -46,7 +50,7 @@ const BuildingPage = (props) => {
 
                       {modifiedCard('Day Average',obj.dayAverage)}
                       {modifiedCard('Day Total',obj.dailyTally)}
-                      {modifiedCard(room,obj.currentCount)}
+                      {modifiedCard('Current Count',obj.currentCount)}
 
 
                   </MDBCol>

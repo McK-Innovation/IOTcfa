@@ -22,7 +22,7 @@ const FloorPlan = (props) => {
                 strokeColor: "#ffffff"
             },
             {
-                name: "TheCoop",
+                name: "Perch_D",
                 shape: "poly",
                 coords: [58, 86, 53, 114, 123, 114, 128, 87],
                 fillColor: "#a207154f",
@@ -50,14 +50,14 @@ const FloorPlan = (props) => {
                 strokeColor: "#ffffff"
             },
             {
-                name: "TheCoop",
+                name: "Nest_Perch",
                 shape: "poly",
                 coords: [305, 82, 330, 107, 252, 188, 219, 152],
                 fillColor: "#a207154f",
                 strokeColor: "#ffffff"
             },
             {
-                name: "TheCoop",
+                name: "Perch_B",
                 shape: "poly",
                 coords: [359, 112, 338, 128, 362, 159, 388, 136],
                 fillColor: "#a207154f",
@@ -71,14 +71,14 @@ const FloorPlan = (props) => {
                 strokeColor: "#ffffff"
             },
             {
-                name: "TheCoop",
+                name: "Perch_C",
                 shape: "poly",
                 coords: [437, 200, 406, 229, 442, 229, 443, 203],
                 fillColor: "#a207154f",
                 strokeColor: "#ffffff"
             },
             {
-                name: "TheCoop",
+                name: "Perch_A",
                 shape: "poly",
                 coords: [411, 50, 411, 91, 452, 92, 432, 52],
                 fillColor: "#a207154f",
@@ -92,7 +92,7 @@ const FloorPlan = (props) => {
                 strokeColor: "#ffffff"
             },
             {
-                name: "Incubator",
+                name: "The_Coop",
                 shape: "poly",
                 coords: [ 637,144,
                     639,195,
@@ -137,7 +137,7 @@ const FloorPlan = (props) => {
                 strokeColor: "#ffffff"
             },
             {
-                name: "CoopRm_B",
+                name: "Incubator_A",
                 shape: "poly",
                 coords: [ 613,284,
                     614,346,
@@ -177,7 +177,7 @@ const FloorPlan = (props) => {
                 strokeColor: "#ffffff"
             },
             {
-                name: "TheCoop",
+                name: "CoopRm_D",
                 shape: "poly",
                 coords: [ 642,310,
                     642,348,
@@ -187,7 +187,7 @@ const FloorPlan = (props) => {
                 strokeColor: "#ffffff"
             },
             {
-                name: "TheCoop",
+                name: "CoopRm_E",
                 shape: "poly",
                 coords: [ 674,307,
                     674,346,
@@ -330,7 +330,7 @@ const FloorPlan = (props) => {
                     <MDBCol>
 
                         <ImageMapper src = {floorPlan} map = {createMap()}
-                            imgWidth={1000} width={610} onClick = {area => {clicked(area);history.push("/buildingPage")} }>
+                            imgWidth={1000} width={710} onClick = {area => {clicked(area);history.push("/buildingPage")} }>
                         </ImageMapper>
 
                     </MDBCol>
