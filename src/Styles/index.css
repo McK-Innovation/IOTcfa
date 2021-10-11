@@ -22,7 +22,7 @@ code {
 
 }
 .widthModify2 {
-  max-width: 32em !important;
+  max-width: 30em !important;
   min-width: 12em !important;
   min-height: 90% !important;
   max-height: 95% !important;
@@ -41,8 +41,9 @@ code {
 }
 
 .widthModify4 {
-  min-width: 95%;
+  min-width: 60vw;
   min-height: 95%;
+  max-width: 40vw;
 }
 .removeShadow {
   box-shadow: none !important;
@@ -77,6 +78,20 @@ margin-top: -7.1em !important;
   -webkit-box-shadow: -1px 4px 11px 0px rgba(0,0,0,0.43);
 
 }
+
+.floor{
+  background-color: rgba(246, 246, 246, 0.3);
+  box-shadow: 0 2px 6px 0 rgba(0 0 0 0.45);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  -webkit-box-shadow: -1px 4px 11px 0px rgba(0,0,0,0.43);
+
+}
+
+.floorW{
+ width: 90vw !important;
+}
+
 
 .point{
 cursor: pointer;
@@ -139,7 +154,6 @@ input, textarea {
 }
 
 .over {
-  overflow-y: scroll !important;
   max-height: 35em !important;
 }
 .content {
@@ -147,5 +161,13 @@ input, textarea {
   height: 100vh !important;
 }
 
+.title {
+  width: 60%;
+  border-radius: 20px;
+  font-weight: bolder;
 
+}
+.negative {
+  margin-bottom: -20px;
+}
 

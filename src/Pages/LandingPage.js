@@ -12,7 +12,7 @@ const LandingPage = () => {
     // let [loading, setLoading] = useState(false)
     // let [shift, setShift] = useState(false)
 
-    const { state: { building, floorName }, dispatch } = useContext(CFAContext);
+    const { state: { building, floorName, title }, dispatch } = useContext(CFAContext);
 
     // let [arrayOfVideos, setVideoes] = useState([{name: 'Building Alpha'}, {name: 'Building Beta'},{name: 'Building Theta'}])
     // let [floorPlan, setShowFloor] = useState(false)
@@ -24,8 +24,8 @@ const LandingPage = () => {
         <>
     <video autoPlay loop muted className= 'video'><source src = {move3} type = 'video/mp4'/></video>
         <MDBContainer fluid  className= 'content p-4' >
-                <MDBRow>
-                    <MDBCol size = '2' className= 'rounded-6 whiteBackgroundRed p-3 m-1'>
+                <MDBRow className = 'g-1'>
+                    <MDBCol size = '2' className= 'rounded-6 whiteBackgroundRed p-3 m-1 sticky-top'>
                         <div>
                             <span className= 'font-weight-bold text-center'>Campus Total <MDBIcon icon="circle" />
                             </span><span className= 'biggerFont'> 32</span>
@@ -34,8 +34,16 @@ const LandingPage = () => {
                     {floorName&&<div><MDBIcon icon="layer-group" /><span className='newFont font-weight-bold'> {floorName}</span></div>}
                     </MDBCol>
                 </MDBRow>
-                <MDBRow center className={'justify-content-start'}>
-                     <MDBCol size= '10' className=''>
+
+                <MDBRow className= 'justify-content-center'>
+                     <MDBCol size= '9'>
+                         <MDBRow className= 'negative justify-content-end align-items-center'>
+                             <MDBCol>
+                                 <div className= 'title whiteBackgroundRed biggerFont text-center p-2 mx-auto'>
+                                     {title}
+                                 </div>
+                             </MDBCol>
+                         </MDBRow>
                          <Switch>
                            <Route exact path = '/'>
                                <BuildingList/>

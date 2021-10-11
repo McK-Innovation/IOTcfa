@@ -4,4 +4,6 @@ export const initialState = {
     building: '',
     room: '',
     fullDataForRoom: {},
+    title: 'Building List',
+    total: 32
 }

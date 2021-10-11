@@ -15,7 +15,7 @@ import image from "../Assets/OakmontA.JPG";
 
 const BuildingList = (props) => {
     let history = useHistory();
-    const { state: { building, floorName, campusData }, dispatch } = useContext(CFAContext);
+    const { state: { building, floorName, campusData, title }, dispatch } = useContext(CFAContext);
     let [input, setInput] =useState('')
     let [loading, setLoading] = useState(false)
     let [shift, setShift] = useState(false)
@@ -35,11 +35,14 @@ const BuildingList = (props) => {
       setShift((prev)=>(!prev))
     }
 
-    const handleSetBuilding = (building) =>{
+    const handleSetBuilding = (building) => {
         dispatch({building: building})
     }
-    const handleSetFloor = (floor) =>{
+    const handleSetFloor = (floor) => {
         dispatch({floorName: floor})
+    }
+    const handleTitle = (title) => {
+        dispatch({title: title})
     }
     // normally set the exact floorplan into the landing
 
@@ -91,7 +94,7 @@ const BuildingList = (props) => {
                     total += roomsInBuilding[room].currentCount
                 }
                 setTotal(total)
-
+                // Total here
             // {oakmont: {one: {max, min, etc}, two: {max, min, etc}, }
 
 
@@ -108,18 +111,17 @@ const BuildingList = (props) => {
             <MDBContainer fluid className= 'rounded-6 mt-3 mr-5 p-3 widthModify3  rounded-6'>
                 <MDBRow start className='text-center'>
                     <div className='input-group'>
-                        <MDBCol size= '1' className= 'mt-3'><MDBIcon fas icon="search" color= 'danger'/></MDBCol>
-                        <MDBCol size='11' className='mb-3'>
-
+                        <MDBCol size='8' className='mb-3 mx-auto'>
                             <MDBInput type='text'
+                                      icon = "search"
                                       onChange={(e) => {
                                           setInput(e.target.value)
                                       }}
                                       value={input}
-                                      placeholder = 'Enter Building Name'
-                                      className='borderChange '>
-
-
+                                      label = 'Enter Building Name'
+                                      className='borderChange'
+                                      hint = 'E.g. Oakmont A'
+                            >
                             </MDBInput>
                         </MDBCol>
 
@@ -127,10 +129,11 @@ const BuildingList = (props) => {
                 </MDBRow>
             </MDBContainer>
 
-            <MDBContainer className='backgroundColorforMain rounded-6 mt-3 p-3 widthModify2 newPad over'>
+            <MDBContainer className='backgroundColorforMain rounded-6 mt-1 p-3 widthModify2 newPad over mb-3'>
                 <MDBRow >
                 {buildingArray.filter((item)=>item.name.toLowerCase().includes(input.toLowerCase())).map((value, key)=>(
-                    <MDBCol size = '12' key = {value.name} className="justify-content-center backgroundColorforMain rounded-6 minWidthC center m-1 ">
+                    <MDBCol size = '12' key = {value.name} className="justify-content-center backgroundColorforMain rounded-6 minWidthC mb-1
+                     ">
                        <MDBRow className= 'p-3'>
                            <MDBCol size = '4' className= 'align-items-end'>
                            <img src = {image} className='img-fluid rounded-6' height='80'/>
@@ -143,7 +146,7 @@ const BuildingList = (props) => {
                                        {value.floors.map((floor, key) => (
 
                                            <MDBListGroupItem
-                                               onClick = {()=>{handleSetBuilding(value.name); handleSetFloor(floor.name); history.push("/floorPlan");}}
+                                               onClick = {()=>{handleSetBuilding(value.name); handleSetFloor(floor.name); handleTitle('Floor Plan'); history.push("/floorPlan");}}
                                                className="d-flex justify-content-between align-items-center">{"Floor " + floor.name}
                                            </MDBListGroupItem>))
                                        }
