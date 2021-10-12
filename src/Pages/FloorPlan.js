@@ -619,7 +619,7 @@ const FloorPlan = (props) => {
     const clicked = (area)=>{
         // will be the data instead
         dispatch({room: area.name})
-        dispatch({title: 'Statistics'})
+        dispatch({title: `Statistics on ` + area.name})
     }
     return (
         <>

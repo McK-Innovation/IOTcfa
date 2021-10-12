@@ -12,8 +12,9 @@ const BuildingPage = (props) => {
     //splashscreen
     let [obj, setobj] = useState({})
     useEffect(() => {
-            setobj(campusData['restAPI'][room])
-            dispatch({title: `${room} Details`})
+            console.log(campusData)
+             setobj(campusData[building][room])
+             dispatch({title: `${room} Details`})
             return history.listen(location => {
                 console.log('change')
                 if(history.action === 'POP') {
