@@ -26,7 +26,7 @@ const FloorPlan = (props) => {
         dispatch({building: ''})
         dispatch({title: 'Building List'})
     }
-    let imageObjects = {oakmontA1: oak, oakmonntB1:oakB, default: defaultFloorImage}
+    let imageObjects = {oakmontA1: oak, oakmontB1:oakB, default: defaultFloorImage}
     let mapArray = [{
         name: 'oakmontA1',
         areas: [
@@ -606,7 +606,7 @@ const FloorPlan = (props) => {
     useEffect(()=>{
         let image =  imageObjects[building+floorName]
         setFloorPlan(image)
-    },[])
+    },[building, floorName])
 
     const createMap = () => {
       let arr =  mapArray.filter(input => (
