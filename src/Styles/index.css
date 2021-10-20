@@ -22,7 +22,7 @@ code {
 
 }
 .widthModify2 {
-  max-width: 30em !important;
+  max-width: 26em !important;
   min-width: 12em !important;
   min-height: 90% !important;
   max-height: 95% !important;
@@ -37,7 +37,7 @@ code {
 
 }
 .minWidthC {
-  min-width: 10em !important;
+  max-width: 20em !important;
 }
 
 .widthModify4 {
@@ -72,7 +72,7 @@ margin-top: -7.1em !important;
 .redBackWhite{
   color: #dd0031;
   background-color: rgba(246, 246, 246, 0.3);
-  box-shadow: 0 2px 6px 0 rgba(0 0 0 0.45);
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.45);
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
   -webkit-box-shadow: -1px 4px 11px 0px rgba(0,0,0,0.43);
@@ -81,7 +81,7 @@ margin-top: -7.1em !important;
 
 .floor{
   background-color: rgba(246, 246, 246, 0.3);
-  box-shadow: 0 2px 6px 0 rgba(0 0 0 0.45);
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.45);
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
   -webkit-box-shadow: -1px 4px 11px 0px rgba(0,0,0,0.43);
@@ -99,14 +99,14 @@ cursor: pointer;
 
 .backgroundColorforMain {
   background-color: rgba(255, 255, 255, 0.3);
-  box-shadow: 0 2px 6px 0 rgba(0 0 0 0.15);
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.25);
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
 }
 
 .backGround {
   background-color: rgba(255, 255, 255, 0.1);
-  box-shadow: 0 2px 6px 0 rgba(0 0 0 0.15);
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.25);
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
 }
@@ -132,14 +132,13 @@ cursor: pointer;
 }
 
 
-
 .content {
   position: relative;
   z-index: 1000;
 }
 
 .rowMinWidth {
-  min-width: 8em;
+  max-width: 7em;
 }
 
 .fullHeight {
@@ -168,6 +167,13 @@ input, textarea {
 
 }
 .negative {
-  margin-bottom: -20px;
+  margin-bottom: -16px;
 }
 
+.floorPlanMargin {
+  margin-left: -14em;
+}
+
+.listShadow {
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.45)
+}

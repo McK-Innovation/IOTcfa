@@ -125,7 +125,7 @@ const BuildingList = (props) => {
     return (
         !loading ? (
             <div className= 'backgroundColorforMain rounded-6'>
-            <MDBContainer fluid className= 'rounded-6 mt-3 mr-5 p-3 widthModify3  rounded-6'>
+            <MDBContainer fluid className= 'rounded-6 mt-3 mr-5 p-3'>
                 <MDBRow start className='text-center'>
                     <div className='input-group'>
                         <MDBCol size='8' className='mb-3 mx-auto'>
@@ -147,18 +147,18 @@ const BuildingList = (props) => {
             </MDBContainer>
 
             <MDBContainer className='backgroundColorforMain rounded-6 mt-1 p-3 widthModify2 newPad over mb-3'>
-                <MDBRow >
+                <MDBRow center>
                 {buildingArray.filter((item)=>item.name.toLowerCase().includes(input.toLowerCase())).map((value, key)=>(
-                    <MDBCol size = '12' key = {value.name} className="justify-content-center backgroundColorforMain rounded-6 minWidthC mb-1
+                    <MDBCol size = '12' key = {value.name} className="justify-content-center backgroundColorforMain rounded-6 minWidthC mb-1 listShadow
                      ">
                        <MDBRow className= 'p-3'>
-                           <MDBCol size = '4' className= 'align-items-end'>
+                           <MDBCol size = '6' className= 'align-items-end'>
                            <img src = {image} className='img-fluid rounded-6' height='80'/>
                            <p className= 'font-weight-bold newFont'> {value.name}</p>
                            <p className='biggerFont textColor'><strong>{total[value.name]}</strong></p>
                            </MDBCol>
 
-                               <MDBCol size = '8'>
+                               <MDBCol size = '6'>
                                    <MDBListGroup className= 'rowMinWidth point'>
                                        {value.floors.map((floor, key) => (
 

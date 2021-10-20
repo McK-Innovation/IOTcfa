@@ -3,14 +3,14 @@ import {MDBBtn, MDBCol, MDBContainer, MDBIcon, MDBRow} from "mdb-react-ui-kit";
 import BuildingList from "./BuildingList";
 import {useContext, useState, useEffect} from "react";
 import BuildingPage from "./BuildingPage";
-import move3 from '../Assets/move3.mp4'
+import move3 from '../Assets/CFAmoview.mp4'
 import FloorPlan from "./FloorPlan";
 import {CFAContext} from "../State/Context";
 import {Route, Switch} from "react-router-dom";
 import { useMqttState } from 'mqtt-react-hooks';
 const LandingPage = () => {
     // let [loading, setLoading] = useState(false)
-    // let [shift, setShift] = useState(false)
+    // let [shift, setShift] = useState(false)y
 
     const { state: { building, floorName, title }, dispatch } = useContext(CFAContext);
     const { connectionStatus } = useMqttState();
@@ -40,7 +40,7 @@ const LandingPage = () => {
                 </MDBRow>
 
                 <MDBRow className= 'justify-content-center'>
-                     <MDBCol size= '9'>
+                     <MDBCol size= '6'>
                          <MDBRow className= 'negative justify-content-end align-items-center'>
                              <MDBCol>
                                  <div className= 'title whiteBackgroundRed biggerFont text-center p-2 mx-auto'>
