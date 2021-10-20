@@ -27,6 +27,7 @@ const FloorPlan = (props) => {
         dispatch({title: 'Building List'})
     }
     let imageObjects = {oakmontA1: oak, oakmontB1:oakB, default: defaultFloorImage}
+    //convert this to a json object and import for easy changes
     let mapArray = [{
         name: 'oakmontA1',
         areas: [
