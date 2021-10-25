@@ -7,17 +7,17 @@ import move3 from '../Assets/CFAmoview.mp4'
 import FloorPlan from "./FloorPlan";
 import {CFAContext} from "../State/Context";
 import {Route, Switch} from "react-router-dom";
-import { useMqttState } from 'mqtt-react-hooks';
+
 const LandingPage = () => {
     // let [loading, setLoading] = useState(false)
-    // let [shift, setShift] = useState(false)y
+    // let [shift, setShift] = useState(false)
 
     const { state: { building, floorName, title }, dispatch } = useContext(CFAContext);
-    const { connectionStatus } = useMqttState();
+
 
     useEffect(()=>{
-        console.log(connectionStatus)
-    }, [connectionStatus])
+
+    }, [])
     // let [arrayOfVideos, setVideoes] = useState([{name: 'Building Alpha'}, {name: 'Building Beta'},{name: 'Building Theta'}])
     // let [floorPlan, setShowFloor] = useState(false)
     // let [room, setRoom] = useState(false)
