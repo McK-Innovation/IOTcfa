@@ -5,7 +5,7 @@ import { Connector } from 'mqtt-react-hooks';
 
 function App() {
   return (
-  <Connector brokerUrl = "wss://localhost:1883/">
+  <Connector brokerUrl = "ws://localhost:1884/" options ={{keepalive: 0, clientId: 'CfaReact_1101'}}>
       <CFAProvider>
        <Routing/>
       </CFAProvider>
