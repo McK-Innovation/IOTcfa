@@ -7,21 +7,21 @@ import move3 from '../Assets/CFAmoview.mp4'
 import FloorPlan from "./FloorPlan";
 import {CFAContext} from "../State/Context";
 import {Route, Switch} from "react-router-dom";
-import { useMqttState, useSubscription } from 'mqtt-react-hooks';
+
 const LandingPage = () => {
     // let [loading, setLoading] = useState(false)
     // let [shift, setShift] = useState(false)y
 
     const { state: { building, floorName, title }, dispatch } = useContext(CFAContext);
-    const {message, connectionStatus}= useSubscription(
-    'CFA_IOT/OakmontA'
-    )
-    useEffect(()=>{
-        console.log(connectionStatus)
-        if(message) {
-        console.log(message)}
-
-    }, [connectionStatus, message])
+//    const {message, connectionStatus}= useSubscription(
+//    'CFA_IOT/OakmontA'
+//    )
+//    useEffect(()=>{
+//        console.log(connectionStatus)
+//        if(message) {
+//        console.log(message)}
+//
+//    }, [connectionStatus, message])
 
 
 

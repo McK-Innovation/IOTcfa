@@ -11,6 +11,7 @@ import {useHistory} from "react-router";
 import {CFAContext} from "../State/Context";
 import exampleData from "../Assets/OakmontA.json";
 import image from "../Assets/OakmontA.JPG";
+import mqtt from 'mqtt'
 
 
 const BuildingList = (props) => {
@@ -23,6 +24,7 @@ const BuildingList = (props) => {
     let [shift, setShift] = useState(false)
     const [room, setRoom] = useState('')
     let [total, setTotal] = useState({})
+
     let [buildingArray, setArray] = useState( [
         {images: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg', imagePath: '../Assets/OakmontA.jpg',
         name: 'oakmontA', floors: [{name: "1", path: 'OakmontA.json', info: {}}, ], buildingInformation: {} },
@@ -30,6 +32,13 @@ const BuildingList = (props) => {
             name: 'oakmontB', floors: [{name: "1", path: 'OakmontB.json', info: {}}, ], buildingInformation: {} }
     ])
 
+    const options = {
+    protocol: 'ws',
+    clientId: 342900,
+
+   }
+   const client = mqtt.connect("ws://localhost:1884/", options)
+   client.subscribe('CFA_IOT/OakmontA')
     // building A: floor 1, floor2
     // two files: file1, file2
     // path: floor1/files1, floor2/file2
