@@ -29,7 +29,40 @@ const BuildingList = (props) => {
         {images: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg', imagePath: '../Assets/OakmontA.jpg',
         name: 'oakmontA', floors: [{name: "1", path: 'OakmontA.json', info: {}}, ], buildingInformation: {} },
         {images: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg', imagePath: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg',
-            name: 'oakmontB', floors: [{name: "1", path: 'OakmontB.json', info: {}}, ], buildingInformation: {} }
+            name: 'oakmontB', floors: [{name: "1", path: 'OakmontB.json', info: {}}, ], buildingInformation: {} },
+        {images: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg', imagePath: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg',
+            name: 'MainNorth',
+            floors: [
+                {name: "1", path: 'OakmontB.json', info: {}},
+                {name: "2", path: 'OakmontB.json', info: {}},
+                {name: "3", path: 'OakmontB.json', info: {}},
+                {name: "4", path: 'OakmontB.json', info: {}},
+                {name: "5", path: 'OakmontB.json', info: {}}], buildingInformation: {} },
+        {images: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg', imagePath: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg',
+            name: 'MainSouth', floors: [
+                {name: "2", path: 'OakmontB.json', info: {}},
+                {name: "3", path: 'OakmontB.json', info: {}},
+                {name: "4", path: 'OakmontB.json', info: {}},
+                {name: "5", path: 'OakmontB.json', info: {}},
+            ], buildingInformation: {} },
+        {images: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg', imagePath: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg',
+            name: 'PonceA', floors: [{name: "1", path: 'OakmontB.json', info: {}}, ], buildingInformation: {} },
+        {images: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg', imagePath: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg',
+            name: 'PonceB', floors: [{name: "1", path: 'OakmontB.json', info: {}}, ], buildingInformation: {} },
+        {images: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg', imagePath: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg',
+            name: 'Lincoln100', floors: [{name: "1", path: 'OakmontB.json', info: {}}, ], buildingInformation: {} },
+        {images: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg', imagePath: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg',
+            name: 'Lincoln200', floors: [{name: "1", path: 'OakmontB.json', info: {}}, ], buildingInformation: {} },
+        {images: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg', imagePath: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg',
+            name: 'Lincoln300', floors: [{name: "1", path: 'OakmontB.json', info: {}}, ], buildingInformation: {} },
+        {images: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg', imagePath: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg',
+            name: 'ITDeckA', floors: [{name: "1", path: 'OakmontB.json', info: {}}, ], buildingInformation: {} },
+        {images: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg', imagePath: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg',
+            name: 'ITDeckB', floors: [{name: "1", path: 'OakmontB.json', info: {}}, ], buildingInformation: {} },
+        {images: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg', imagePath: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg',
+            name: 'ITDeckC', floors: [{name: "1", path: 'OakmontB.json', info: {}}, ], buildingInformation: {} },
+        {images: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg', imagePath: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg',
+            name: 'ITDeckD', floors: [{name: "1", path: 'OakmontB.json', info: {}}, ], buildingInformation: {} }
     ])
 
     const options = {
@@ -133,7 +166,7 @@ const BuildingList = (props) => {
 
     return (
         !loading ? (
-            <div className= 'backgroundColorforMain rounded-6'>
+            <div className= 'backgroundColorforMain rounded-6 removeScroll  '>
             <MDBContainer fluid className= 'rounded-6 mt-3 mr-5 p-3'>
                 <MDBRow start className='text-center'>
                     <div className='input-group'>

@@ -9,6 +9,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.removeScroll {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  margin-top: 17px;
+}
 
 .newHeight {
   height: 8em !important;
@@ -26,6 +31,7 @@ code {
   min-width: 12em !important;
   min-height: 90% !important;
   max-height: 95% !important;
+  overflow-y: scroll;
 }
 
 .widthModify2ForFloor {
