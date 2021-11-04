@@ -36,7 +36,7 @@ const LandingPage = () => {
     <video autoPlay loop muted className= 'video'><source src = {move3} type = 'video/mp4'/></video>
         <MDBContainer fluid  className= 'content p-4' >
                 <MDBRow className = 'g-1'>
-                    <MDBCol size = '2' className= 'rounded-6 whiteBackgroundRed p-3 m-1 sticky-top'>
+                    <MDBCol size = '2' className= 'rounded-6 whiteBackgroundRed p-3 m-1 sticky-top' >
                         <div>
                             <span className= 'font-weight-bold text-center'>Campus Total <MDBIcon icon="circle" />
                             </span><span className= 'biggerFont'> 32</span>

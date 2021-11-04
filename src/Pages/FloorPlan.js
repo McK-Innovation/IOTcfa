@@ -26,7 +26,7 @@ import ponceB from "../Assets/PonceB.png"
 const FloorPlan = (props) => {
     // images and areas will probably need to be prebuilt and sent here. Can send floor but will still have to manually change all of them
     const [floorPlan, setFloorPlan] = useState({name: 'defaultFloor', rooms: [{name: 'meeting24', data: {}}] })
-    const { state: { building, floorName }, dispatch } = useContext(CFAContext); //building needs to be a path since thats the only unique identifier
+    const { state: { building, floorName, campusData }, dispatch } = useContext(CFAContext); //building needs to be a path since thats the only unique identifier
     let history = useHistory()
     const[map, setMap] = useState()
     useEffect(() => {
@@ -84,7 +84,18 @@ const FloorPlan = (props) => {
         let arr =  map.filter((input) =>
             input.name === building + floorName
         )
-        console.log(arr)
+        console.log(map)
+
+        arr[0].areas.forEach((item) => {
+            if(campusData[building][floorName] && campusData[building][floorName].hasOwnProperty(item.name)) {
+                item.text = campusData[building][floorName][item.name].currentCount.toString()
+            }
+
+        })
+
+        console.log(arr[0])
+
+
         return arr[0]
     }
 
@@ -97,10 +108,8 @@ const FloorPlan = (props) => {
     return (
         <>
             <MDBContainer className= 'p-1 mt-2 '>
-
                 <MDBRow className= ''>
                     <MDBCol className= 'floorPlanMargin '>
-
                             <ImageMapper src = {floorPlan} map = {map && createMap(map)}
                                 imgWidth={1025} width={1100} onClick = {area => {clicked(area);history.push("/buildingPage")} }>
                             </ImageMapper>

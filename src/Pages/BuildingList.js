@@ -14,8 +14,8 @@ import image from "../Assets/OakmontA.JPG";
 import mqtt from 'mqtt'
 
 
-const BuildingList = (props) => {
-    let [client, setClient] = useState(null)
+const BuildingList = () => {
+
     let tt = {}
     let totalCampus = {}
     let history = useHistory();
@@ -71,15 +71,11 @@ const BuildingList = (props) => {
     clientId: 342900,
 
    }
-   useEffect(()=>{
    const client = mqtt.connect("ws://localhost:1884/", options)
-   setClient(client)
-   },[])
-
-   })
+   client.subscribe('CFA_IOT/OakmontA')
     // building A: floor 1, floor2
     // two files: file1, file2
-    // path: floor1/files1, floor2/file2f
+    // path: floor1/files1, floor2/file2
 
     const handleShift = () =>{
         //need button to handle back for now
@@ -115,6 +111,7 @@ const BuildingList = (props) => {
                     let keys = Object.keys(data);
                     console.log(keys)
                     let name = val.name //building name
+                    let floorName = floorVal.name
                     console.log(name)
                     let full = keys[2]
                     let fullData = data[full]
@@ -135,7 +132,8 @@ const BuildingList = (props) => {
                         roomsInBuilding[area] = valueArray
                     }
                     console.log(roomsInBuilding)
-                    totalCampus[name] = roomsInBuilding //this will be multiple so i need a loop
+                    totalCampus[name] = {}
+                    totalCampus[name][floorName] = roomsInBuilding //this will be multiple so i need a loop
                     dispatch({campusData: totalCampus })
                     console.log(totalCampus)
                     setArray(buildingArray.map((value) => {

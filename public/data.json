@@ -2977,19 +2977,10 @@
             "strokeColor": "#ffffff"
          },
          {
-            "name": "Print_Services",
-            "shape": "poly",
-            "coords": [
-               529,488,479,498,471,397,501,395,509,431,524,433
-            ],
-            "fillColor": "#a207154f",
-            "strokeColor": "#ffffff"
-         },
-         {
             "name":"Huddle_8",
             "shape":"poly",
             "coords":[
-               22,420,525,455,495,459,492,425
+               522,420,525,455,495,459,492,425
             ],
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
