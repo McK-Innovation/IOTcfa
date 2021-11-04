@@ -15,6 +15,7 @@ import mqtt from 'mqtt'
 
 
 const BuildingList = (props) => {
+    let [client, setClient] = useState(null)
     let tt = {}
     let totalCampus = {}
     let history = useHistory();
@@ -70,11 +71,15 @@ const BuildingList = (props) => {
     clientId: 342900,
 
    }
+   useEffect(()=>{
    const client = mqtt.connect("ws://localhost:1884/", options)
-   client.subscribe('CFA_IOT/OakmontA')
+   setClient(client)
+   },[])
+
+   })
     // building A: floor 1, floor2
     // two files: file1, file2
-    // path: floor1/files1, floor2/file2
+    // path: floor1/files1, floor2/file2f
 
     const handleShift = () =>{
         //need button to handle back for now
