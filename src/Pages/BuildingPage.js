@@ -13,7 +13,7 @@ const BuildingPage = (props) => {
     let [obj, setobj] = useState({})
     useEffect(() => {
             console.log(campusData)
-             setobj(campusData[building][room])
+             setobj(campusData[building][floorName][room])
              dispatch({title: `${room} Details`})
             return history.listen(location => {
                 console.log('change')

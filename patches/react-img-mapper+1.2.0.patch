@@ -1,0 +1,111 @@
+diff --git a/node_modules/react-img-mapper/dist/ImageMapper.js b/node_modules/react-img-mapper/dist/ImageMapper.js
+index 6bb45b9..1fdf3d1 100644
+--- a/node_modules/react-img-mapper/dist/ImageMapper.js
++++ b/node_modules/react-img-mapper/dist/ImageMapper.js
+@@ -195,9 +195,9 @@ var ImageMapper = function (props) {
+     var renderPrefilledAreas = function (mapObj) {
+         if (mapObj === void 0) { mapObj = map; }
+         mapObj.areas.map(function (area) {
+-            if (!area.preFillColor)
+-                return false;
+-            draw_1.default(area.shape, scaleCoords(area.coords), area.preFillColor, area.lineWidth || lineWidthProp, area.strokeColor || strokeColorProp, true, ctx);
++            var center = computeCenter(area)
++            console.log(center)
++            draw_1.default(area.shape, scaleCoords(area.coords), "rgba(255, 255, 255, 0)", area.lineWidth || lineWidthProp, "rgba(255, 255, 255, 0)", true, ctx, area.text, center);
+             return true;
+         });
+     };
+diff --git a/node_modules/react-img-mapper/dist/draw.js b/node_modules/react-img-mapper/dist/draw.js
+index e12d086..2e5b724 100644
+--- a/node_modules/react-img-mapper/dist/draw.js
++++ b/node_modules/react-img-mapper/dist/draw.js
+@@ -5,15 +5,24 @@ var __spreadArray = (this && this.__spreadArray) || function (to, from) {
+     return to;
+ };
+ Object.defineProperty(exports, "__esModule", { value: true });
+-var drawRect = function (coords, fillColor, lineWidth, strokeColor, ctx) {
++var drawRect = function (coords, fillColor, lineWidth, strokeColor, ctx, text, center) {
+     var left = coords[0], top = coords[1], right = coords[2], bot = coords[3];
+     ctx.current.fillStyle = fillColor;
+     ctx.current.lineWidth = lineWidth;
+     ctx.current.strokeStyle = strokeColor;
+     ctx.current.strokeRect(left, top, right - left, bot - top);
+     ctx.current.fillRect(left, top, right - left, bot - top);
++    if(text){
++        ctx.current.beginPath()
++        ctx.current.fillStyle = '#dd003190'
++        ctx.current.arc(center[0], center[1], 15, 0, 2 * Math.PI);
++        ctx.current.fill()
++        ctx.current.fillStyle = '#ffffff'
++        ctx.current.font = '18px roboto';
++        ctx.current.fillText(text, center[0], center[1]);
++    }
+ };
+-var drawCircle = function (coords, fillColor, lineWidth, strokeColor, ctx) {
++var drawCircle = function (coords, fillColor, lineWidth, strokeColor, ctx, text, center) {
+     ctx.current.fillStyle = fillColor;
+     ctx.current.beginPath();
+     ctx.current.lineWidth = lineWidth;
+@@ -22,8 +31,17 @@ var drawCircle = function (coords, fillColor, lineWidth, strokeColor, ctx) {
+     ctx.current.closePath();
+     ctx.current.stroke();
+     ctx.current.fill();
++    if(text){
++        ctx.current.beginPath()
++        ctx.current.fillStyle = '#dd003190'
++        ctx.current.arc(center[0], center[1], 15, 0, 2 * Math.PI);
++        ctx.current.fill()
++        ctx.current.fillStyle = '#ffffff'
++        ctx.current.font = '18px roboto';
++        ctx.current.fillText(text, center[0], center[1]);
++    }
+ };
+-var drawPoly = function (coords, fillColor, lineWidth, strokeColor, ctx) {
++var drawPoly = function (coords, fillColor, lineWidth, strokeColor, ctx, text, center) {
+     var newCoords = coords.reduce(function (a, v, i, s) { return (i % 2 ? a : __spreadArray(__spreadArray([], a), [s.slice(i, i + 2)])); }, []);
+     // const first = newCoords.unshift();
+     ctx.current.fillStyle = fillColor;
+@@ -35,16 +53,27 @@ var drawPoly = function (coords, fillColor, lineWidth, strokeColor, ctx) {
+     ctx.current.closePath();
+     ctx.current.stroke();
+     ctx.current.fill();
++    if(text != null){
++        ctx.current.beginPath()
++        ctx.current.fillStyle = '#dd003190'
++        ctx.current.arc(center[0], center[1], 15, 0, 2 * Math.PI);
++        ctx.current.fill()
++        ctx.current.fillStyle = '#ffffff'
++        ctx.current.font = '18px roboto';
++        ctx.current.fillText(text, center[0], center[1]);
++
++    }
+ };
+-var callingFn = function (shape, coords, fillColor, lineWidth, strokeColor, isAreaActive, ctx) {
++var callingFn = function (shape, coords, fillColor, lineWidth, strokeColor, isAreaActive, ctx, text, center) {
++    console.log(center)
+     if (shape === 'rect' && isAreaActive) {
+-        return drawRect(coords, fillColor, lineWidth, strokeColor, ctx);
++        return drawRect(coords, fillColor, lineWidth, strokeColor, ctx, text, center);
+     }
+     if (shape === 'circle' && isAreaActive) {
+-        return drawCircle(coords, fillColor, lineWidth, strokeColor, ctx);
++        return drawCircle(coords, fillColor, lineWidth, strokeColor, ctx, text, center);
+     }
+     if (shape === 'poly' && isAreaActive) {
+-        return drawPoly(coords, fillColor, lineWidth, strokeColor, ctx);
++        return drawPoly(coords, fillColor, lineWidth, strokeColor, ctx, text, center);
+     }
+     return false;
+ };
+diff --git a/node_modules/react-img-mapper/dist/types.d.ts b/node_modules/react-img-mapper/dist/types.d.ts
+index 11e9e14..01bdeb9 100644
+--- a/node_modules/react-img-mapper/dist/types.d.ts
++++ b/node_modules/react-img-mapper/dist/types.d.ts
+@@ -14,6 +14,7 @@ export interface MapAreas {
+     strokeColor?: string;
+     lineWidth?: number;
+     preFillColor?: string;
++    text?: string;
+ }
+ export interface Map {
+     name: string;

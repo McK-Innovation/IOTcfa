@@ -13,12 +13,13 @@ import exampleData from "../Assets/OakmontA.json";
 import image from "../Assets/OakmontA.JPG";
 
 
-const BuildingList = (props) => {
+const BuildingList = () => {
+
     let tt = {}
     let totalCampus = {}
     let history = useHistory();
-    const { state: { building, floorName, campusData, title }, dispatch } = useContext(CFAContext);
-    let [input, setInput] =useState('')
+    const { state: {}, dispatch } = useContext(CFAContext);
+    let [input, setInput] = useState('')
     let [loading, setLoading] = useState(false)
     let [shift, setShift] = useState(false)
     const [room, setRoom] = useState('')
@@ -101,6 +102,7 @@ const BuildingList = (props) => {
                     let keys = Object.keys(data);
                     console.log(keys)
                     let name = val.name //building name
+                    let floorName = floorVal.name
                     console.log(name)
                     let full = keys[2]
                     let fullData = data[full]
@@ -121,7 +123,8 @@ const BuildingList = (props) => {
                         roomsInBuilding[area] = valueArray
                     }
                     console.log(roomsInBuilding)
-                    totalCampus[name] = roomsInBuilding //this will be multiple so i need a loop
+                    totalCampus[name] = {}
+                    totalCampus[name][floorName] = roomsInBuilding //this will be multiple so i need a loop
                     dispatch({campusData: totalCampus })
                     console.log(totalCampus)
                     setArray(buildingArray.map((value) => {
