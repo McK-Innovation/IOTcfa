@@ -10,14 +10,21 @@ import {Route, Switch} from "react-router-dom";
 
 const LandingPage = () => {
     // let [loading, setLoading] = useState(false)
-    // let [shift, setShift] = useState(false)
+    // let [shift, setShift] = useState(false)y
 
     const { state: { building, floorName, title }, dispatch } = useContext(CFAContext);
+//    const {message, connectionStatus}= useSubscription(
+//    'CFA_IOT/OakmontA'
+//    )
+//    useEffect(()=>{
+//        console.log(connectionStatus)
+//        if(message) {
+//        console.log(message)}
+//
+//    }, [connectionStatus, message])
 
 
-    useEffect(()=>{
 
-    }, [])
     // let [arrayOfVideos, setVideoes] = useState([{name: 'Building Alpha'}, {name: 'Building Beta'},{name: 'Building Theta'}])
     // let [floorPlan, setShowFloor] = useState(false)
     // let [room, setRoom] = useState(false)

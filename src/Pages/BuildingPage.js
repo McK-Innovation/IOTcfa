@@ -9,6 +9,7 @@ const BuildingPage = (props) => {
     let [input, setInput] =useState('')
     let [loading, setLoading] = useState(false)
     const { state: { building, floorName, campusData, room }, dispatch } = useContext(CFAContext);
+
     //splashscreen
     let [obj, setobj] = useState({})
     useEffect(() => {
