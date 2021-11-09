@@ -1,6 +1,6 @@
 import {
     MDBCol,
-    MDBContainer, MDBIcon,
+    MDBContainer,
     MDBInput,
     MDBListGroup,
     MDBListGroupItem,
@@ -9,61 +9,59 @@ import {
 import {useContext, useEffect, useState} from "react";
 import {useHistory} from "react-router";
 import {CFAContext} from "../State/Context";
-import exampleData from "../Assets/OakmontA.json";
 import image from "../Assets/OakmontA.JPG";
 import mqtt from 'mqtt'
 
-
 const BuildingList = () => {
-
+    //there needs to be a function that uses switch or if statements to determine which require('path')
+    // to use since require doesnt use variables directly
     let tt = {}
     let totalCampus = {}
     let history = useHistory();
-    const { state: { building, floorName, campusData, title }, dispatch } = useContext(CFAContext);
+    const { state: {}, dispatch } = useContext(CFAContext);
     let [input, setInput] =useState('')
     let [loading, setLoading] = useState(false)
     let [shift, setShift] = useState(false)
-    const [room, setRoom] = useState('')
     let [total, setTotal] = useState({})
-
+    //array of building objects here. Path is the path to the route for mqtt
     let [buildingArray, setArray] = useState( [
-        {images: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg', imagePath: '../Assets/OakmontA.jpg',
-        name: 'oakmontA', floors: [{name: "1", path: 'OakmontA.json', info: {}}, ], buildingInformation: {} },
-        {images: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg', imagePath: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg',
-            name: 'oakmontB', floors: [{name: "1", path: 'OakmontB.json', info: {}}, ], buildingInformation: {} },
-        {images: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg', imagePath: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg',
+        {imagePath: '../Assets/OakmontA.jpg',
+        name: 'oakmontA', floors: [{name: "1", path: 'OakmontA.json'}, ], buildingInformation: {} },
+        {imagePath: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg',
+            name: 'oakmontB', floors: [{name: "1", path: 'OakmontB.json'}, ], buildingInformation: {} },
+        {imagePath: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg',
             name: 'MainNorth',
             floors: [
-                {name: "1", path: 'OakmontB.json', info: {}},
-                {name: "2", path: 'OakmontB.json', info: {}},
-                {name: "3", path: 'OakmontB.json', info: {}},
-                {name: "4", path: 'OakmontB.json', info: {}},
-                {name: "5", path: 'OakmontB.json', info: {}}], buildingInformation: {} },
-        {images: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg', imagePath: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg',
+                {name: "1", path: 'OakmontB.json'},
+                {name: "2", path: 'OakmontB.json'},
+                {name: "3", path: 'OakmontB.json'},
+                {name: "4", path: 'OakmontB.json'},
+                {name: "5", path: 'OakmontB.json'}], buildingInformation: {} },
+        {imagePath: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg',
             name: 'MainSouth', floors: [
-                {name: "2", path: 'OakmontB.json', info: {}},
-                {name: "3", path: 'OakmontB.json', info: {}},
-                {name: "4", path: 'OakmontB.json', info: {}},
-                {name: "5", path: 'OakmontB.json', info: {}},
+                {name: "2", path: 'OakmontB.json',},
+                {name: "3", path: 'OakmontB.json',},
+                {name: "4", path: 'OakmontB.json',},
+                {name: "5", path: 'OakmontB.json',},
             ], buildingInformation: {} },
-        {images: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg', imagePath: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg',
-            name: 'PonceA', floors: [{name: "1", path: 'OakmontB.json', info: {}}, ], buildingInformation: {} },
-        {images: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg', imagePath: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg',
-            name: 'PonceB', floors: [{name: "1", path: 'OakmontB.json', info: {}}, ], buildingInformation: {} },
-        {images: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg', imagePath: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg',
-            name: 'Lincoln100', floors: [{name: "1", path: 'OakmontB.json', info: {}}, ], buildingInformation: {} },
-        {images: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg', imagePath: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg',
-            name: 'Lincoln200', floors: [{name: "1", path: 'OakmontB.json', info: {}}, ], buildingInformation: {} },
-        {images: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg', imagePath: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg',
-            name: 'Lincoln300', floors: [{name: "1", path: 'OakmontB.json', info: {}}, ], buildingInformation: {} },
-        {images: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg', imagePath: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg',
-            name: 'ITDeckA', floors: [{name: "1", path: 'OakmontB.json', info: {}}, ], buildingInformation: {} },
-        {images: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg', imagePath: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg',
-            name: 'ITDeckB', floors: [{name: "1", path: 'OakmontB.json', info: {}}, ], buildingInformation: {} },
-        {images: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg', imagePath: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg',
-            name: 'ITDeckC', floors: [{name: "1", path: 'OakmontB.json', info: {}}, ], buildingInformation: {} },
-        {images: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg', imagePath: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg',
-            name: 'ITDeckD', floors: [{name: "1", path: 'OakmontB.json', info: {}}, ], buildingInformation: {} }
+        {imagePath: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg',
+            name: 'PonceA', floors: [{name: "1", path: 'OakmontB.json',}, ], buildingInformation: {} },
+        {imagePath: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg',
+            name: 'PonceB', floors: [{name: "1", path: 'OakmontB.json',}, ], buildingInformation: {} },
+        {imagePath: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg',
+            name: 'Lincoln100', floors: [{name: "1", path: 'OakmontB.json',}, ], buildingInformation: {} },
+        {imagePath: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg',
+            name: 'Lincoln200', floors: [{name: "1", path: 'OakmontB.json',}, ], buildingInformation: {} },
+        {imagePath: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg',
+            name: 'Lincoln300', floors: [{name: "1", path: 'OakmontB.json',}, ], buildingInformation: {} },
+        {imagePath: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg',
+            name: 'ITDeckA', floors: [{name: "1", path: 'OakmontB.json',}, ], buildingInformation: {} },
+        {imagePath: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg',
+            name: 'ITDeckB', floors: [{name: "1", path: 'OakmontB.json',}, ], buildingInformation: {} },
+        {imagePath: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg',
+            name: 'ITDeckC', floors: [{name: "1", path: 'OakmontB.json',}, ], buildingInformation: {} },
+        {imagePath: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg',
+            name: 'ITDeckD', floors: [{name: "1", path: 'OakmontB.json',}, ], buildingInformation: {} }
     ])
 
     const options = {
@@ -76,11 +74,6 @@ const BuildingList = () => {
     // building A: floor 1, floor2
     // two files: file1, file2
     // path: floor1/files1, floor2/file2
-
-    const handleShift = () =>{
-        //need button to handle back for now
-      setShift((prev)=>(!prev))
-    }
 
     const handleSetBuilding = (building) => {
         dispatch({building: building})
@@ -100,27 +93,24 @@ const BuildingList = () => {
         data = await data.json()
         return data
     }
-    // normally set the exact floorplan into the landing
-    //splashscreen
+
     useEffect( () => {
-        let totalOnCampus
         buildingArray.forEach(val => {
             val.floors.forEach(floorVal => {
+                //this needs to be replaced with mqtt but the function will use the mqtt route, subscribe and pull data, then unsubscribe.
+                //Only getData needs to be changed
                 getData(floorVal.path).then((data)=>{
-                    console.log(data)
-                    let keys = Object.keys(data);
-                    console.log(keys)
+                    let keys = Object.keys(data); //array of keys
                     let name = val.name //building name
                     let floorName = floorVal.name
-                    console.log(name)
-                    let full = keys[2]
-                    let fullData = data[full]
-                    console.log(fullData)
+                    let full = keys[2] //full data key
+                    let fullData = data[full] //full data value
                     let roomsInBuilding = {}
                     let tot = 0
-                    for(let x in fullData) {
-                        let area = fullData[x].area
-                        let key = fullData[x]
+                    for(let x in fullData) { //for every key...
+                        let area = fullData[x].area //get name of room
+                        let key = fullData[x] //the data needs to be accessed like this since there's an object within an object. This is a key
+                        //array of values we care about
                         let valueArray = {
                             'dailyTally': key.dailyTally,
                             'currentCount' : key.currentCount,
@@ -129,13 +119,16 @@ const BuildingList = () => {
                             'monthAverage': key.monthAverage,
                             'monthMax': key.monthMax
                         }
+                        //put this object into a new object with the key of the room name
                         roomsInBuilding[area] = valueArray
                     }
-                    console.log(roomsInBuilding)
+                    //create an empty object value with the building name as a key
                     totalCampus[name] = {}
-                    totalCampus[name][floorName] = roomsInBuilding //this will be multiple so i need a loop
-                    dispatch({campusData: totalCampus })
-                    console.log(totalCampus)
+                    totalCampus[name][floorName] = roomsInBuilding //place the floor number (string) as a nested object with the value of the rooms object
+                    dispatch({campusData: totalCampus }) //add this to the global context
+                    console.log(totalCampus) //can be deleted when done with testing
+
+                    //modify building array to include the rooms object
                     setArray(buildingArray.map((value) => {
                         if(totalCampus.hasOwnProperty(value.name)) {
                             return {...value, buildingInformation: totalCampus[value.name]}
@@ -143,30 +136,18 @@ const BuildingList = () => {
                         else
                             return value
                     }))
+                    // create the total count of all rooms in a building (modify to get the campus total count)
                     for(let room in roomsInBuilding) {
-                        console.log(roomsInBuilding[room].currentCount)
                         tot += roomsInBuilding[room].currentCount
                     }
                     tt[name] = tot
                     setTotal(tt)
-
-                    // Total here
-                    // {oakmont: {one: {max, min, etc}, two: {max, min, etc}, }
-
-                })// access floorval.path and use the mktt to get the each file
-
-
+                })
             })
-
-        })// add a condition to check every file with mqtt and also check the floors to add everythign to the right floor
-
-        } //get data to pull into the dom
+        })
+        }
     , [])
-
-    useEffect(() => {
-        console.log(total)
-    }, [total]);
-
+    // renders the building list component with the object above, filtered
     return (
         !loading ? (
             <div className= 'backgroundColorforMain rounded-6 removeScroll  '>

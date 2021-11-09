@@ -5,7 +5,6 @@ import {CFAContext} from "./Context";
 
 export const CFAProvider = ({ children }) => {
     const [state, dispatch] = useReducer(reducer, initialState);
-
     return (
         <CFAContext.Provider value={{ state, dispatch }}>
             {children}

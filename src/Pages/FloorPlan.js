@@ -1,10 +1,8 @@
 import {useContext, useEffect, useState} from "react";
-import {MDBBtn, MDBCol, MDBContainer, MDBIcon, MDBRow} from "mdb-react-ui-kit";
+import {MDBCol, MDBContainer,MDBRow} from "mdb-react-ui-kit";
 import ImageMapper from 'react-img-mapper'
-import defaultFloorImage from '../Assets/ChickFILa_Floor02B[941].png'
 import {CFAContext} from "../State/Context";
 import {useHistory} from "react-router-dom";
-import oakmontA1 from "../Assets/Optimized-OakmontA_Overall.png"
 import oak from "../Assets/OakmontA_.png"
 import oakB from "../Assets/OakmontB.png"
 import mainN1 from "../Assets/mn1.png"
@@ -29,8 +27,11 @@ const FloorPlan = (props) => {
     const { state: { building, floorName, campusData }, dispatch } = useContext(CFAContext); //building needs to be a path since thats the only unique identifier
     let history = useHistory()
     const[map, setMap] = useState()
+
     useEffect(() => {
+        // get the data from the json file parse it into this component
         getData('data.json').then(data => (setMap(data)))
+        // interrupts back function and resets state
         return history.listen(location => {
             console.log('change')
             if(history.action === 'POP') {
@@ -38,11 +39,14 @@ const FloorPlan = (props) => {
             }
         })
     }, [history]);
+
+    // resets state
     function handleBeforeUnload() {
         dispatch({floorName: ''})
         dispatch({building: ''})
         dispatch({title: 'Building List'})
     }
+    //gets data from local files
     async function getData (object) {
         let data = await fetch(object, {headers : {
                 'Content-Type': 'application/json',
@@ -52,6 +56,7 @@ const FloorPlan = (props) => {
         data = await data.json()
         return data
     }
+    //object containing keys and image values
     let imageObjects = {
         oakmontA1: oak,
         oakmontB1:oakB,
@@ -76,32 +81,29 @@ const FloorPlan = (props) => {
 
 
     useEffect(()=>{
+        //based on the gathered data from clicks, gets the image matching the name of the building and floor
         let image =  imageObjects[building+floorName]
         setFloorPlan(image)
     },[building, floorName])
 
+    //from a map of objects, gets the one with a name matching the building floorname.
+    //adds current count to each mapped object to be read by the modified image mapper
     const createMap = (map) => {
         let arr =  map.filter((input) =>
             input.name === building + floorName
         )
-        console.log(map)
 
         arr[0].areas.forEach((item) => {
             if(campusData[building][floorName] && campusData[building][floorName].hasOwnProperty(item.name)) {
                 item.text = campusData[building][floorName][item.name].currentCount.toString()
             }
-
         })
-
-        console.log(arr[0])
-
 
         return arr[0]
     }
 
 
     const clicked = (area)=>{
-        // will be the data instead
         dispatch({room: area.name})
         dispatch({title: `Statistics on ` + area.name})
     }
@@ -115,9 +117,7 @@ const FloorPlan = (props) => {
                             </ImageMapper>
 
                     </MDBCol>
-
                 </MDBRow>
-
             </MDBContainer>
 
         </>
