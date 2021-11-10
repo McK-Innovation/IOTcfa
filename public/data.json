@@ -2478,6 +2478,75 @@
       ]
    },
    {
+      "name": "Dining",
+      "areas": [
+         {
+            "name": "Large_Dining_Room",
+            "shape": "poly",
+            "coords": [
+               778,468,784,565,859,567,850,468
+            ],
+            "fillColor": "#a207154f",
+            "strokeColor": "#ffffff"
+         },
+         {
+            "name": "Kitchen",
+            "shape": "poly",
+            "coords": [
+               496,260,575,261,646,194,645,183,545,180,545,169,407,165,401,181,302,181,299,229,496,230
+            ],
+            "fillColor": "#a207154f",
+            "strokeColor": "#ffffff"
+         },
+         {
+            "name": "Facilities",
+            "shape": "poly",
+            "coords": [
+               353,364,356,321,308,319,301,308,299,297,282,296,273,283,267,282,262,365
+            ],
+            "fillColor": "#a207154f",
+            "strokeColor": "#ffffff"
+         },
+         {
+            "name": "Womens_RR",
+            "shape": "poly",
+            "coords": [
+               902,139,895,149,915,165,925,160,964,197,956,161,938,160,936,147
+            ],
+            "fillColor": "#a207154f",
+            "strokeColor": "#ffffff"
+         },
+         {
+            "name": "Mens_RR",
+            "shape": "poly",
+            "coords": [
+               881,56,872,82,887,92,893,83,919,82,910,56
+            ],
+            "fillColor": "#a207154f",
+            "strokeColor": "#ffffff"
+         },
+         {
+            "name": "ShippingReceiving",
+            "shape": "poly",
+            "coords": [
+               721,99,725,122,617,121,616,96
+            ],
+            "fillColor": "#a207154f",
+            "strokeColor": "#ffffff"
+         },
+         {
+            "name": "Dining_Area",
+            "shape": "poly",
+            "coords": [
+               273,638,278,566,202,564,205,506,217,494,218,477,236,472,240,464,220,457,223,440,244,448,251,438,231,425,
+               243,405,264,421,294,402,321,391,362,387,369,323,415,320,416,374,837,384,843,453,758,459,767,561,693,555,696,636
+            ],
+            "fillColor": "#a207154f",
+            "strokeColor": "#ffffff"
+         }
+      ]
+   },
+   {
       "name": "MainSouth2",
       "areas": [
          {
