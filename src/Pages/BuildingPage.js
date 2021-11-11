@@ -1,26 +1,19 @@
-import {MDBBtn, MDBCol, MDBContainer, MDBIcon, MDBInput, MDBListGroupItem, MDBRow} from "mdb-react-ui-kit";
+import { MDBCol, MDBContainer, MDBRow} from "mdb-react-ui-kit";
 import {useContext, useEffect, useState} from "react";
-import chart from '../Assets/occupancy2.png'
 import {CFAContext} from "../State/Context";
 import {useHistory} from "react-router-dom";
 
 const BuildingPage = (props) => {
     let history = useHistory()
-    let [input, setInput] =useState('')
-    let [loading, setLoading] = useState(false)
     const { state: { building, floorName, campusData, room }, dispatch } = useContext(CFAContext);
-
-    //splashscreen
     let [obj, setobj] = useState({})
+
     useEffect(() => {
-            console.log(campusData)
              setobj(campusData[building][floorName][room])
              dispatch({title: `${room} Details`})
             return history.listen(location => {
-                console.log('change')
                 if(history.action === 'POP') {
                     handleBeforeUnload()
-                    console.log(room)
                 }
             })
         } //get data to pull into the dom
@@ -57,27 +50,17 @@ const BuildingPage = (props) => {
 
             <MDBContainer center = 'true' className='mt-3 newPad backgroundColorforMain p-3 rounded-6 over' style = {{maxWidth: 700, maxHeight: 900}} >
                 <MDBRow center>
-
                   <MDBCol className= 'p-2 font-weight-bold' style = {{marginLeft: 40}}>
-
                       {modifiedCard('Day Average',obj.dayAverage)}
                       {modifiedCard('Day Total',obj.dailyTally)}
                       {modifiedCard('Current Count',obj.currentCount)}
-
-
                   </MDBCol>
                   <MDBCol className='p-2 font-weight-bold center' style = {{marginRight: -125}}>
                       {modifiedCard('Monthly Average',obj.monthAverage)}
                       {modifiedCard('Daily Max',obj.dayMax)}
                       {modifiedCard('Monthly Max',obj.monthMax)}
-
-
                   </MDBCol>
                 </MDBRow>
-
-                {/*<MDBBtn onClick={()=>(props.setRoom(false))} size="lg" floating color= 'danger'>*/}
-                {/*    <MDBIcon icon="angle-left" />*/}
-                {/*</MDBBtn>*/}
             </MDBContainer>
 
 
