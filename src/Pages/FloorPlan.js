@@ -113,9 +113,9 @@ const FloorPlan = (props) => {
     }
     return (
         <>
-            <MDBContainer className= 'p-1 mt-2 '>
+            <MDBContainer className= 'p-1 mt-2'>
                 <MDBRow className= ''>
-                    <MDBCol className= 'floorPlanMargin '>
+                    <MDBCol className= 'floorPlanMargin mapContainer'>
                             <ImageMapper src = {floorPlan} map = {map && createMap(map)}
                                 imgWidth={1025} width={1100} onClick = {area => {clicked(area);history.push("/buildingPage")} }>
                             </ImageMapper>

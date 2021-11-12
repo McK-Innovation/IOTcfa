@@ -177,9 +177,28 @@ input, textarea {
 }
 
 .floorPlanMargin {
-  margin-left: -14em;
+  margin-left: 5em;
 }
 
 .listShadow {
   box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.45)
 }
+
+@media screen and (max-width: 2000px) {
+  .mapContainer {
+    margin-left: -10em;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .mapContainer {
+    margin-left: -15em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .mapContainer {
+    margin-left: -20em;
+  }
+}
+
