@@ -2478,7 +2478,210 @@
       ]
    },
    {
-      "name": "MainSouth1",
+      "name": "MainSouthTerrace",
+      "areas": [
+         {
+            "name": "Together_40",
+            "shape": "poly",
+            "coords": [
+               51,280,46,312,84,312,177,244,147,209
+            ],
+            "fillColor": "#a207154f",
+            "strokeColor": "#ffffff"
+         },
+         {
+            "name": "Together_4",
+            "shape": "poly",
+            "coords": [
+               252,167,246,156,217,157,217,165,156,208,186,248,276,186,277,167
+            ],
+            "fillColor": "#a207154f",
+            "strokeColor": "#ffffff"
+         },
+         {
+            "name": "IT_Support_3",
+            "shape": "poly",
+            "coords": [
+               376,83,367,83,365,113,371,116,374,134,453,135,452,29,375,30
+            ],
+            "fillColor": "#a207154f",
+            "strokeColor": "#ffffff"
+         },
+         {
+            "name": "AV_Tech_2",
+            "shape": "poly",
+            "coords": [
+               459,27,457,136,517,134,518,140,547,140,544,28
+            ],
+            "fillColor": "#a207154f",
+            "strokeColor": "#ffffff"
+         },
+         {
+            "name": "Mens_RR",
+            "shape": "poly",
+            "coords": [
+               550,32,550,147,576,147,576,110,590,109,588,33
+            ],
+            "fillColor": "#a207154f",
+            "strokeColor": "#ffffff"
+         },
+         {
+            "name": "Womens_RR",
+            "shape": "poly",
+            "coords": [
+               620,107,621,148,648,148,641,30,600,29,602,107
+            ],
+            "fillColor": "#a207154f",
+            "strokeColor": "#ffffff"
+         },
+         {
+            "name": "West_Section",
+            "shape": "poly",
+            "coords": [
+               285,199,280,319,240,319,235,371,206,370,199,451,176,449,170,521,130,520,141,415,26,411,39,327,77,327,98,340
+            ],
+            "fillColor": "#a207154f",
+            "strokeColor": "#ffffff"
+         },
+         {
+            "name": "South_Section",
+            "shape": "poly",
+            "coords": [
+               236,372,206,370,200,453,177,448,170,521,560,522,560,419,444,421,443,371,400,371,398,420,233,418
+            ],
+            "fillColor": "#a207154f",
+            "strokeColor": "#ffffff"
+         },
+         {
+            "name": "Long_Table_S",
+            "shape": "poly",
+            "coords": [
+               587,432,586,485,651,487,650,434
+            ],
+            "fillColor": "#a207154f",
+            "strokeColor": "#ffffff"
+         },
+         {
+            "name": "Long_Table_N",
+            "shape": "poly",
+            "coords": [
+               653,434,652,488,727,487,726,436
+            ],
+            "fillColor": "#a207154f",
+            "strokeColor": "#ffffff"
+         },
+         {
+            "name": "Huddle_12",
+            "shape": "poly",
+            "coords": [
+               504,331,504,363,556,363,555,331
+            ],
+            "fillColor": "#a207154f",
+            "strokeColor": "#ffffff"
+         },
+         {
+            "name": "Huddle_13",
+            "shape": "poly",
+            "coords": [
+               500,331,500,363,450,364,452,330
+            ],
+            "fillColor": "#a207154f",
+            "strokeColor": "#ffffff"
+         },
+         {
+            "name": "Huddle_21",
+            "shape": "poly",
+            "coords": [
+               504,375,505,411,556,408,555,375
+            ],
+            "fillColor": "#a207154f",
+            "strokeColor": "#ffffff"
+         },
+         {
+            "name": "Huddle_22",
+            "shape": "poly",
+            "coords": [
+               499,375,499,408,448,409,449,376
+            ],
+            "fillColor": "#a207154f",
+            "strokeColor": "#ffffff"
+         },
+         {
+            "name": "ST_11_Join_Up",
+            "shape": "poly",
+            "coords": [
+               430,195,376,194,371,267,429,266
+            ],
+            "fillColor": "#a207154f",
+            "strokeColor": "#ffffff"
+         },
+         {
+            "name": "Together_14",
+            "shape": "poly",
+            "coords": [
+               458,191,457,261,548,262,547,192
+            ],
+            "fillColor": "#a207154f",
+            "strokeColor": "#ffffff"
+         },
+         {
+            "name": "Together_15",
+            "shape": "poly",
+            "coords": [
+               553,190,554,264,642,262,637,193
+            ],
+            "fillColor": "#a207154f",
+            "strokeColor": "#ffffff"
+         },
+         {
+            "name": "Bar_Tables_S",
+            "shape": "poly",
+            "coords": [
+               584,324,582,414,641,412,640,324
+            ],
+            "fillColor": "#a207154f",
+            "strokeColor": "#ffffff"
+         },
+         {
+            "name": "Bar_Tables_N",
+            "shape": "poly",
+            "coords": [
+               664,324,664,418,729,418,725,324
+            ],
+            "fillColor": "#a207154f",
+            "strokeColor": "#ffffff"
+         },
+         {
+            "name": "Hangout_Platfoorm",
+            "shape": "poly",
+            "coords": [
+               647,176,648,272,739,272,735,178
+            ],
+            "fillColor": "#a207154f",
+            "strokeColor": "#ffffff"
+         },
+         {
+            "name": "Coffee_Bar_N",
+            "shape": "poly",
+            "coords": [
+               817,188,773,187,774,221,819,221
+            ],
+            "fillColor": "#a207154f",
+            "strokeColor": "#ffffff"
+         },
+         {
+            "name": "Coffee_Bar_S",
+            "shape": "poly",
+            "coords": [
+               775,225,775,264,826,264,821,226
+            ],
+            "fillColor": "#a207154f",
+            "strokeColor": "#ffffff"
+         }
+      ]
+   },
+   {
+      "name": "MainSouthDining",
       "areas": [
          {
             "name": "Large_Dining_Room",

@@ -10,6 +10,7 @@ import mainN2 from "../Assets/mn2.png"
 import mainN3 from "../Assets/mn3.png"
 import mainN4 from "../Assets/mn4.png"
 import mainN5 from "../Assets/mn5.png"
+import mainT from "../Assets/Terrace.png"
 import mainS2 from "../Assets/ms2.png"
 import mainS3 from "../Assets/ms3.png"
 import mainS4 from "../Assets/ms4.png"
@@ -68,7 +69,8 @@ const FloorPlan = (props) => {
         MainNorth3: mainN3,
         MainNorth4: mainN4,
         MainNorth5: mainN5,
-        MainSouth1: mainS2,
+        MainSouthTerrace: mainT,
+        MainSouthDining: mainS2,
         MainSouth2: mainS2,
         MainSouth3: mainS3,
         MainSouth4: mainS4,
@@ -113,9 +115,9 @@ const FloorPlan = (props) => {
     }
     return (
         <>
-            <MDBContainer className= 'p-1 mt-2 '>
+            <MDBContainer className= 'p-1 mt-2'>
                 <MDBRow className= ''>
-                    <MDBCol className= 'floorPlanMargin '>
+                    <MDBCol className= 'floorPlanMargin mapContainer'>
                             <ImageMapper src = {floorPlan} map = {map && createMap(map)}
                                 imgWidth={1025} width={1100} onClick = {area => {clicked(area);history.push("/buildingPage")} }>
                             </ImageMapper>
