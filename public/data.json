@@ -2478,7 +2478,7 @@
       ]
    },
    {
-      "name": "Dining",
+      "name": "MainSouth1",
       "areas": [
          {
             "name": "Large_Dining_Room",
@@ -4083,7 +4083,7 @@
       ]
    }, 
    {
-      "name": "Lincoln100",
+      "name": "Lincoln1001",
       "areas": [
          {
             "name": "The_Rest_Kit",
@@ -4529,7 +4529,7 @@
       ]
    },
    {
-      "name": "Lincoln200",
+      "name": "Lincoln2001",
       "areas": [
          {
             "name": "Warehouse",
@@ -4778,7 +4778,7 @@
       ]
    },
    {
-      "name": "Lincoln300",
+      "name": "Lincoln3001",
       "areas": [
          {
             "name": "InnovNewVntr",

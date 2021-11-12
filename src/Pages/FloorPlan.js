@@ -20,6 +20,9 @@ import itC from "../Assets/ITC.gif"
 import itD from "../Assets/ITD.gif"
 import ponceA from "../Assets/PonceA.png"
 import ponceB from "../Assets/PonceB.png"
+import Linc1 from "../Assets/Lincoln100.png"
+import Linc2 from "../Assets/Lincoln200_Overall.png"
+import Linc3 from "../Assets/Lincoln300_Overall.png"
 
 const FloorPlan = (props) => {
     // images and areas will probably need to be prebuilt and sent here. Can send floor but will still have to manually change all of them
@@ -65,6 +68,7 @@ const FloorPlan = (props) => {
         MainNorth3: mainN3,
         MainNorth4: mainN4,
         MainNorth5: mainN5,
+        MainSouth1: mainS2,
         MainSouth2: mainS2,
         MainSouth3: mainS3,
         MainSouth4: mainS4,
@@ -75,9 +79,9 @@ const FloorPlan = (props) => {
         ITDeckB1: itB,
         ITDeckC1: itC,
         ITDeckD1: itD,
-        Lincoln1001: mainN1,
-        Lincoln2001: mainN1,
-        Lincoln3001: mainN1}
+        Lincoln1001: Linc1,
+        Lincoln2001: Linc2,
+        Lincoln3001: Linc3}
 
 
     useEffect(()=>{

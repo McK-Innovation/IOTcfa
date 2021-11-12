@@ -39,6 +39,7 @@ const BuildingList = () => {
                 {name: "5", path: 'OakmontB.json'}], buildingInformation: {} },
         {imagePath: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg',
             name: 'MainSouth', floors: [
+                {name: "1", path: 'OakmontB.json',},
                 {name: "2", path: 'OakmontB.json',},
                 {name: "3", path: 'OakmontB.json',},
                 {name: "4", path: 'OakmontB.json',},

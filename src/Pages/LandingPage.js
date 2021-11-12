@@ -2,7 +2,7 @@ import {MDBCol, MDBContainer, MDBIcon, MDBRow} from "mdb-react-ui-kit";
 import BuildingList from "./BuildingList";
 import {useContext} from "react";
 import BuildingPage from "./BuildingPage";
-import move3 from '../Assets/CFAmoview.mp4'
+import move3 from '../Assets/move3.mp4'
 import FloorPlan from "./FloorPlan";
 import {CFAContext} from "../State/Context";
 import {Route, Switch} from "react-router-dom";
