@@ -3880,7 +3880,7 @@
       ]
    },
    {
-      "name": "ITDeckA1",
+      "name": "ITDeckNorth",
       "areas": [
          {
             "name": "Lot11",
@@ -3993,7 +3993,7 @@
       ]
    },
    {
-      "name": "ITDeckB1",
+      "name": "ITDeckEast",
       "areas": [
          {
             "name": "MainDeck",
@@ -4123,7 +4123,7 @@
       ]
    },
    {
-      "name": "ITDeckC1",
+      "name": "ITDeckWest",
       "areas": [
          {
             "name": "TheGarage",
@@ -4227,7 +4227,7 @@
       ]
    },
    {
-      "name": "ITDeckD1",
+      "name": "ITDeckSouth",
       "areas": [
          {
             "name": "Lot9",

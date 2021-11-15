@@ -57,13 +57,12 @@ const BuildingList = () => {
         {imagePath: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg',
             name: 'Lincoln300', floors: [{name: "1", path: 'OakmontB.json',}, ], buildingInformation: {} },
         {imagePath: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg',
-            name: 'ITDeckA', floors: [{name: "1", path: 'OakmontB.json',}, ], buildingInformation: {} },
-        {imagePath: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg',
-            name: 'ITDeckB', floors: [{name: "1", path: 'OakmontB.json',}, ], buildingInformation: {} },
-        {imagePath: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg',
-            name: 'ITDeckC', floors: [{name: "1", path: 'OakmontB.json',}, ], buildingInformation: {} },
-        {imagePath: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg',
-            name: 'ITDeckD', floors: [{name: "1", path: 'OakmontB.json',}, ], buildingInformation: {} }
+            name: 'ITDeck', floors: [
+                {name: "North", path: 'ITDeck.json',},
+                {name: "East", path: 'ITDeck.json',},
+                {name: "South", path: 'ITDeck.json',},
+                {name: "West", path: 'ITDeck.json',},
+            ], buildingInformation: {} },
     ])
 
     const options = {
