@@ -51,7 +51,7 @@ const BuildingList = () => {
         {imagePath: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg',
             name: 'PonceB', floors: [{name: "1", path: 'OakmontB.json',}, ], buildingInformation: {} },
         {imagePath: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg',
-            name: 'Lincoln100', floors: [{name: "1", path: 'OakmontB.json',}, ], buildingInformation: {} },
+            name: 'Lincoln100', floors: [{name: "1", path: 'Lincoln100.json',}, ], buildingInformation: {} },
         {imagePath: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg',
             name: 'Lincoln200', floors: [{name: "1", path: 'OakmontB.json',}, ], buildingInformation: {} },
         {imagePath: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg',
