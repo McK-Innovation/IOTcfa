@@ -10,6 +10,7 @@ import mainN2 from "../Assets/mn2.png"
 import mainN3 from "../Assets/mn3.png"
 import mainN4 from "../Assets/mn4.png"
 import mainN5 from "../Assets/mn5.png"
+import mainD from "../Assets/Dining.png"
 import mainT from "../Assets/Terrace.png"
 import mainS2 from "../Assets/ms2.png"
 import mainS3 from "../Assets/ms3.png"
@@ -70,7 +71,7 @@ const FloorPlan = (props) => {
         MainNorth4: mainN4,
         MainNorth5: mainN5,
         MainSouthTerrace: mainT,
-        MainSouthDining: mainS2,
+        MainSouthDining: mainD,
         MainSouth2: mainS2,
         MainSouth3: mainS3,
         MainSouth4: mainS4,
