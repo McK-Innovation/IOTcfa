@@ -51,19 +51,18 @@ const BuildingList = () => {
         {imagePath: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg',
             name: 'PonceB', floors: [{name: "1", path: 'OakmontB.json',}, ], buildingInformation: {} },
         {imagePath: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg',
-            name: 'Lincoln100', floors: [{name: "1", path: 'OakmontB.json',}, ], buildingInformation: {} },
+            name: 'Lincoln100', floors: [{name: "1", path: 'Lincoln100.json',}, ], buildingInformation: {} },
         {imagePath: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg',
-            name: 'Lincoln200', floors: [{name: "1", path: 'OakmontB.json',}, ], buildingInformation: {} },
+            name: 'Lincoln200', floors: [{name: "1", path: 'Lincoln200.json',}, ], buildingInformation: {} },
         {imagePath: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg',
-            name: 'Lincoln300', floors: [{name: "1", path: 'OakmontB.json',}, ], buildingInformation: {} },
+            name: 'Lincoln300', floors: [{name: "1", path: 'Lincoln300.json',}, ], buildingInformation: {} },
         {imagePath: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg',
-            name: 'ITDeckA', floors: [{name: "1", path: 'OakmontB.json',}, ], buildingInformation: {} },
-        {imagePath: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg',
-            name: 'ITDeckB', floors: [{name: "1", path: 'OakmontB.json',}, ], buildingInformation: {} },
-        {imagePath: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg',
-            name: 'ITDeckC', floors: [{name: "1", path: 'OakmontB.json',}, ], buildingInformation: {} },
-        {imagePath: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg',
-            name: 'ITDeckD', floors: [{name: "1", path: 'OakmontB.json',}, ], buildingInformation: {} }
+            name: 'ITDeck', floors: [
+                {name: "North", path: 'ITDeck.json',},
+                {name: "East", path: 'ITDeck.json',},
+                {name: "South", path: 'ITDeck.json',},
+                {name: "West", path: 'ITDeck.json',},
+            ], buildingInformation: {} },
     ])
 
     const options = {
@@ -192,7 +191,7 @@ const BuildingList = () => {
 
                                            <MDBListGroupItem
                                                onClick = {()=>{handleSetBuilding(value.name); handleSetFloor(floor.name); handleTitle('Floor Plan'); history.push("/floorPlan");}}
-                                               className="d-flex justify-content-between align-items-center">{"Floor " + floor.name}
+                                               className="d-flex justify-content-between align-items-center floorBtn">{"Floor " + floor.name}
                                            </MDBListGroupItem>))
                                        }
                                    </MDBListGroup>
