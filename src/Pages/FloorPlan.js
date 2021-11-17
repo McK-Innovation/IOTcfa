@@ -4,6 +4,9 @@ import ImageMapper from 'react-img-mapper'
 import {CFAContext} from "../State/Context";
 import {useHistory} from "react-router-dom";
 import oak from "../Assets/OakmontA_.png"
+import oakAN from "../Assets/OakmontANorth.png"
+import oakAM from "../Assets/OakmontAMiddle.png"
+import oakAS from "../Assets/OakmontASouth.png"
 import oakB from "../Assets/OakmontB.png"
 import mainN1 from "../Assets/mn1.png"
 import mainN2 from "../Assets/mn2.png"
@@ -63,7 +66,9 @@ const FloorPlan = (props) => {
     }
     //object containing keys and image values
     let imageObjects = {
-        oakmontA1: oak,
+        oakmontANorth: oakAN,
+        oakmontAMiddle: oakAM,
+        oakmontASouth: oakAS,
         oakmontB1:oakB,
         MainNorth1: mainN1,
         MainNorth2: mainN2,
@@ -120,7 +125,7 @@ const FloorPlan = (props) => {
                 <MDBRow className= ''>
                     <MDBCol className= 'floorPlanMargin mapContainer'>
                             <ImageMapper src = {floorPlan} map = {map && createMap(map)}
-                                imgWidth={1025} width={1100} onClick = {area => {clicked(area);history.push("/buildingPage")} }>
+                                 onClick = {area => {clicked(area);history.push("/buildingPage")} }>
                             </ImageMapper>
 
                     </MDBCol>
