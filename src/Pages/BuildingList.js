@@ -145,8 +145,14 @@ const BuildingList = () => {
                     }))
                     // create the total count of all rooms in a building (modify to get the campus total count)
                     for(let room in roomsInBuilding) {
-                        tot += roomsInBuilding[room].currentCount
+                        // tot += roomsInBuilding[room].currentCount
+                    
+                        if(room == "EntryExits") {
+                            console.log(roomsInBuilding[room].currentCount);
+                            tot = roomsInBuilding[room].currentCount;
+                        }
                     }
+                    
                     tt[name] = tot
                     setTotal(tt)
                 })
