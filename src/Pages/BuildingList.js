@@ -28,7 +28,7 @@ const BuildingList = () => {
         {imagePath: '../Assets/OakmontA.jpg',
             name: 'oakmontA',
             floors: [
-                {name: "North", path: 'OakmontA.json'},
+                {name: "North", path: 'OakmontAN.json'},
                 {name: "Middle", path: 'OakmontA.json'},
                 {name: "South", path: 'OakmontA.json'},
             ], buildingInformation: {} },
@@ -148,7 +148,6 @@ const BuildingList = () => {
                         // tot += roomsInBuilding[room].currentCount
                     
                         if(room == "EntryExits") {
-                            console.log(roomsInBuilding[room].currentCount);
                             tot = roomsInBuilding[room].currentCount;
                         }
                     }

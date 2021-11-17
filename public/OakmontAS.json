@@ -1,0 +1,213 @@
+{
+    "timestamp": "2021-09-29 08:54:35.281-0400",
+    "restAPI": {
+      "oakmontANorth": "Folder"
+    },
+    "boundQueryResult": [
+      {
+        "slotPathIdentifier": "slot:/Drivers/RestAPI/OakmontA",
+        "area": "EntryExits",
+        "dailyTally": "NULL",
+        "currentCount": 18,
+        "zone1CurrentCount": "NULL",
+        "zone1DailyTally": "NULL",
+        "dayAverage": 0,
+        "dayMax": 0,
+        "monthAverage": 0,
+        "monthMax": 32
+      },
+      {
+        "slotPathIdentifier": "slot:/Drivers/RestAPI/OakmontA",
+        "area": "TheCoop",
+        "dailyTally": "NULL",
+        "currentCount": 1,
+        "zone1CurrentCount": "NULL",
+        "zone1DailyTally": "NULL",
+        "dayAverage": 0,
+        "dayMax": 0,
+        "monthAverage": 3.3735,
+        "monthMax": 16
+      },
+      {
+        "slotPathIdentifier": "slot:/Drivers/RestAPI/OakmontA",
+        "area": "CoopRm_A",
+        "dailyTally": "NULL",
+        "currentCount": 0,
+        "zone1CurrentCount": "NULL",
+        "zone1DailyTally": "NULL",
+        "dayAverage": 0,
+        "dayMax": 0,
+        "monthAverage": 0.25,
+        "monthMax": 1
+      },
+      {
+        "slotPathIdentifier": "slot:/Drivers/RestAPI/OakmontA",
+        "area": "CoopRm_B",
+        "dailyTally": "NULL",
+        "currentCount": 0,
+        "zone1CurrentCount": "NULL",
+        "zone1DailyTally": "NULL",
+        "dayAverage": 0,
+        "dayMax": 0,
+        "monthAverage": 0,
+        "monthMax": 0
+      },
+      {
+        "slotPathIdentifier": "slot:/Drivers/RestAPI/OakmontA",
+        "area": "CoopRm_C",
+        "dailyTally": "NULL",
+        "currentCount": 0,
+        "zone1CurrentCount": "NULL",
+        "zone1DailyTally": "NULL",
+        "dayAverage": 0,
+        "dayMax": 0,
+        "monthAverage": 0.25,
+        "monthMax": 1
+      },
+      {
+        "slotPathIdentifier": "slot:/Drivers/RestAPI/OakmontA",
+        "area": "Incubator",
+        "dailyTally": "NULL",
+        "currentCount": 0,
+        "zone1CurrentCount": "NULL",
+        "zone1DailyTally": "NULL",
+        "dayAverage": 0,
+        "dayMax": 0,
+        "monthAverage": 2.6199,
+        "monthMax": 78
+      },
+      {
+        "slotPathIdentifier": "slot:/Drivers/RestAPI/OakmontA",
+        "area": "Mens_RR_S",
+        "dailyTally": 1,
+        "currentCount": 0,
+        "zone1CurrentCount": "NULL",
+        "zone1DailyTally": "NULL",
+        "dayAverage": 0,
+        "dayMax": 0,
+        "monthAverage": 0.5741,
+        "monthMax": 2
+      },
+      {
+        "slotPathIdentifier": "slot:/Drivers/RestAPI/OakmontA",
+        "area": "IncubaterSto",
+        "dailyTally": "NULL",
+        "currentCount": 0,
+        "zone1CurrentCount": "NULL",
+        "zone1DailyTally": "NULL",
+        "dayAverage": 0,
+        "dayMax": 0,
+        "monthAverage": 0,
+        "monthMax": 0
+      },
+      {
+        "slotPathIdentifier": "slot:/Drivers/RestAPI/OakmontA",
+        "area": "CoopRm_D",
+        "dailyTally": 10,
+        "currentCount": 0,
+        "zone1CurrentCount": "NULL",
+        "zone1DailyTally": "NULL",
+        "dayAverage": 0,
+        "dayMax": 0,
+        "monthAverage": 0.4,
+        "monthMax": 1
+      },
+      {
+        "slotPathIdentifier": "slot:/Drivers/RestAPI/OakmontA",
+        "area": "CoopRm_E",
+        "dailyTally": 10,
+        "currentCount": 0,
+        "zone1CurrentCount": "NULL",
+        "zone1DailyTally": "NULL",
+        "dayAverage": 0,
+        "dayMax": 0,
+        "monthAverage": 0.3889,
+        "monthMax": 2
+      },
+      
+    {
+        "slotPathIdentifier": "slot:/Drivers/RestAPI/OakmontA",
+        "area": "Rest_Sim2",
+        "dailyTally": "NULL",
+        "currentCount": 0,
+        "zone1CurrentCount": "NULL",
+        "zone1DailyTally": "NULL",
+        "dayAverage": 0,
+        "dayMax": 0,
+        "monthAverage": 0.4351,
+        "monthMax": 2
+      },
+      {
+        "slotPathIdentifier": "slot:/Drivers/RestAPI/OakmontA",
+        "area": "Rest_Sim3",
+        "dailyTally": "NULL",
+        "currentCount": 0,
+        "zone1CurrentCount": "NULL",
+        "zone1DailyTally": "NULL",
+        "dayAverage": 0,
+        "dayMax": 0,
+        "monthAverage": 0.8479,
+        "monthMax": 4
+      },
+      {
+        "slotPathIdentifier": "slot:/Drivers/RestAPI/OakmontA",
+        "area": "S_Section",
+        "dailyTally": "NULL",
+        "currentCount": 1,
+        "zone1CurrentCount": "NULL",
+        "zone1DailyTally": "NULL",
+        "dayAverage": 0,
+        "dayMax": 0,
+        "monthAverage": 3.3619,
+        "monthMax": 13
+      },
+      {
+        "slotPathIdentifier": "slot:/Drivers/RestAPI/OakmontA",
+        "area": "The_Coop",
+        "dailyTally": "NULL",
+        "currentCount": 1,
+        "zone1CurrentCount": "NULL",
+        "zone1DailyTally": "NULL",
+        "dayAverage": 0,
+        "dayMax": 0,
+        "monthAverage": 2.1982,
+        "monthMax": 8
+      },
+      {
+        "slotPathIdentifier": "slot:/Drivers/RestAPI/OakmontA",
+        "area": "Cafe",
+        "dailyTally": "NULL",
+        "currentCount": 5,
+        "zone1CurrentCount": "NULL",
+        "zone1DailyTally": "NULL",
+        "dayAverage": 0,
+        "dayMax": 0,
+        "monthAverage": 0.7326,
+        "monthMax": 7
+      },
+      {
+        "slotPathIdentifier": "slot:/Drivers/RestAPI/OakmontA",
+        "area": "Womens_RR_S",
+        "dailyTally": 5,
+        "currentCount": 0,
+        "zone1CurrentCount": "NULL",
+        "zone1DailyTally": "NULL",
+        "dayAverage": 0,
+        "dayMax": 0,
+        "monthAverage": 1.068,
+        "monthMax": 5
+      },
+      {
+        "slotPathIdentifier": "slot:/Drivers/RestAPI/OakmontA",
+        "area": "Incubator_A",
+        "dailyTally": 12,
+        "currentCount": 0,
+        "zone1CurrentCount": "NULL",
+        "zone1DailyTally": "NULL",
+        "dayAverage": 0,
+        "dayMax": 0,
+        "monthAverage": 0.25,
+        "monthMax": 1
+      }
+    ]
+}
