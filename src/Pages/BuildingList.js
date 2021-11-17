@@ -197,7 +197,7 @@ const BuildingList = () => {
 
                                            <MDBListGroupItem
                                                onClick = {()=>{handleSetBuilding(value.name); handleSetFloor(floor.name); handleTitle('Floor Plan'); history.push("/floorPlan");}}
-                                               className="d-flex justify-content-between align-items-center floorBtn">{"Floor " + floor.name}
+                                               className="justify-content-between align-items-center floorBtn">{"Floor " + floor.name}
                                            </MDBListGroupItem>))
                                        }
                                    </MDBListGroup>
