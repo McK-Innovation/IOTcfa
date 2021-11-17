@@ -31,7 +31,7 @@ const BuildingPage = (props) => {
         return (
             <>
                 <div className='redBackWhite rounded-6 p-3 mb-3' style = {{maxWidth: 200}}>
-                    <div>
+                    <div className='d-flex justify-content-center'>
                         <p className= 'font-weight-bold'>{title}</p>
                     </div>
                     <MDBCol className= 'p-3' style = {{textAlign: 'center', fontWeight: 'bold'}}>
@@ -47,7 +47,7 @@ const BuildingPage = (props) => {
 
     // current number of people, most in the day, peak day in month, peak time, occupancy alert, day average, monthly average, graph
     return (
-
+        <>
             <MDBContainer center = 'true' className='mt-3 newPad backgroundColorforMain p-3 rounded-6 over' style = {{maxWidth: 700, maxHeight: 900}} >
                 <MDBRow center>
                   <MDBCol className= 'p-2 font-weight-bold' style = {{marginLeft: 40}}>
@@ -62,10 +62,27 @@ const BuildingPage = (props) => {
                   </MDBCol>
                 </MDBRow>
             </MDBContainer>
-
+            <div className= 'title whiteBackgroundRed biggerFont text-center p-2 mx-auto mt-4'>7 Day Averages</div>
+            <MDBContainer center = 'true' className='mt-3 newPad backgroundColorforMain p-3 rounded-6 over' style = {{maxWidth: 1200, maxHeight: 900}}>
+                <MDBRow className='d-flex justify-content-around'>
+                    {modifiedCard('Sunday',obj.dayAverage)}
+                    {modifiedCard('Monday',obj.dayAverage)}
+                </MDBRow>
+                <MDBRow className='d-flex justify-content-around'>
+                    {modifiedCard('Tuesday',obj.dayAverage)}
+                    {modifiedCard('Wednesday',obj.dayAverage)}
+                    {modifiedCard('Thursday',obj.dayAverage)}
+                </MDBRow>
+                <MDBRow className='d-flex justify-content-around'>
+                    {modifiedCard('Friday',obj.dayAverage)}
+                    {modifiedCard('Saturday',obj.dayAverage)}
+                </MDBRow> 
+            </MDBContainer>
+        </>
 
     )
 
 
 }
 export default BuildingPage
+
