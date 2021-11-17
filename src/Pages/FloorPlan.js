@@ -4,7 +4,7 @@ import ImageMapper from 'react-img-mapper'
 import {CFAContext} from "../State/Context";
 import {useHistory} from "react-router-dom";
 import oak from "../Assets/OakmontA_.png"
-import oakAN from "../Assets/OakmontANOrth.png"
+import oakAN from "../Assets/OakmontANorth.png"
 import oakAM from "../Assets/OakmontAMiddle.png"
 import oakAS from "../Assets/OakmontASouth.png"
 import oakB from "../Assets/OakmontB.png"
