@@ -1,173 +1,76 @@
 [
    {
-      "name":"oakmontA1",
+      "name":"oakmontANorth",
       "areas":[
          {
-            "name":"Rest_Sim1",
+            "name":"Rest_Sim_1",
             "shape":"poly",
-            "coords":[
-               66,
-               159,
-               52,
-               237,
-               102,
-               239,
-               115,
-               156
-            ],
+            "coords":[80,209,25,673,323,674,323,634,296,634,314,208],
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
          },
          {
             "name":"Perch_D",
             "shape":"poly",
-            "coords":[
-               58,
-               86,
-               53,
-               114,
-               123,
-               114,
-               128,
-               87
-            ],
-            "fillColor":"#a207154f",
-            "strokeColor":"#ffffff"
-         },
-         {
-            "name":"TheCoop",
-            "shape":"poly",
-            "coords":[
-               66,
-               159,
-               52,
-               237,
-               102,
-               239,
-               115,
-               156
-            ],
+            "coords":[87,153,82,189,210,191,211,151],
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
          },
          {
             "name":"Mens_RR_N",
             "shape":"poly",
-            "coords":[
-               230,
-               100,
-               222,
-               92,
-               237,
-               81,
-               245,
-               89
-            ],
+            "coords":[452,87,330,199,339,206,352,194,363,207,464,115,462,92],
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
          },
          {
             "name":"Womens_RR_N",
             "shape":"poly",
-            "coords":[
-               227,
-               123,
-               237,
-               134,
-               266,
-               113,
-               255,
-               95
-            ],
+            "coords":[380,248,387,257,514,139,507,131,492,145,482,134,380,225,389,238],
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
          },
          {
             "name":"Nest_Perch",
             "shape":"poly",
-            "coords":[
-               305,
-               82,
-               330,
-               107,
-               252,
-               188,
-               219,
-               152
-            ],
+            "coords":[533,143,509,163,533,185,559,167],
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
          },
          {
             "name":"Perch_B",
             "shape":"poly",
-            "coords":[
-               359,
-               112,
-               338,
-               128,
-               362,
-               159,
-               388,
-               136
-            ],
+            "coords":[635,193,603,221,657,265,687,238],
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
          },
          {
-            "name":"ThePerch",
+            "name":"The_Perch",
             "shape":"poly",
-            "coords":[
-               408,
-               120,
-               443,
-               117,
-               445,
-               188,
-               404,
-               230,
-               382,
-               230,
-               344,
-               191,
-               344,
-               178
-            ],
+            "coords":[788,212,722,212,626,308,627,331,711,407,740,407,805,339],
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
          },
          {
             "name":"Perch_C",
             "shape":"poly",
-            "coords":[
-               437,
-               200,
-               406,
-               229,
-               442,
-               229,
-               443,
-               203
-            ],
+            "coords":[806,363,791,362,745,407,812,407],
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
          },
          {
             "name":"Perch_A",
             "shape":"poly",
-            "coords":[
-               411,
-               50,
-               411,
-               91,
-               452,
-               92,
-               432,
-               52
-            ],
+            "coords":[719,89,726,150,796,150,791,140,784,128,776,117,767,109,754,100,737,93],
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
-         },
+         }
+      ]
+   },
+   {
+      "name":"oakmontAMiddle",
+      "areas": [
+
          {
             "name":"Cafe",
             "shape":"poly",
@@ -192,34 +95,6 @@
                26,
                522,
                24
-            ],
-            "fillColor":"#a207154f",
-            "strokeColor":"#ffffff"
-         },
-         {
-            "name":"The_Coop",
-            "shape":"poly",
-            "coords":[
-               637,
-               144,
-               639,
-               195,
-               694,
-               196,
-               710,
-               338,
-               736,
-               338,
-               735,
-               271,
-               756,
-               271,
-               751,
-               217,
-               726,
-               217,
-               723,
-               139
             ],
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
@@ -370,6 +245,39 @@
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
          },
+         {
+            "name":"The_Coop",
+            "shape":"poly",
+            "coords":[
+               637,
+               144,
+               639,
+               195,
+               694,
+               196,
+               710,
+               338,
+               736,
+               338,
+               735,
+               271,
+               756,
+               271,
+               751,
+               217,
+               726,
+               217,
+               723,
+               139
+            ],
+            "fillColor":"#a207154f",
+            "strokeColor":"#ffffff"
+         }
+      ]
+   },
+   {
+      "name":"oakmontASouth",
+      "areas": [
          {
             "name":"Mens_RR_S",
             "shape":"poly",
