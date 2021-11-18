@@ -33,7 +33,12 @@ const BuildingList = () => {
                 {name: "South", path: 'OakmontA.json'},
             ], buildingInformation: {} },
         {imagePath: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg',
-            name: 'OakmontB', floors: [{name: "1", path: 'OakmontB.json'}, ], buildingInformation: {} },
+            name: 'OakmontB', 
+            floors: [
+                {name: "North", path: 'OakmontB.json'},
+                {name: "Middle", path: 'OakmontB.json'},
+                {name: "South", path: 'OakmontB.json'},
+            ], buildingInformation: {} },
         {imagePath: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg',
             name: 'MainNorth',
             floors: [
