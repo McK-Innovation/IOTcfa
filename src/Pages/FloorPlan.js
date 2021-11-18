@@ -66,10 +66,10 @@ const FloorPlan = (props) => {
     }
     //object containing keys and image values
     let imageObjects = {
-        oakmontANorth: oakAN,
-        oakmontAMiddle: oakAM,
-        oakmontASouth: oakAS,
-        oakmontB1:oakB,
+        OakmontANorth: oakAN,
+        OakmontAMiddle: oakAM,
+        OakmontASouth: oakAS,
+        OakmontB1:oakB,
         MainNorth1: mainN1,
         MainNorth2: mainN2,
         MainNorth3: mainN3,

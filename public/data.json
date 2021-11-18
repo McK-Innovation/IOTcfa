@@ -1,6 +1,6 @@
 [
    {
-      "name":"oakmontANorth",
+      "name":"OakmontANorth",
       "areas":[
          {
             "name":"Rest_Sim_1",
@@ -68,7 +68,7 @@
       ]
    },
    {
-      "name":"oakmontAMiddle",
+      "name":"OakmontAMiddle",
       "areas": [
 
          {
@@ -145,7 +145,7 @@
       ]
    },
    {
-      "name":"oakmontASouth",
+      "name":"OakmontASouth",
       "areas": [
          {
             "name":"Mens_RR_S",
@@ -185,7 +185,7 @@
       ]
    },
    {
-      "name":"oakmontB1",
+      "name":"OakmontB1",
       "areas":[
          {
             "name":"Together_Recp",

@@ -26,14 +26,14 @@ const BuildingList = () => {
     //array of building objects here. Path is the path to the route for mqtt
     let [buildingArray, setArray] = useState( [
         {imagePath: '../Assets/OakmontA.jpg',
-            name: 'oakmontA',
+            name: 'OakmontA',
             floors: [
                 {name: "North", path: 'OakmontAN.json'},
                 {name: "Middle", path: 'OakmontA.json'},
                 {name: "South", path: 'OakmontA.json'},
             ], buildingInformation: {} },
         {imagePath: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg',
-            name: 'oakmontB', floors: [{name: "1", path: 'OakmontB.json'}, ], buildingInformation: {} },
+            name: 'OakmontB', floors: [{name: "1", path: 'OakmontB.json'}, ], buildingInformation: {} },
         {imagePath: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg',
             name: 'MainNorth',
             floors: [
