@@ -6,18 +6,6 @@
   "boundQueryResult": [
     {
       "slotPathIdentifier": "slot:/Drivers/RestAPI/OakmontB",
-      "area": "EntryExits",
-      "dailyTally": "NULL",
-      "currentCount": 29,
-      "zone1CurrentCount": "NULL",
-      "zone1DailyTally": "NULL",
-      "dayAverage": 0,
-      "dayMax": 0,
-      "monthAverage": 0,
-      "monthMax": 0
-    },
-    {
-      "slotPathIdentifier": "slot:/Drivers/RestAPI/OakmontB",
       "area": "Mens_RR",
       "dailyTally": 23,
       "currentCount": 0,

@@ -185,1137 +185,498 @@
       ]
    },
    {
-      "name":"OakmontB1",
+      "name":"OakmontBSouth",
       "areas":[
          {
             "name":"Together_Recp",
             "shape":"poly",
-            "coords":[
-               67,
-               31,
-               62,
-               42,
-               90,
-               37,
-               90,
-               18,
-               67,
-               13
-            ],
+            "coords":[157,38,155,54,142,57,141,75,162,73,187,64,185,48,187,36],
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
          },
          {
             "name":"Auditorium",
             "shape":"poly",
-            "coords":[
-               75,
-               106,
-               59,
-               134,
-               47,
-               133,
-               31,
-               226,
-               39,
-               231,
-               49,
-               258,
-               120,
-               225,
-               134,
-               226,
-               146,
-               189,
-               147,
-               156,
-               147,
-               138,
-               131,
-               138
-            ],
+            "coords":[164,209,130,261,110,266,81,451,99,459,115,510,251,444,280,443,296,402,304,355,307,304,302,273,278,273],
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
          },
          {
             "name":"SusProjRm2",
             "shape":"poly",
-            "coords":[
-               161,
-               13,
-               154,
-               26,
-               161,
-               44,
-               175,
-               41,
-               185,
-               11
-            ],
+            "coords":[336,24,333,50,327,53,335,77,361,68,374,24],
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
          },
          {
             "name":"SusProjRm1",
             "shape":"poly",
-            "coords":[
-               187,
-               16,
-               175,
-               55,
-               221,
-               59,
-               228,
-               11
-            ],
+            "coords":[391,24,374,83,361,89,364,99,387,105,414,108,437,108,455,108,465,23],
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
          },
          {
             "name":"S_127",
             "shape":"poly",
-            "coords":[
-               231,
-               13,
-               226,
-               27,
-               243,
-               31,
-               244,
-               14
-            ],
+            "coords":[472,69,469,93,497,92,499,69],
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
          },
          {
             "name":"S_126",
             "shape":"poly",
-            "coords":[
-               226,
-               36,
-               225,
-               49,
-               243,
-               52,
-               244,
-               36
-            ],
+            "coords":[500,25,476,24,473,51,501,52],
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
          },
          {
             "name":"Mens_RR",
             "shape":"poly",
-            "coords":[
-               184,
-               149,
-               182,
-               161,
-               248,
-               161,
-               248,
-               149
-            ],
+            "coords":[506,301,385,299,385,316,401,317,400,332,482,331,485,317,505,317],
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
          },
          {
             "name":"Womens_RR",
             "shape":"poly",
-            "coords":[
-               182,
-               184,
-               179,
-               197,
-               244,
-               197,
-               244,
-               185
-            ],
+            "coords":[376,387,499,384,500,369,480,368,481,342,400,343,396,371,376,371],
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
          },
          {
             "name":"Together_Chand2",
             "shape":"poly",
-            "coords":[
-               180,
-               198,
-               175,
-               228,
-               205,
-               230,
-               210,
-               198
-            ],
+            "coords":[377,399,371,452,423,452,428,399],
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
          },
          {
             "name":"Together_Chand1",
             "shape":"poly",
-            "coords":[
-               169,
-               233,
-               205,
-               233,
-               202,
-               272,
-               177,
-               261
-            ],
+            "coords":[422,465,356,465,355,483,357,497,363,509,374,524,389,533,416,536],
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
          },
          {
             "name":"S_25",
             "shape":"poly",
-            "coords":[
-               205,
-               304,
-               198,
-               327,
-               218,
-               327,
-               221,
-               304
-            ],
+            "coords":[422,612,418,651,447,652,450,612],
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
          },
          {
             "name":"Huddle_CBR",
             "shape":"poly",
-            "coords":[
-               200,
-               330,
-               197,
-               350,
-               217,
-               352,
-               218,
-               328
-            ],
+            "coords":[418,661,413,700,441,700,446,660],
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
          },
          {
-            "name":"Togeth_ALA",
+            "name":"Together_ALA",
             "shape":"poly",
-            "coords":[
-               266,
-               152,
-               294,
-               152,
-               292,
-               195,
-               263,
-               194
-            ],
+            "coords":[604,308,547,305,539,322,534,342,534,362,537,381,599,378],
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
          },
          {
             "name":"Sandbox_CCC",
             "shape":"poly",
-            "coords":[
-               335,
-               159,
-               332,
-               189,
-               360,
-               197,
-               360,
-               151
-            ],
+            "coords":[733,307,686,319,681,369,730,382],
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
          },
          {
             "name":"Together_DTL",
             "shape":"poly",
-            "coords":[
-               361,
-               151,
-               392,
-               151,
-               392,
-               174,
-               361,
-               174
-            ],
+            "coords":[741,305,740,337,796,336,797,305],
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
          },
          {
             "name":"Together_DPD",
             "shape":"poly",
-            "coords":[
-               363,
-               175,
-               396,
-               172,
-               394,
-               195,
-               361,
-               197
-            ],
+            "coords":[739,350,738,383,794,383,796,350],
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
          },
          {
             "name":"S_42",
             "shape":"poly",
-            "coords":[
-               391,
-               34,
-               391,
-               54,
-               412,
-               49,
-               409,
-               31
-            ],
+            "coords":[837,82,832,65,799,73,798,93],
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
          },
          {
             "name":"S_41",
             "shape":"poly",
-            "coords":[
-               409,
-               31,
-               414,
-               49,
-               437,
-               41,
-               427,
-               24
-            ],
+            "coords":[841,100,800,108,813,127,846,119],
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
          },
          {
             "name":"Huddle_EW",
             "shape":"poly",
-            "coords":[
-               391,
-               55,
-               402,
-               69,
-               419,
-               64,
-               412,
-               46
-            ],
+            "coords":[837,63,843,84,883,72,870,56],
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
          },
          {
             "name":"Solutions_Lab",
             "shape":"poly",
-            "coords":[
-               414,
-               49,
-               419,
-               65,
-               437,
-               59,
-               437,
-               41
-            ],
+            "coords":[888,87,846,97,851,117,888,109],
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
          },
          {
             "name":"CorpFinancSysTeam",
             "shape":"poly",
-            "coords":[
-               394,
-               286,
-               383,
-               302,
-               404,
-               312,
-               412,
-               292
-            ],
+            "coords":[824,616,832,583,803,575,784,604],
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
          },
          {
             "name":"S_35",
             "shape":"poly",
-            "coords":[
-               414,
-               294,
-               404,
-               312,
-               430,
-               318,
-               434,
-               297
-            ],
+            "coords":[823,622,779,613,777,649,812,660],
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
          },
          {
             "name":"S_38",
             "shape":"poly",
-            "coords":[
-               381,
-               304,
-               381,
-               323,
-               401,
-               332,
-               406,
-               312
-            ],
+            "coords":[842,583,832,618,876,630,877,594],
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
          },
          {
             "name":"Huddle_EMCA",
             "shape":"poly",
-            "coords":[
-               406,
-               312,
-               402,
-               333,
-               422,
-               338,
-               430,
-               320
-            ],
+            "coords":[831,628,820,662,853,671,872,640],
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
          },
          {
-            "name":"Togeth_EMCA",
+            "name":"Together_EMCA",
             "shape":"poly",
-            "coords":[
-               437,
-               149,
-               435,
-               194,
-               465,
-               194,
-               465,
-               151
-            ],
+            "coords":[884,381,945,381,945,307,887,307,882,324,878,341,878,360],
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
-         },
+         }
+      ]
+   },
+   {
+      "name":"OakmontBMiddle",
+      "areas":[
          {
             "name":"Together_FLL2",
             "shape":"poly",
-            "coords":[
-               493,
-               72,
-               488,
-               88,
-               519,
-               90,
-               514,
-               72
-            ],
+            "coords":[45,137,46,144,34,148,33,167,93,166,93,154,83,146,80,138],
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
          },
          {
             "name":"Prnt_Svc_East",
             "shape":"poly",
-            "coords":[
-               488,
-               92,
-               488,
-               111,
-               517,
-               111,
-               521,
-               90
-            ],
+            "coords":[33,468,32,506,97,507,96,468],
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
          },
          {
             "name":"Together_FLL1",
             "shape":"poly",
-            "coords":[
-               486,
-               121,
-               493,
-               134,
-               522,
-               128,
-               517,
-               115
-            ],
+            "coords":[90,225,59,223,33,231,38,253,56,257,69,257,82,253,96,241],
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
          },
          {
             "name":"Together_GBT",
             "shape":"poly",
-            "coords":[
-               485,
-               221,
-               489,
-               235,
-               521,
-               235,
-               516,
-               212
-            ],
+            "coords":[30,436,36,458,69,458,95,452,90,423,80,418,67,417,52,421,41,427],
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
          },
          {
             "name":"Prnt_Svc_West",
             "shape":"poly",
-            "coords":[
-               488,
-               236,
-               488,
-               258,
-               521,
-               259,
-               522,
-               236
-            ],
+            "coords":[33,180,32,209,94,210,93,182],
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
          },
          {
             "name":"Together_F100S",
             "shape":"poly",
-            "coords":[
-               488,
-               261,
-               494,
-               284,
-               516,
-               286,
-               521,
-               261
-            ],
+            "coords":[33,517,32,537,38,544,44,549,45,555,85,554,83,549,91,544,95,538,97,517],
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
          },
          {
             "name":"Mens_RR_Mid",
             "shape":"poly",
-            "coords":[
-               526,
-               156,
-               526,
-               171,
-               555,
-               171,
-               555,
-               157
-            ],
+            "coords":[190,310,109,309,108,329,191,329],
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
          },
          {
             "name":"Womens_RR_Mid",
             "shape":"poly",
-            "coords":[
-               524,
-               172,
-               524,
-               190,
-               555,
-               190,
-               555,
-               172
-            ],
+            "coords":[109,346,107,367,190,367,191,346],
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
          },
          {
             "name":"Together_HSD_S",
             "shape":"poly",
-            "coords":[
-               580,
-               24,
-               570,
-               39,
-               593,
-               47,
-               598,
-               31
-            ],
+            "coords":[201,69,241,79,246,57,213,49],
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
          },
          {
             "name":"Dwarf_Hs_Files",
             "shape":"poly",
-            "coords":[
-               598,
-               31,
-               591,
-               47,
-               616,
-               52,
-               618,
-               34
-            ],
+            "coords":[198,105,232,112,239,92,196,81],
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
          },
          {
             "name":"Together_HSD_N",
             "shape":"poly",
-            "coords":[
-               570,
-               41,
-               570,
-               59,
-               588,
-               64,
-               593,
-               46
-            ],
+            "coords":[251,58,244,78,287,89,287,65],
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
          },
          {
             "name":"Huddle_IDA",
             "shape":"poly",
-            "coords":[
-               593,
-               47,
-               590,
-               65,
-               608,
-               69,
-               618,
-               54
-            ],
+            "coords":[241,94,235,114,272,124,282,105],
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
          },
          {
             "name":"Huddle_HH1",
             "shape":"poly",
-            "coords":[
-               577,
-               295,
-               577,
-               314,
-               598,
-               312,
-               595,
-               291
-            ],
+            "coords":[212,621,255,610,241,576,208,585,206,599,208,613],
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
          },
          {
             "name":"Huddle_HH2",
             "shape":"poly",
-            "coords":[
-               595,
-               291,
-               598,
-               310,
-               628,
-               302,
-               614,
-               284
-            ],
+            "coords":[214,631,256,620,266,652,231,662,224,651,218,641],
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
          },
          {
             "name":"Huddle_IW1",
             "shape":"poly",
-            "coords":[
-               577,
-               318,
-               588,
-               337,
-               608,
-               332,
-               601,
-               312
-            ],
+            "coords":[283,566,252,575,261,609,302,600,298,591,290,577],
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
          },
          {
             "name":"Huddle_IW2",
             "shape":"poly",
-            "coords":[
-               600,
-               312,
-               608,
-               330,
-               628,
-               325,
-               628,
-               305
-            ],
+            "coords":[305,607,264,616,273,650,309,641,311,628,309,618],
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
          },
          {
             "name":"Togeth_IDA",
             "shape":"poly",
-            "coords":[
-               614,
-               152,
-               616,
-               172,
-               647,
-               174,
-               647,
-               152
-            ],
+            "coords":[344,304,288,302,288,332,346,332],
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
          },
          {
             "name":"Togeth_Innov_Way",
             "shape":"poly",
-            "coords":[
-               614,
-               172,
-               614,
-               194,
-               649,
-               194,
-               649,
-               177
-            ],
+            "coords":[290,348,290,377,348,377,347,348],
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
          },
          {
             "name":"FO_LeadShpHub",
             "shape":"poly",
-            "coords":[
-               647,
-               151,
-               649,
-               195,
-               708,
-               195,
-               715,
-               154
-            ],
+            "coords":[481,302,464,378,355,377,353,304],
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
          },
          {
             "name":"Together_KFL",
             "shape":"poly",
-            "coords":[
-               720,
-               146,
-               708,
-               194,
-               754,
-               197,
-               766,
-               154
-            ],
+            "coords":[580,305,540,295,537,303,492,290,472,377,482,376,486,370,518,378,521,372,565,383],
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
          },
          {
             "name":"Huddle_JCW",
             "shape":"poly",
-            "coords":[
-               670,
-               64,
-               670,
-               82,
-               692,
-               82,
-               692,
-               64
-            ],
+            "coords":[437,130,438,151,396,149,397,129],
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
          },
          {
             "name":"CopyRm_C108",
             "shape":"poly",
-            "coords":[
-               692,
-               64,
-               692,
-               83,
-               715,
-               82,
-               715,
-               64
-            ],
+            "coords":[445,131,444,150,482,150,480,130],
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
          },
          {
             "name":"Huddle_JCD",
             "shape":"poly",
-            "coords":[
-               680,
-               269,
-               680,
-               291,
-               705,
-               291,
-               705,
-               271
-            ],
+            "coords":[463,566,461,535,417,534,419,567],
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
          },
          {
             "name":"Huddle_KFL",
             "shape":"poly",
-            "coords":[
-               705,
-               271,
-               705,
-               289,
-               731,
-               289,
-               731,
-               269
-            ],
+            "coords":[468,534,471,567,513,567,511,534],
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
-         },
+         }
+      ]
+   },
+   {
+      "name":"OakmontBNorth",
+      "areas":[
          {
             "name":"Regions_Huddle",
             "shape":"poly",
-            "coords":[
-               766,
-               11,
-               762,
-               29,
-               781,
-               31,
-               782,
-               13
-            ],
+            "coords":[25,57,57,58,52,31,28,30,24,39,23,48],
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
          },
          {
             "name":"Huddle_LegLn",
             "shape":"poly",
-            "coords":[
-               781,
-               13,
-               781,
-               29,
-               800,
-               31,
-               792,
-               11
-            ],
+            "coords":[56,75,26,73,27,98,61,97],
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
          },
          {
             "name":"Sandbox_MBW",
             "shape":"poly",
-            "coords":[
-               762,
-               34,
-               764,
-               50,
-               785,
-               50,
-               781,
-               34
-            ],
+            "coords":[77,28,64,27,66,56,95,57],
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
          },
          {
             "name":"Huddle_MBW2",
             "shape":"poly",
-            "coords":[
-               781,
-               34,
-               784,
-               49,
-               805,
-               50,
-               802,
-               34
-            ],
+            "coords":[68,74,71,98,98,99,95,75],
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
          },
          {
             "name":"Huddle_MBW1",
             "shape":"poly",
-            "coords":[
-               787,
-               73,
-               787,
-               90,
-               802,
-               92,
-               802,
-               73
-            ],
+            "coords":[74,153,76,176,101,177,97,154],
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
          },
          {
             "name":"Together_MSL2",
             "shape":"poly",
-            "coords":[
-               800,
-               213,
-               805,
-               263,
-               823,
-               248,
-               823,
-               226
-            ],
+            "coords":[102,432,110,519,126,514,136,503,140,487,141,472,136,459,125,447,114,439],
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
          },
          {
             "name":"Huddle_LL1",
             "shape":"poly",
-            "coords":[
-               787,
-               305,
-               790,
-               327,
-               812,
-               327,
-               808,
-               304
-            ],
+            "coords":[108,611,76,611,78,653,113,651],
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
          },
          {
             "name":"Huddle_LL2",
             "shape":"poly",
-            "coords":[
-               792,
-               327,
-               792,
-               351,
-               813,
-               353,
-               815,
-               328
-            ],
+            "coords":[79,662,83,701,117,701,112,662],
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
          },
          {
             "name":"Together_MSL1",
             "shape":"poly",
-            "coords":[
-               813,
-               330,
-               817,
-               353,
-               855,
-               351,
-               853,
-               330
-            ],
+            "coords":[190,660,125,661,128,701,200,701],
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
          },
          {
             "name":"Huddle_NT6",
             "shape":"poly",
-            "coords":[
-               887,
-               27,
-               882,
-               42,
-               897,
-               46,
-               902,
-               32
-            ],
+            "coords":[269,78,293,85,293,74,271,68],
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
          },
          {
             "name":"Huddle_NT5",
             "shape":"poly",
-            "coords":[
-               882,
-               44,
-               881,
-               55,
-               897,
-               60,
-               897,
-               46
-            ],
+            "coords":[266,92,263,107,288,114,292,100],
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
          },
          {
             "name":"Together_MBW",
             "shape":"poly",
-            "coords":[
-               858,
-               116,
-               853,
-               129,
-               884,
-               139,
-               886,
-               123
-            ],
+            "coords":[209,235,205,253,260,266,262,249],
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
          },
          {
             "name":"Huddle_MSL3",
             "shape":"poly",
-            "coords":[
-               838,
-               254,
-               838,
-               266,
-               850,
-               266,
-               848,
-               251
-            ],
+            "coords":[174,505,176,531,191,531,188,506],
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
          },
          {
             "name":"Mail_Rm",
             "shape":"poly",
-            "coords":[
-               841,
-               271,
-               845,
-               299,
-               894,
-               302,
-               891,
-               268
-            ],
+            "coords":[277,600,270,543,178,542,182,586,187,593,192,600,198,601],
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
          },
          {
             "name":"Roof_Access",
             "shape":"poly",
-            "coords":[
-               894,
-               268,
-               894,
-               300,
-               905,
-               302,
-               902,
-               268
-            ],
+            "coords":[302,537,284,536,292,599,309,600],
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
          },
          {
             "name":"Huddle_NT4",
             "shape":"poly",
-            "coords":[
-               937,
-               70,
-               940,
-               85,
-               956,
-               85,
-               955,
-               69
-            ],
+            "coords":[397,147,375,148,378,169,401,168],
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
          },
          {
             "name":"Huddle_NT3",
             "shape":"poly",
-            "coords":[
-               943,
-               118,
-               945,
-               133,
-               963,
-               133,
-               960,
-               115
-            ],
+            "coords":[389,238,390,263,416,261,411,239],
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
          },
          {
             "name":"Huddle_NT2",
             "shape":"poly",
-            "coords":[
-               960,
-               228,
-               963,
-               249,
-               981,
-               249,
-               979,
-               230
-            ],
+            "coords":[420,460,426,496,452,497,447,461],
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
          },
          {
             "name":"Huddle_NT1",
             "shape":"poly",
-            "coords":[
-               948,
-               251,
-               950,
-               264,
-               966,
-               268,
-               963,
-               251
-            ],
+            "coords":[396,506,399,529,423,529,422,505],
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
          },
          {
             "name":"Shipping_Rec",
             "shape":"poly",
-            "coords":[
-               953,
-               272,
-               963,
-               272,
-               976,
-               350,
-               878,
-               351,
-               876,
-               320,
-               929,
-               320,
-               927,
-               304,
-               955,
-               304
-            ],
+            "coords":[416,550,346,548,357,635,344,645,251,644,259,700,439,701],
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
          }
@@ -3535,7 +2896,7 @@
       "name": "ITDeckNorth",
       "areas": [
          {
-            "name": "Lot11",
+            "name": "Lot_11",
             "shape": "rect",
             "coords": [
                305,282,367,321
