@@ -3,11 +3,12 @@ import {MDBCol, MDBContainer,MDBRow} from "mdb-react-ui-kit";
 import ImageMapper from 'react-img-mapper'
 import {CFAContext} from "../State/Context";
 import {useHistory} from "react-router-dom";
-import oak from "../Assets/OakmontA_.png"
 import oakAN from "../Assets/OakmontANorth.png"
 import oakAM from "../Assets/OakmontAMiddle.png"
 import oakAS from "../Assets/OakmontASouth.png"
-import oakB from "../Assets/OakmontB.png"
+import oakBN from "../Assets/OakmontBNorth.png"
+import oakBM from "../Assets/OakmontBMiddle.png"
+import oakBS from "../Assets/OakmontBSouth.png"
 import mainN1 from "../Assets/mn1.png"
 import mainN2 from "../Assets/mn2.png"
 import mainN3 from "../Assets/mn3.png"
@@ -66,10 +67,12 @@ const FloorPlan = (props) => {
     }
     //object containing keys and image values
     let imageObjects = {
-        oakmontANorth: oakAN,
-        oakmontAMiddle: oakAM,
-        oakmontASouth: oakAS,
-        oakmontB1:oakB,
+        OakmontANorth: oakAN,
+        OakmontAMiddle: oakAM,
+        OakmontASouth: oakAS,
+        OakmontBNorth: oakBN,
+        OakmontBMiddle: oakBM,
+        OakmontBSouth: oakBS,
         MainNorth1: mainN1,
         MainNorth2: mainN2,
         MainNorth3: mainN3,

@@ -26,14 +26,19 @@ const BuildingList = () => {
     //array of building objects here. Path is the path to the route for mqtt
     let [buildingArray, setArray] = useState( [
         {imagePath: '../Assets/OakmontA.jpg',
-            name: 'oakmontA',
+            name: 'OakmontA',
             floors: [
                 {name: "North", path: 'OakmontAN.json'},
                 {name: "Middle", path: 'OakmontA.json'},
                 {name: "South", path: 'OakmontA.json'},
             ], buildingInformation: {} },
         {imagePath: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg',
-            name: 'oakmontB', floors: [{name: "1", path: 'OakmontB.json'}, ], buildingInformation: {} },
+            name: 'OakmontB', 
+            floors: [
+                {name: "North", path: 'OakmontB.json'},
+                {name: "South", path: 'OakmontB.json'},
+                {name: "Middle", path: 'OakmontB.json'},
+            ], buildingInformation: {} },
         {imagePath: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg',
             name: 'MainNorth',
             floors: [
@@ -76,8 +81,8 @@ const BuildingList = () => {
     clientId: 342900,
 
    }
-   const client = mqtt.connect("ws://localhost:1884/", options)
-   client.subscribe('CFA_IOT/OakmontA')
+//    const client = mqtt.connect("ws://localhost:1884/", options)
+//    client.subscribe('CFA_IOT/OakmontA')
     // building A: floor 1, floor2
     // two files: file1, file2
     // path: floor1/files1, floor2/file2
@@ -103,6 +108,7 @@ const BuildingList = () => {
 
     useEffect( () => {
         buildingArray.forEach(val => {
+            totalCampus[val.name] = {}
             val.floors.forEach(floorVal => {
                 //this needs to be replaced with mqtt but the function will use the mqtt route, subscribe and pull data, then unsubscribe.
                 //Only getData needs to be changed
@@ -112,7 +118,7 @@ const BuildingList = () => {
                     let floorName = floorVal.name
                     let full = keys[2] //full data key
                     let fullData = data[full] //full data value
-                    let roomsInBuilding = {}
+                    let roomsInBuilding = {} 
                     let tot = 0
                     for(let x in fullData) { //for every key...
                         let area = fullData[x].area //get name of room
@@ -130,31 +136,42 @@ const BuildingList = () => {
                         roomsInBuilding[area] = valueArray
                     }
                     //create an empty object value with the building name as a key
-                    totalCampus[name] = {}
-                    totalCampus[name][floorName] = roomsInBuilding //place the floor number (string) as a nested object with the value of the rooms object
-                    dispatch({campusData: totalCampus }) //add this to the global context
-                    console.log(totalCampus) //can be deleted when done with testing
+                   
 
-                    //modify building array to include the rooms object
-                    setArray(buildingArray.map((value) => {
-                        if(totalCampus.hasOwnProperty(value.name)) {
-                            return {...value, buildingInformation: totalCampus[value.name]}
-                        }
-                        else
-                            return value
-                    }))
-                    // create the total count of all rooms in a building (modify to get the campus total count)
-                    for(let room in roomsInBuilding) {
-                        // tot += roomsInBuilding[room].currentCount
                     
-                        if(room == "EntryExits") {
-                            tot = roomsInBuilding[room].currentCount;
-                        }
-                    }
-                    
-                    tt[name] = tot
-                    setTotal(tt)
-                })
+                    // setArray(totalCampus.map((floor) => {
+                        //     if((floor.name)) {
+                            //         console.log()
+                            //     }
+                            // }))
+                            console.log(totalCampus)
+                            totalCampus[name][floorName] = roomsInBuilding //place the floor number (string) as a nested object with the value of the rooms object
+                            console.log(totalCampus)
+                            dispatch({campusData: totalCampus }) //add this to the global context
+                            console.log(totalCampus) //can be deleted when done with testing
+                            console.log(buildingArray)
+                            
+                            //modify building array to include the rooms object
+                            setArray(buildingArray.map((value) => {
+                                if(totalCampus.hasOwnProperty(value.name)) {
+                                    return {...value, buildingInformation: totalCampus[value.name]}
+                                }
+                                else
+                                return value
+                            }))
+                            // create the total count of all rooms in a building (modify to get the campus total count)
+                            for(let room in roomsInBuilding) {
+                                // tot += roomsInBuilding[room].currentCount
+                                
+                                if(room == "EntryExits") {
+                                    tot = roomsInBuilding[room].currentCount;
+                                }
+                            }
+                            
+                            tt[name] = tot
+                            setTotal(tt)
+                        })
+        
             })
         })
         }

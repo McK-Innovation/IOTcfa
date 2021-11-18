@@ -31,7 +31,7 @@ const LandingPage = () => {
                      <MDBCol size= '6'>
                          <MDBRow className= 'negative justify-content-end align-items-center'>
                              <MDBCol>
-                                 <div className= 'title whiteBackgroundRed biggerFont text-center p-2 mx-auto'>
+                                 <div className= 'title whiteBackgroundRed biggerFont text-center p-2 mx-auto mb-2'>
                                      {title}
                                  </div>
                              </MDBCol>
