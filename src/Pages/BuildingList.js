@@ -4,7 +4,8 @@ import {
     MDBInput,
     MDBListGroup,
     MDBListGroupItem,
-    MDBRow
+    MDBRow,
+    MDBIcon
 } from "mdb-react-ui-kit";
 import {useContext, useEffect, useState} from "react";
 import {useHistory} from "react-router";
@@ -16,6 +17,7 @@ const BuildingList = () => {
     //there needs to be a function that uses switch or if statements to determine which require('path')
     // to use since require doesnt use variables directly
     let tt = {}
+    let ttl = 0
     let totalCampus = {}
     let history = useHistory();
     const { state: {}, dispatch } = useContext(CFAContext);
@@ -23,6 +25,7 @@ const BuildingList = () => {
     let [loading, setLoading] = useState(false)
     let [shift, setShift] = useState(false)
     let [total, setTotal] = useState({})
+    // let [cTotal, setCTotal] = useState(0);
     //array of building objects here. Path is the path to the route for mqtt
     let [buildingArray, setArray] = useState( [
         {imagePath: '../Assets/OakmontA.jpg',
@@ -96,6 +99,10 @@ const BuildingList = () => {
     const handleTitle = (title) => {
         dispatch({title: title})
     }
+
+    const handleCampusTotal = (total) => {
+        dispatch({cTotal: total})
+    }
     async function getData (object) {
         let data = await fetch(object, {headers : {
             'Content-Type': 'application/json',
@@ -136,20 +143,12 @@ const BuildingList = () => {
                         roomsInBuilding[area] = valueArray
                     }
                     //create an empty object value with the building name as a key
-                   
-
-                    
-                    // setArray(totalCampus.map((floor) => {
-                        //     if((floor.name)) {
-                            //         console.log()
-                            //     }
-                            // }))
-                            console.log(totalCampus)
-                            totalCampus[name][floorName] = roomsInBuilding //place the floor number (string) as a nested object with the value of the rooms object
-                            console.log(totalCampus)
-                            dispatch({campusData: totalCampus }) //add this to the global context
-                            console.log(totalCampus) //can be deleted when done with testing
-                            console.log(buildingArray)
+                    console.log(totalCampus)
+                    totalCampus[name][floorName] = roomsInBuilding //place the floor number (string) as a nested object with the value of the rooms object
+                    console.log(totalCampus)
+                    dispatch({campusData: totalCampus }) //add this to the global context
+                    console.log(totalCampus) //can be deleted when done with testing
+                    console.log(buildingArray)
                             
                             //modify building array to include the rooms object
                             setArray(buildingArray.map((value) => {
@@ -161,21 +160,20 @@ const BuildingList = () => {
                             }))
                             // create the total count of all rooms in a building (modify to get the campus total count)
                             for(let room in roomsInBuilding) {
-                                // tot += roomsInBuilding[room].currentCount
-                                
                                 if(room == "EntryExits") {
                                     tot = roomsInBuilding[room].currentCount;
+                                    ttl += tot;
+                                    handleCampusTotal(ttl);
                                 }
                             }
-                            
                             tt[name] = tot
                             setTotal(tt)
                         })
-        
             })
         })
         }
     , [])
+
     // renders the building list component with the object above, filtered
     return (
         !loading ? (
