@@ -5,5 +5,6 @@ export const initialState = {
     room: '',
     fullDataForRoom: {},
     title: 'Building List',
-    total: 32
+    total: 0,
+    cTotal: 0
 }

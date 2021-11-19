@@ -9,23 +9,26 @@ import oakAS from "../Assets/OakmontASouth.png"
 import oakBN from "../Assets/OakmontBNorth.png"
 import oakBM from "../Assets/OakmontBMiddle.png"
 import oakBS from "../Assets/OakmontBSouth.png"
-import mainN1 from "../Assets/mn1.png"
-import mainN2 from "../Assets/mn2.png"
-import mainN3 from "../Assets/mn3.png"
-import mainN4 from "../Assets/mn4.png"
-import mainN5 from "../Assets/mn5.png"
+import mainFL from "../Assets/FitnessLower.png"
+import mainF from "../Assets/Fitness.png"
+import mainN1 from "../Assets/mn1new.png"
+import mainN2 from "../Assets/mn2new.png"
+import mainN3 from "../Assets/mn3new.png"
+import mainN4 from "../Assets/mn4new.png"
+import mainN5 from "../Assets/mn5new.png"
 import mainD from "../Assets/Dining.png"
 import mainT from "../Assets/Terrace.png"
-import mainS2 from "../Assets/ms2.png"
-import mainS3 from "../Assets/ms3.png"
-import mainS4 from "../Assets/ms4.png"
-import mainS5 from "../Assets/ms5.png"
+import mainS1 from "../Assets/ms1new.png"
+import mainS2 from "../Assets/ms2new.png"
+import mainS3 from "../Assets/ms3new.png"
+import mainS4 from "../Assets/ms4new.png"
+import mainS5 from "../Assets/ms5new.png"
 import itA from "../Assets/ITA.gif"
 import itB from "../Assets/ITB.gif"
 import itC from "../Assets/ITC.gif"
 import itD from "../Assets/ITD.gif"
-import ponceA from "../Assets/PonceA.png"
-import ponceB from "../Assets/PonceB.png"
+import ponceA from "../Assets/PonceAnew.png"
+import ponceB from "../Assets/PonceBnew.png"
 import Linc1 from "../Assets/Lincoln100.png"
 import Linc2 from "../Assets/Lincoln200_Overall.png"
 import Linc3 from "../Assets/Lincoln300_Overall.png"
@@ -73,6 +76,8 @@ const FloorPlan = (props) => {
         OakmontBNorth: oakBN,
         OakmontBMiddle: oakBM,
         OakmontBSouth: oakBS,
+        MainNorthFitnessLower: mainFL,
+        MainNorthFitness: mainF,
         MainNorth1: mainN1,
         MainNorth2: mainN2,
         MainNorth3: mainN3,
@@ -80,6 +85,7 @@ const FloorPlan = (props) => {
         MainNorth5: mainN5,
         MainSouthTerrace: mainT,
         MainSouthDining: mainD,
+        MainSouth1: mainS1,
         MainSouth2: mainS2,
         MainSouth3: mainS3,
         MainSouth4: mainS4,
