@@ -2905,7 +2905,7 @@
             "strokeColor": "#ffffff"
          },
          {
-            "name": "Lot10",
+            "name": "Lot_10",
             "shape": "rect",
             "coords": [
                317,238,378,276
@@ -2914,7 +2914,7 @@
             "strokeColor": "#ffffff"
          },
          {
-            "name": "S29",
+            "name": "S_29",
             "shape": "rect",
             "coords": [
                423,238,505,274
@@ -2923,7 +2923,7 @@
             "strokeColor": "#ffffff"
          },
          {
-            "name": "S31",
+            "name": "S_31",
             "shape": "rect",
             "coords": [
                460,281,522,319
@@ -2959,7 +2959,7 @@
             "strokeColor": "#ffffff"
          },
          {
-            "name": "WebLab",
+            "name": "Web_Lab",
             "shape": "poly",
             "coords": [
                728,131,678,151,679,187,729,188
@@ -3009,7 +3009,7 @@
       "name": "ITDeckEast",
       "areas": [
          {
-            "name": "MainDeck",
+            "name": "Main_Deck",
             "shape": "poly",
             "coords": [
                647,460,668,500,688,522,726,556,756,573,796,586,837,584,870,568,889,533,898,494,897,459,891,426,878,388
@@ -3018,7 +3018,7 @@
             "strokeColor": "#ffffff"
          },
          {
-            "name": "Deck2",
+            "name": "Deck_2",
             "shape": "poly",
             "coords": [
                851,333,838,306,811,271,795,257,741,280,786,362
@@ -3027,7 +3027,7 @@
             "strokeColor": "#ffffff"
          },
          {
-            "name": "Deck3",
+            "name": "Deck_3",
             "shape": "poly",
             "coords": [
                736,284,779,366,715,395,672,317
@@ -3036,7 +3036,7 @@
             "strokeColor": "#ffffff"
          },
          {
-            "name": "Deck4",
+            "name": "Deck_4",
             "shape": "poly",
             "coords": [
                664,319,708,397,633,437,606,387,600,348
@@ -3045,7 +3045,7 @@
             "strokeColor": "#ffffff"
          },
          {
-            "name": "Deck1",
+            "name": "Deck_1",
             "shape": "poly",
             "coords": [
                668,278,758,225,719,199,683,192,647,197,621,213
@@ -3054,7 +3054,7 @@
             "strokeColor": "#ffffff"
          },
          {
-            "name": "Interview1",
+            "name": "Interview_1",
             "shape": "rect",
             "coords": [
                573,489,622,548
@@ -3063,7 +3063,7 @@
             "strokeColor": "#ffffff"
          },
          {
-            "name": "Lot6",
+            "name": "Lot_6",
             "shape": "rect",
             "coords": [
                543,557,616,620
@@ -3072,7 +3072,7 @@
             "strokeColor": "#ffffff"
          },
          {
-            "name": "Interview2",
+            "name": "Interview_2",
             "shape": "rect",
             "coords": [
                482,556,536,619
@@ -3081,7 +3081,7 @@
             "strokeColor": "#ffffff"
          },
          {
-            "name": "Lot5",
+            "name": "Lot_5",
             "shape": "rect",
             "coords": [
                483,491,567,551
@@ -3090,7 +3090,7 @@
             "strokeColor": "#ffffff"
          },
          {
-            "name": "Lot4",
+            "name": "Lot_4",
             "shape": "rect",
             "coords": [
                472,425,592,483
@@ -3099,7 +3099,7 @@
             "strokeColor": "#ffffff"
          },
          {
-            "name": "Lot3",
+            "name": "Lot_3",
             "shape": "rect",
             "coords": [
                449,357,564,416
@@ -3108,7 +3108,7 @@
             "strokeColor": "#ffffff"
          },
          {
-            "name": "Lot2",
+            "name": "Lot_2",
             "shape": "rect",
             "coords": [
                465,262,402,347
@@ -3117,7 +3117,7 @@
             "strokeColor": "#ffffff"
          },
          {
-            "name": "Lot1",
+            "name": "Lot_1",
             "shape": "rect",
             "coords": [
                473,259,536,348
@@ -3139,7 +3139,7 @@
       "name": "ITDeckWest",
       "areas": [
          {
-            "name": "TheGarage",
+            "name": "The_Garage",
             "shape": "poly",
             "coords": [
                887,440,884,411,873,409,862,337,831,328,737,373,796,484
@@ -3202,7 +3202,7 @@
             "strokeColor": "#ffffff"
          },
          {
-            "name": "Huddle3",
+            "name": "Huddle_3",
             "shape": "rect",
             "coords": [
                98,36,132,73
@@ -3211,7 +3211,7 @@
             "strokeColor": "#ffffff"
          },
          {
-            "name": "A003",
+            "name": "A_003",
             "shape": "rect",
             "coords": [
                45,39,89,73
@@ -3220,7 +3220,7 @@
             "strokeColor": "#ffffff"
          },
          {
-            "name": "A005",
+            "name": "A_005",
             "shape": "rect",
             "coords": [
                29,110,79,146
@@ -3229,7 +3229,7 @@
             "strokeColor": "#ffffff"
          },
          {
-            "name": "A006",
+            "name": "A_006",
             "shape": "rect",
             "coords": [
                24,153,73,184
@@ -3243,7 +3243,7 @@
       "name": "ITDeckSouth",
       "areas": [
          {
-            "name": "Lot9",
+            "name": "Lot_9",
             "shape": "poly",
             "coords": [
                99,60,164,37,182,73,116,99
@@ -3252,7 +3252,7 @@
             "strokeColor": "#ffffff"
          },
          {
-            "name": "Lot8",
+            "name": "Lot_8",
             "shape": "poly",
             "coords": [
                119,108,183,84,197,118,131,143
