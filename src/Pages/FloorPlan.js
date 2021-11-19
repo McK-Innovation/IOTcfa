@@ -9,11 +9,13 @@ import oakAS from "../Assets/OakmontASouth.png"
 import oakBN from "../Assets/OakmontBNorth.png"
 import oakBM from "../Assets/OakmontBMiddle.png"
 import oakBS from "../Assets/OakmontBSouth.png"
-import mainN1 from "../Assets/mn1.png"
-import mainN2 from "../Assets/mn2.png"
-import mainN3 from "../Assets/mn3.png"
-import mainN4 from "../Assets/mn4.png"
-import mainN5 from "../Assets/mn5.png"
+import mainFL from "../Assets/FitnessLower.png"
+import mainF from "../Assets/Fitness.png"
+import mainN1 from "../Assets/mn1new.png"
+import mainN2 from "../Assets/mn2new.png"
+import mainN3 from "../Assets/mn3new.png"
+import mainN4 from "../Assets/mn4new.png"
+import mainN5 from "../Assets/mn5new.png"
 import mainD from "../Assets/Dining.png"
 import mainT from "../Assets/Terrace.png"
 import mainS2 from "../Assets/ms2.png"
@@ -73,6 +75,8 @@ const FloorPlan = (props) => {
         OakmontBNorth: oakBN,
         OakmontBMiddle: oakBM,
         OakmontBSouth: oakBS,
+        MainNorthFitnessLower: mainFL,
+        MainNorthFitness: mainF,
         MainNorth1: mainN1,
         MainNorth2: mainN2,
         MainNorth3: mainN3,
