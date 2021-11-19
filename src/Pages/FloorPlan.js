@@ -18,16 +18,17 @@ import mainN4 from "../Assets/mn4new.png"
 import mainN5 from "../Assets/mn5new.png"
 import mainD from "../Assets/Dining.png"
 import mainT from "../Assets/Terrace.png"
-import mainS2 from "../Assets/ms2.png"
-import mainS3 from "../Assets/ms3.png"
-import mainS4 from "../Assets/ms4.png"
-import mainS5 from "../Assets/ms5.png"
+import mainS1 from "../Assets/ms1new.png"
+import mainS2 from "../Assets/ms2new.png"
+import mainS3 from "../Assets/ms3new.png"
+import mainS4 from "../Assets/ms4new.png"
+import mainS5 from "../Assets/ms5new.png"
 import itA from "../Assets/ITA.gif"
 import itB from "../Assets/ITB.gif"
 import itC from "../Assets/ITC.gif"
 import itD from "../Assets/ITD.gif"
-import ponceA from "../Assets/PonceA.png"
-import ponceB from "../Assets/PonceB.png"
+import ponceA from "../Assets/PonceAnew.png"
+import ponceB from "../Assets/PonceBnew.png"
 import Linc1 from "../Assets/Lincoln100.png"
 import Linc2 from "../Assets/Lincoln200_Overall.png"
 import Linc3 from "../Assets/Lincoln300_Overall.png"
@@ -84,6 +85,7 @@ const FloorPlan = (props) => {
         MainNorth5: mainN5,
         MainSouthTerrace: mainT,
         MainSouthDining: mainD,
+        MainSouth1: mainS1,
         MainSouth2: mainS2,
         MainSouth3: mainS3,
         MainSouth4: mainS4,
