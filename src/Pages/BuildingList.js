@@ -31,7 +31,7 @@ const BuildingList = () => {
         {imagePath: '../Assets/OakmontA.jpg',
             name: 'OakmontA',
             floors: [
-                {name: "North", path: 'OakmontAN.json'},
+                {name: "North", path: 'OakmontA.json'},
                 {name: "Middle", path: 'OakmontA.json'},
                 {name: "South", path: 'OakmontA.json'},
             ], buildingInformation: {} },
@@ -162,18 +162,38 @@ const BuildingList = () => {
                             for(let room in roomsInBuilding) {
                                 if(room == "EntryExits") {
                                     tot = roomsInBuilding[room].currentCount;
-                                    ttl += tot;
-                                    handleCampusTotal(ttl);
+                                    // ttl += tot;
+                                    // handleCampusTotal(ttl);
                                 }
                             }
                             tt[name] = tot
+                            // console.log(tt)
+                            // console.log(typeof tt)
+                            // console.log(tt.name)
+                            // console.log(typeof tt.name)
                             setTotal(tt)
-                        })
-            })
-        })
-        }
-    , [])
 
+                            const sumValues = obj => Object.values(obj).reduce((a, b) => a + b);
+
+                            // console.log(sumValues(tt));
+                            handleCampusTotal(sumValues(tt));
+                            
+                        })
+                    })
+                    
+                    // if(totalCampus.name.)
+                })
+            }
+            , [])
+        // const getTotal = () => {
+        //     for(let bldg in tt ) {
+        //         console.log('WHAT ARE YOU' + bldg.value);
+        //         ttl += bldg.value;
+        //         console.log("HEllo" + ttl);
+        //     }
+        // }
+
+        // getTotal();
     // renders the building list component with the object above, filtered
     return (
         !loading ? (
