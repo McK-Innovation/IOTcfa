@@ -130,7 +130,7 @@ const FloorPlan = (props) => {
     }
     return (
         <>
-            <MDBContainer className= 'p-1 mt-2'>
+            <MDBContainer className= 'p-1 mt-2 d-flex justify-content-center'>
                 <MDBRow className= ''>
                     <MDBCol className= 'floorPlanMargin mapContainer'>
                             <ImageMapper src = {floorPlan} map = {map && createMap(map)}
