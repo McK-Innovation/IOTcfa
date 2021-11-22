@@ -68,7 +68,8 @@ margin-top: -7.1em !important;
 }
 
 .newPad2 {
-  margin-left: -225px;
+  display: flex;
+  justify-content: center;
   margin-bottom: 2em;
 }
 
