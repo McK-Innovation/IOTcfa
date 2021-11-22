@@ -30,7 +30,7 @@ const BuildingPage = (props) => {
             data = 0
         return (
             <>
-                <div className='redBackWhite rounded-6 p-3 mb-3' style = {{maxWidth: 200}}>
+                <div className='redBackWhite rounded-6 p-3 mb-3' style = {{maxWidth: 200, minWidth: 110}}>
                     <div className='d-flex justify-content-center'>
                         <p className= 'font-weight-bold'>{title}</p>
                     </div>
@@ -63,21 +63,44 @@ const BuildingPage = (props) => {
                 </MDBRow>
             </MDBContainer>
             <div className= 'title whiteBackgroundRed biggerFont text-center p-2 mx-auto mt-4'>7 Day Averages</div>
-            <MDBContainer center = 'true' className='mt-3 newPad backgroundColorforMain p-3 rounded-6 over' style = {{maxWidth: 1200, maxHeight: 900}}>
-                <MDBRow className='d-flex justify-content-around'>
+            <div className = 'newPad2'>
+            <MDBContainer className='mt-3 backgroundColorforMain p-3 rounded-6 over' style = {{minWidth: 1200, maxHeight: 900}}>
+                <MDBRow>
+
+                <MDBCol className='d-flex justify-content-around'>
                     {modifiedCard('Sunday',obj.dayAverage)}
+                </MDBCol>
+
+                <MDBCol className='d-flex justify-content-around'>
                     {modifiedCard('Monday',obj.dayAverage)}
-                </MDBRow>
-                <MDBRow className='d-flex justify-content-around'>
+                </MDBCol>
+
+                <MDBCol className='d-flex justify-content-around'>
                     {modifiedCard('Tuesday',obj.dayAverage)}
+                </MDBCol> 
+
+                <MDBCol className='d-flex justify-content-around'>
                     {modifiedCard('Wednesday',obj.dayAverage)}
+                </MDBCol>
+
+                <MDBCol className='d-flex justify-content-around'>
                     {modifiedCard('Thursday',obj.dayAverage)}
-                </MDBRow>
-                <MDBRow className='d-flex justify-content-around'>
+                </MDBCol>
+
+                <MDBCol className='d-flex justify-content-around'>
                     {modifiedCard('Friday',obj.dayAverage)}
+                </MDBCol>
+
+                <MDBCol className='d-flex justify-content-around'>
                     {modifiedCard('Saturday',obj.dayAverage)}
-                </MDBRow> 
+                </MDBCol>
+
+                </MDBRow>
+                
+                
+
             </MDBContainer>
+            </div>
         </>
 
     )
