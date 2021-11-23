@@ -228,18 +228,18 @@ const BuildingList = () => {
                     <MDBCol size = '12' key = {value.name} className="justify-content-center backgroundColorforMain rounded-6 minWidthC mb-1 listShadow
                      ">
                        <MDBRow className= 'p-3'>
-                           <MDBCol size = '6' className= 'align-items-end'>
+                           <MDBCol size = '5' className= 'align-items-end'>
                            <img src = {image} className='img-fluid rounded-6' height='80'/>
                            <p className= 'font-weight-bold newFont'> {value.name}</p>
                            <p className='biggerFont textColor'><strong>{total[value.name]}</strong></p>
                            </MDBCol>
 
-                               <MDBCol size = '6'>
+                               <MDBCol size = '7'>
                                    <MDBListGroup className= 'rowMinWidth point'>
                                        {value.floors.map((floor, key) => (
 
                                            <MDBListGroupItem
-                                               onClick = {()=>{handleSetBuilding(value.name); handleSetFloor(floor.name); handleTitle('Floor Plan'); history.push("/floorPlan");}}
+                                               onClick = {()=>{handleSetBuilding(value.name); handleSetFloor(floor.name); handleTitle(floor.name); history.push("/floorPlan");}}
                                                className="justify-content-between align-items-center floorBtn">{"Floor " + floor.name}
                                            </MDBListGroupItem>))
                                        }
