@@ -239,7 +239,7 @@ const BuildingList = () => {
                                        {value.floors.map((floor, key) => (
 
                                            <MDBListGroupItem
-                                               onClick = {()=>{handleSetBuilding(value.name); handleSetFloor(floor.name); handleTitle('Floor Plan'); history.push("/floorPlan");}}
+                                               onClick = {()=>{handleSetBuilding(value.name); handleSetFloor(floor.name); handleTitle(floor.name); history.push("/floorPlan");}}
                                                className="justify-content-between align-items-center floorBtn">{"Floor " + floor.name}
                                            </MDBListGroupItem>))
                                        }

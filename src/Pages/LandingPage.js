@@ -23,7 +23,6 @@ const LandingPage = () => {
                             </span><span className= 'biggerFont'> {/*Hardcoded but this should be taken from the building list component after gathering all of the data*/}{cTotal}</span>
                         </div>
                     {building&&<div><hr/><MDBIcon far icon="building" /><span className='newFont font-weight-bold'> {building}</span></div>}
-                    {floorName&&<div><MDBIcon icon="layer-group" /><span className='newFont font-weight-bold'> {floorName}</span></div>}
                     </MDBCol>
                 </MDBRow>
             {/*Container for the title of the page and building list*/}
