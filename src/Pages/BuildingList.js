@@ -10,7 +10,12 @@ import {
 import {useContext, useEffect, useState} from "react";
 import {useHistory} from "react-router";
 import {CFAContext} from "../State/Context";
-import image from "../Assets/OakmontA.JPG";
+import mOakA from "../Assets/OakA.jpg";
+import mOakB from "../Assets/OakB.jpg"
+import mLincoln1 from "../Assets/Lincoln100.jpg"
+import mLincoln2 from "../Assets/Lincoln200.jpg"
+import mLincoln3 from "../Assets/Lincoln300.jpg"
+import mITDeck from "../Assets/ITDeck.jpg"
 import mqtt from 'mqtt'
 
 const BuildingList = () => {
@@ -28,14 +33,14 @@ const BuildingList = () => {
     // let [cTotal, setCTotal] = useState(0);
     //array of building objects here. Path is the path to the route for mqtt
     let [buildingArray, setArray] = useState( [
-        {imagePath: '../Assets/OakmontA.jpg',
+        {imagePath: mOakA,
             name: 'OakmontA',
             floors: [
                 {name: "North", path: 'OakmontA.json'},
                 {name: "Middle", path: 'OakmontA.json'},
                 {name: "South", path: 'OakmontA.json'},
             ], buildingInformation: {} },
-        {imagePath: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg',
+        {imagePath: mOakB,
             name: 'OakmontB', 
             floors: [
                 {name: "North", path: 'OakmontB.json'},
@@ -67,13 +72,13 @@ const BuildingList = () => {
             name: 'PonceA', floors: [{name: "1", path: 'OakmontB.json',}, ], buildingInformation: {} },
         {imagePath: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg',
             name: 'PonceB', floors: [{name: "1", path: 'OakmontB.json',}, ], buildingInformation: {} },
-        {imagePath: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg',
+        {imagePath: mLincoln1,
             name: 'Lincoln100', floors: [{name: "1", path: 'Lincoln100.json',}, ], buildingInformation: {} },
-        {imagePath: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg',
+        {imagePath: mLincoln2,
             name: 'Lincoln200', floors: [{name: "1", path: 'Lincoln200.json',}, ], buildingInformation: {} },
-        {imagePath: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg',
+        {imagePath: mLincoln3,
             name: 'Lincoln300', floors: [{name: "1", path: 'Lincoln300.json',}, ], buildingInformation: {} },
-        {imagePath: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg',
+        {imagePath: mITDeck,
             name: 'ITDeck', floors: [
                 {name: "North", path: 'ITDeck.json',},
                 {name: "East", path: 'ITDeck.json',},
@@ -229,7 +234,7 @@ const BuildingList = () => {
                      ">
                        <MDBRow className= 'p-3'>
                            <MDBCol size = '5' className= 'align-items-end'>
-                           <img src = {image} className='img-fluid rounded-6' height='80'/>
+                           <img src = {value.imagePath} className='img-fluid rounded-6' height='80'/>
                            <p className= 'font-weight-bold newFont'> {value.name}</p>
                            <p className='biggerFont textColor'><strong>{total[value.name]}</strong></p>
                            </MDBCol>
