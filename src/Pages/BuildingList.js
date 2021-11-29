@@ -62,7 +62,6 @@ const BuildingList = () => {
             name: 'MainSouth', floors: [
                 {name: "Terrace", path: 'OakmontB.json',},
                 {name: "Dining", path: 'OakmontB.json',},
-                {name: "1", path: 'OakmontB.json',},
                 {name: "2", path: 'OakmontB.json',},
                 {name: "3", path: 'OakmontB.json',},
                 {name: "4", path: 'OakmontB.json',},
