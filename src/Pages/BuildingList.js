@@ -16,6 +16,8 @@ import mLincoln1 from "../Assets/Lincoln100.jpg"
 import mLincoln2 from "../Assets/Lincoln200.jpg"
 import mLincoln3 from "../Assets/Lincoln300.jpg"
 import mITDeck from "../Assets/ITDeck.jpg"
+import mMainN from "../Assets/MainN.jpg"
+import mMainS from "../Assets/MainS.jpg"
 import mqtt from 'mqtt'
 
 const BuildingList = () => {
@@ -47,7 +49,7 @@ const BuildingList = () => {
                 {name: "South", path: 'OakmontB.json'},
                 {name: "Middle", path: 'OakmontB.json'},
             ], buildingInformation: {} },
-        {imagePath: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg',
+        {imagePath: mMainN,
             name: 'MainNorth',
             floors: [
                 {name: "Fitness Lower", path: 'OakmontB.json'},
@@ -58,7 +60,7 @@ const BuildingList = () => {
                 {name: "4", path: 'OakmontB.json'},
                 {name: "5", path: 'OakmontB.json'}
             ], buildingInformation: {} },
-        {imagePath: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg',
+        {imagePath: mMainS,
             name: 'MainSouth', floors: [
                 {name: "Terrace", path: 'OakmontB.json',},
                 {name: "Dining", path: 'OakmontB.json',},
