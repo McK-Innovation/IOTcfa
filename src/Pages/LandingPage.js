@@ -9,7 +9,7 @@ import {Route, Switch} from "react-router-dom";
 
 const LandingPage = () => {
     const { state: { building, floorName, title, cTotal }, dispatch } = useContext(CFAContext);
-    console.log(cTotal);
+    // console.log(cTotal);
     // page that contains the video, building name/count label and building list component. Using MDBkit for faster styling
     return (
     <>

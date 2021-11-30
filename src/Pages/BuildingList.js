@@ -152,12 +152,12 @@ const BuildingList = () => {
                         roomsInBuilding[area] = valueArray
                     }
                     //create an empty object value with the building name as a key
-                    console.log(totalCampus)
+                    // console.log(totalCampus)
                     totalCampus[name][floorName] = roomsInBuilding //place the floor number (string) as a nested object with the value of the rooms object
-                    console.log(totalCampus)
+                    // console.log(totalCampus)
                     dispatch({campusData: totalCampus }) //add this to the global context
-                    console.log(totalCampus) //can be deleted when done with testing
-                    console.log(buildingArray)
+                    // console.log(totalCampus) //can be deleted when done with testing
+                    // console.log(buildingArray)
                             
                             //modify building array to include the rooms object
                             setArray(buildingArray.map((value) => {
