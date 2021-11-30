@@ -1,0 +1,255 @@
+{
+
+    "timestamp": "2021-11-29 13:22:06.385-0500",
+  
+    "restAPI": {
+  
+      "MainNorth": "Folder"
+  
+    },
+  
+    "boundQueryResult": [
+  
+      {
+  
+        "slotPathIdentifier": "slot:/Drivers/RestAPI/Main/North/Fitness",
+  
+        "area": "EntryExits",
+  
+        "dailyTally": "NULL",
+  
+        "currentCount": 4,
+  
+        "zone1CurrentCount": "NULL",
+  
+        "zone1DailyTally": "NULL",
+  
+        "dayAverage": 0,
+  
+        "dayMax": 0,
+  
+        "monthAverage": 0,
+  
+        "monthMax": 0
+  
+      },
+  
+      {
+  
+        "slotPathIdentifier": "slot:/Drivers/RestAPI/Main/North/Fitness",
+  
+        "area": "AerobicRm",
+  
+        "dailyTally": "NULL",
+  
+        "currentCount": 0,
+  
+        "zone1CurrentCount": "NULL",
+  
+        "zone1DailyTally": "NULL",
+  
+        "dayAverage": 0,
+  
+        "dayMax": 0,
+  
+        "monthAverage": 0,
+  
+        "monthMax": 0
+  
+      },
+  
+      {
+  
+        "slotPathIdentifier": "slot:/Drivers/RestAPI/Main/North/Fitness",
+  
+        "area": "MensLocker",
+  
+        "dailyTally": "NULL",
+  
+        "currentCount": 0,
+  
+        "zone1CurrentCount": "NULL",
+  
+        "zone1DailyTally": "NULL",
+  
+        "dayAverage": 0,
+  
+        "dayMax": 0,
+  
+        "monthAverage": 0,
+  
+        "monthMax": 0
+  
+      },
+  
+      {
+  
+        "slotPathIdentifier": "slot:/Drivers/RestAPI/Main/North/Fitness",
+  
+        "area": "WomensLocker",
+  
+        "dailyTally": "NULL",
+  
+        "currentCount": 0,
+  
+        "zone1CurrentCount": "NULL",
+  
+       "zone1DailyTally": "NULL",
+  
+        "dayAverage": 0,
+  
+        "dayMax": 0,
+  
+        "monthAverage": 0,
+  
+        "monthMax": 0
+  
+      },
+  
+      {
+  
+        "slotPathIdentifier": "slot:/Drivers/RestAPI/Main/North/Fitness",
+  
+        "area": "LowerLevel",
+  
+        "dailyTally": "NULL",
+  
+        "currentCount": 0,
+  
+        "zone1CurrentCount": "NULL",
+  
+        "zone1DailyTally": "NULL",
+  
+        "dayAverage": 0,
+  
+        "dayMax": 0,
+  
+        "monthAverage": 0,
+  
+        "monthMax": 0
+  
+      },
+  
+      {
+  
+        "slotPathIdentifier": "slot:/Drivers/RestAPI/Main/North/Fitness",
+  
+        "area": "Storage",
+  
+        "dailyTally": "NULL",
+  
+        "currentCount": 0,
+  
+        "zone1CurrentCount": "NULL",
+  
+        "zone1DailyTally": "NULL",
+  
+        "dayAverage": 0,
+  
+        "dayMax": 0,
+  
+        "monthAverage": 0,
+  
+        "monthMax": 0
+  
+      },
+  
+      {
+  
+        "slotPathIdentifier": "slot:/Drivers/RestAPI/Main/North/Fitness",
+  
+        "area": "RacqBallCt",
+  
+        "dailyTally": 0,
+  
+        "currentCount": 0,
+  
+        "zone1CurrentCount": "NULL",
+  
+        "zone1DailyTally": "NULL",
+  
+        "dayAverage": 0,
+  
+        "dayMax": 0,
+  
+        "monthAverage": 0,
+  
+        "monthMax": 0
+  
+      },
+  
+      {
+  
+        "slotPathIdentifier": "slot:/Drivers/RestAPI/Main/North/Fitness",
+  
+        "area": "SpinRm",
+  
+        "dailyTally": 2,
+  
+        "currentCount": 0,
+  
+        "zone1CurrentCount": "NULL",
+  
+        "zone1DailyTally": "NULL",
+  
+        "dayAverage": 0,
+  
+        "dayMax": 0,
+  
+        "monthAverage": 0,
+  
+        "monthMax": 0
+  
+      },
+  
+      {
+  
+        "slotPathIdentifier": "slot:/Drivers/RestAPI/Main/North/Fitness",
+  
+        "area": "FrontDesk",
+  
+        "dailyTally": "NULL",
+  
+        "currentCount": 1,
+  
+        "zone1CurrentCount": 1,
+  
+        "zone1DailyTally": 337,
+  
+        "dayAverage": "NULL",
+  
+        "dayMax": "NULL",
+  
+        "monthAverage": "NULL",
+  
+        "monthMax": "NULL"
+  
+      },
+  
+      {
+  
+        "slotPathIdentifier": "slot:/Drivers/RestAPI/Main/North/Fitness",
+  
+        "area": "Corridor",
+  
+        "dailyTally": "NULL",
+  
+        "currentCount": 0,
+  
+        "zone1CurrentCount": "NULL",
+  
+        "zone1DailyTally": "NULL",
+  
+        "dayAverage": 0,
+  
+        "dayMax": 0,
+  
+        "monthAverage": 0,
+  
+        "monthMax": 0
+  
+      }
+  
+    ]
+  
+  }
