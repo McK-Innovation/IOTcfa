@@ -2932,7 +2932,7 @@
             "strokeColor": "#ffffff"
          },
          {
-            "name": "Service_Bay_1",
+            "name": "Svc_Bay_1",
             "shape": "poly",
             "coords": [
                754,233,719,224,682,228,658,240,639,260,625,289,625,312,628,338,637,356,656,378,670,384
@@ -2941,7 +2941,7 @@
             "strokeColor": "#ffffff"
          },
          {
-            "name": "Service_Bay_2",
+            "name": "Svc_Bay_2",
             "shape": "poly",
             "coords": [
                794,263,813,286,822,305,828,329,824,361,806,383,792,399,770,408,745,413,717,409,693,402
@@ -2977,7 +2977,7 @@
             "strokeColor": "#ffffff"
          },
          {
-            "name": "Men's_Restroom",
+            "name": "Mens_RR_N",
             "shape": "poly",
             "coords": [
                886,158,890,196,987,196,982,158
@@ -2986,7 +2986,7 @@
             "strokeColor": "#ffffff"
          },
          {
-            "name": "CTS_Team_Room",
+            "name": "CTS_Team_Rm",
             "shape": "rect",
             "coords": [
                900,364,964,402
@@ -2995,7 +2995,7 @@
             "strokeColor": "#ffffff"
          },
          {
-            "name":"Women's_Restroom",
+            "name":"Womens_RR_N",
             "shape":"rect",
             "coords":[
                881,103,975,145
@@ -3054,7 +3054,7 @@
             "strokeColor": "#ffffff"
          },
          {
-            "name": "Interview_1",
+            "name": "IntView1",
             "shape": "rect",
             "coords": [
                573,489,622,548
@@ -3072,7 +3072,7 @@
             "strokeColor": "#ffffff"
          },
          {
-            "name": "Interview_2",
+            "name": "IntView2",
             "shape": "rect",
             "coords": [
                482,556,536,619
@@ -3125,7 +3125,7 @@
             "fillColor": "#a207154f",
             "strokeColor": "#ffffff"
          },{
-            "name": "Open_Ave",
+            "name": "OpenAve",
             "shape": "rect",
             "coords": [
                207,16,437,217
@@ -3139,7 +3139,7 @@
       "name": "ITDeckWest",
       "areas": [
          {
-            "name": "The_Garage",
+            "name": "TheGarage",
             "shape": "poly",
             "coords": [
                887,440,884,411,873,409,862,337,831,328,737,373,796,484
@@ -3148,7 +3148,7 @@
             "strokeColor": "#ffffff"
          },
          {
-            "name": "Training_Room",
+            "name": "TrainingRm",
             "shape": "rect",
             "coords": [
                350,30,463,91
@@ -3157,7 +3157,7 @@
             "strokeColor": "#ffffff"
          },
          {
-            "name": "SPT_Table_1",
+            "name": "SptTable1",
             "shape": "rect",
             "coords": [
                192,97,242,133
@@ -3166,7 +3166,7 @@
             "strokeColor": "#ffffff"
          },
          {
-            "name": "SPT_Table_2",
+            "name": "SptTable2",
             "shape": "rect",
             "coords": [
                129,97,180,134
@@ -3175,7 +3175,7 @@
             "strokeColor": "#ffffff"
          },
          {
-            "name": "SPT_Table_3",
+            "name": "SptTable3",
             "shape": "rect",
             "coords": [
                186,160,237,200
@@ -3184,7 +3184,7 @@
             "strokeColor": "#ffffff"
          },
          {
-            "name": "SPT_Table_4",
+            "name": "SptTable4",
             "shape": "rect",
             "coords": [
                118,160,174,200
@@ -3211,7 +3211,7 @@
             "strokeColor": "#ffffff"
          },
          {
-            "name": "A_003",
+            "name": "Huddle_A003",
             "shape": "rect",
             "coords": [
                45,39,89,73
@@ -3220,7 +3220,7 @@
             "strokeColor": "#ffffff"
          },
          {
-            "name": "A_005",
+            "name": "Huddle_A005",
             "shape": "rect",
             "coords": [
                29,110,79,146
@@ -3229,7 +3229,7 @@
             "strokeColor": "#ffffff"
          },
          {
-            "name": "A_006",
+            "name": "Huddle_A006",
             "shape": "rect",
             "coords": [
                24,153,73,184
@@ -3261,7 +3261,7 @@
             "strokeColor": "#ffffff"
          },
          {
-            "name": "OTS_Team_Room",
+            "name": "OTS_Team_Rm",
             "shape": "poly",
             "coords": [
                580,238,647,212,669,252,601,283
@@ -3270,7 +3270,7 @@
             "strokeColor": "#ffffff"
          },
          {
-            "name": "CS_Team_Room",
+            "name": "CS_Team_Rm",
             "shape": "poly",
             "coords": [
                583,296,603,342,673,313,649,271
@@ -3279,7 +3279,7 @@
             "strokeColor": "#ffffff"
          },
          {
-            "name": "Women's_Restroom",
+            "name": "Womens_RR_S",
             "shape": "poly",
             "coords": [
                835,49,893,49,900,116,842,115
@@ -3288,7 +3288,7 @@
             "strokeColor": "#ffffff"
          },
          {
-            "name": "Men's_Restroom",
+            "name": "Mens_RR_S",
             "shape": "poly",
             "coords": [
                823,47,752,43,754,81,769,81,773,116,829,115
@@ -3297,7 +3297,7 @@
             "strokeColor": "#ffffff"
          }
       ]
-   }, 
+   },  
    {
       "name": "Lincoln1001",
       "areas": [
