@@ -3667,6 +3667,7 @@
       "areas": [
          {
             "name": "The_Rest_Kit",
+            "alias":"The Rest Kit",
             "shape": "poly",
             "coords": [
                31,256,16,348,66,348,80,257
@@ -3676,6 +3677,7 @@
          },
          {
             "name": "Kit_Core_S",
+            "alias":"Kit Core S",
             "shape": "poly",
             "coords": [
                35,227,31,248,79,247,82,227
@@ -3685,6 +3687,7 @@
          },
          {
             "name": "The_Benchtop",
+            "alias":"The Benchtop",
             "shape": "poly",
             "coords": [
                49,133,36,216,86,216,97,134
@@ -3694,6 +3697,7 @@
          },
          {
             "name": "Food_Theater",
+            "alias":"Food Theater",
             "shape": "poly",
             "coords": [
                63,35,54,93,102,92,107,32
@@ -3703,6 +3707,7 @@
          },
          {
             "name": "Kit_Core_N",
+            "alias":"Kit Core N",
             "shape": "poly",
             "coords": [
                117,32,113,76,132,76,137,32
@@ -3712,6 +3717,7 @@
          },
          {
             "name": "Counter_Kit",
+            "alias":"Counter Kit",
             "shape": "poly",
             "coords": [
                148,34,143,77,198,77,202,32
@@ -3721,6 +3727,7 @@
          },
          {
             "name": "The_Counter",
+            "alias":"The Counter",
             "shape": "poly",
             "coords": [
                219,19,220,33,213,33,207,76,239,76,243,19
@@ -3730,6 +3737,7 @@
          },
          {
             "name": "Reception",
+            "alias":"Reception",
             "shape": "poly",
             "coords": [
                252,20,248,78,285,76,289,29,272,31,271,19
@@ -3739,6 +3747,7 @@
          },
          {
             "name": "The_Mixer",
+            "alias":"The Mixer",
             "shape": "poly",
             "coords": [
                298,29,293,76,372,77,374,28
@@ -3748,6 +3757,7 @@
          },
          {
             "name": "The_Table",
+            "alias":"The Table",
             "shape": "poly",
             "coords": [
                288,168,291,124,272,125,270,110,250,112,250,100,212,100,209,167
@@ -3757,6 +3767,7 @@
          },
          {
             "name": "Open_Office",
+            "alias":"Open Office",
             "shape": "poly",
             "coords": [
                287,179,284,222,228,222,232,179
@@ -3766,6 +3777,7 @@
          },
          {
             "name": "The_Dish2",
+            "alias":"The Dish 2",
             "shape": "poly",
             "coords": [
                220,198,204,197,200,220,218,220
@@ -3775,6 +3787,7 @@
          },
          {
             "name": "The_Dish3",
+            "alias":"The Dish 3",
             "shape": "poly",
             "coords": [
                174,199,170,221,182,221,186,198
@@ -3784,6 +3797,7 @@
          },
          {
             "name": "The_Nooks",
+            "alias":"The Nooks",
             "shape": "poly",
             "coords": [
                162,223,138,222,146,149,174,151,179,98,195,99,189,189,166,189
@@ -3793,6 +3807,7 @@
          },
          {
             "name": "The_Lab",
+            "alias":"The Lab",
             "shape": "poly",
             "coords": [
                129,123,128,140,158,140,160,123
@@ -3802,6 +3817,7 @@
          },
          {
             "name": "The_Container",
+            "alias":"The Container",
             "shape": "poly",
             "coords": [
                254,243,251,282,280,283,283,243
@@ -3811,6 +3827,7 @@
          },
          {
             "name": "The_Experience",
+            "alias":"The Experience",
             "shape": "poly",
             "coords": [
                305,245,304,284,364,283,367,245
@@ -3820,6 +3837,7 @@
          },
          {
             "name": "The_Shop2",
+            "alias":"The Shop 2",
             "shape": "poly",
             "coords": [
                304,292,304,304,298,306,294,349,332,348,336,292
@@ -3829,6 +3847,7 @@
          },
          {
             "name": "Shop_Core",
+            "alias":"Shop Core",
             "shape": "poly",
             "coords": [
                257,306,254,347,287,347,290,305
@@ -3838,6 +3857,7 @@
          },
          {
             "name": "The_Shop1",
+            "alias":"The Shop 1",
             "shape": "poly",
             "coords": [
                211,307,206,348,244,348,248,308
@@ -3847,6 +3867,7 @@
          },
          {
             "name": "The_Rest_Conf",
+            "alias":"The Rest Conf",
             "shape": "poly",
             "coords": [
                128,305,84,304,77,347,122,349
@@ -3856,6 +3877,7 @@
          },
          {
             "name": "Mens_RR_M",
+            "alias":"Men's Restroom",
             "shape": "poly",
             "coords": [
                425,112,425,99,378,99,378,11
@@ -3865,6 +3887,7 @@
          },
          {
             "name": "Womens_RR_M",
+            "alias":"Women's Restroom",
             "shape": "poly",
             "coords": [
                377,123,376,135,424,136,424,123
@@ -3874,6 +3897,7 @@
          },
          {
             "name": "Together_E40",
+            "alias":"Together E40",
             "shape": "poly",
             "coords": [
                442,100,441,121,463,121,463,101
@@ -3883,6 +3907,7 @@
          },
          {
             "name": "Together_E41",
+            "alias":"Together E41",
             "shape": "poly",
             "coords": [
                441,129,438,152,462,152,463,130
@@ -3892,6 +3917,7 @@
          },
          {
             "name": "The_Dish4",
+            "alias":"The Dish 4",
             "shape": "poly",
             "coords": [
                131,208,129,222,114,224,117,210
@@ -3901,6 +3927,7 @@
          },
          {
             "name": "The_Dish5",
+            "alias":"The Dish 5",
             "shape": "poly",
             "coords": [
                123,189,120,201,132,201,133,189
@@ -3910,6 +3937,7 @@
          },
          {
             "name": "The_Dish6",
+            "alias":"The Dish 6",
             "shape": "poly",
             "coords": [
                123,170,122,180,133,180,135,170
@@ -3919,6 +3947,7 @@
          },
          {
             "name": "The_Dish7",
+            "alias":"The Dish 7",
             "shape": "poly",
             "coords": [
                126,151,124,161,137,161,138,151
@@ -3928,6 +3957,7 @@
          },
          {
             "name": "S_2_M",
+            "alias":"S2M",
             "shape": "poly",
             "coords": [
                438,33,438,58,481,57,480,34
@@ -3937,6 +3967,7 @@
          },
          {
             "name": "S_3_M",
+            "alias":"S3M",
             "shape": "poly",
             "coords": [
                439,60,439,83,479,84,479,60
@@ -3946,6 +3977,7 @@
          },
          {
             "name": "E_26_Flex",
+            "alias":"E 26 Flex",
             "shape": "poly",
             "coords": [
                468,97,467,109,484,108,483,97
@@ -3955,6 +3987,7 @@
          },
          {
             "name": "E_27_Flex",
+            "alias":"E 27 Flex",
             "shape": "poly",
             "coords": [
                468,119,467,131,484,133,484,118
@@ -3964,6 +3997,7 @@
          },
          {
             "name": "E_28_Flex",
+            "alias":"E 28 Flex",
             "shape": "poly",
             "coords": [
                467,140,467,156,484,154,484,141
@@ -3973,6 +4007,7 @@
          },
          {
             "name": "S_50",
+            "alias":"S 50",
             "shape": "poly",
             "coords": [
                678,284,680,337,700,337,701,285
@@ -3982,6 +4017,7 @@
          },
          {
             "name": "S_55",
+            "alias":"S 55",
             "shape": "poly",
             "coords": [
                720,237,721,276,740,273,738,238
@@ -3991,6 +4027,7 @@
          },
          {
             "name": "L1313_Conf",
+            "alias":"L1313 Conf",
             "shape": "poly",
             "coords": [
                746,242,747,267,778,268,777,243
@@ -4000,6 +4037,7 @@
          },
          {
             "name": "L1137_Conf",
+            "alias":"L1137 Conf",
             "shape": "poly",
             "coords": [
                936,308,939,336,980,337,977,308
@@ -4009,6 +4047,7 @@
          },
          {
             "name": "Huddle_Hub",
+            "alias":"Huddle Hub",
             "shape": "poly",
             "coords": [
                760,170,761,181,772,181,773,169
@@ -4018,6 +4057,7 @@
          },
          {
             "name": "L1501_Conf",
+            "alias":"L1501 Conf",
             "shape": "poly",
             "coords": [
                654,129,655,150,688,151,689,131
@@ -4027,6 +4067,7 @@
          },
          {
             "name": "Snack_Car",
+            "alias":"Snack Car",
             "shape": "poly",
             "coords": [
                769,84,740,85,738,79,710,78,713,150,734,149,737,156,784,155,780,115,773,114
@@ -4036,6 +4077,7 @@
          },
          {
             "name": "L1525",
+            "alias":"L1525",
             "shape": "poly",
             "coords": [
                666,25,666,43,700,38,698,27
@@ -4045,6 +4087,7 @@
          },
          {
             "name": "L1002",
+            "alias":"L1002",
             "shape": "poly",
             "coords": [
                759,15,761,44,788,44,786,17
@@ -4054,6 +4097,7 @@
          },
          {
             "name": "L1003",
+            "alias":"L1003",
             "shape": "poly",
             "coords": [
                796,24,797,49,834,49,833,26
@@ -4063,6 +4107,7 @@
          },
          {
             "name": "L1004",
+            "alias":"L1004",
             "shape": "poly",
             "coords": [
                843,27,844,57,868,54,866,29
@@ -4072,6 +4117,7 @@
          },
          {
             "name": "L1005",
+            "alias":"L1005",
             "shape": "poly",
             "coords": [
                874,29,877,59,925,56,920,31
@@ -4081,6 +4127,7 @@
          },
          {
             "name": "L1006",
+            "alias":"L1006",
             "shape": "poly",
             "coords": [
                928,28,933,57,951,57,946,29
@@ -4090,6 +4137,7 @@
          },
          {
             "name": "Womens_RR_E",
+            "alias":"Women's Restroom",
             "shape": "poly",
             "coords": [
                879,110,875,78,797,79,800,109
@@ -4099,6 +4147,7 @@
          },
          {
             "name": "Mens_RR_E",
+            "alias":"Men's Restroom",
             "shape": "poly",
             "coords": [
                879,118,802,118,805,152,884,151
