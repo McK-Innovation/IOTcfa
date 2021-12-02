@@ -4162,6 +4162,7 @@
       "areas": [
          {
             "name": "Warehouse",
+            "alias":"Warehouse",
             "shape": "poly",
             "coords": [
                108,208,12,210,42,17,643,17,647,128,506,129,505,116,390,118,386,208,327,211,327,222,310,221,311,196,
@@ -4172,6 +4173,7 @@
          },
          {
             "name": "Warehouse_Conference_1",
+            "alias":"Warehouse Conference 1",
             "shape": "poly",
             "coords": [
                118,199,116,218,128,217,132,198
@@ -4181,6 +4183,7 @@
          },
          {
             "name": "S4_W",
+            "alias":"S4W",
             "shape": "poly",
             "coords": [
                172,167,172,176,184,175,187,166
@@ -4190,6 +4193,7 @@
          },
          {
             "name": "Womens_RR_W",
+            "alias":"Women's Restroom",
             "shape": "poly",
             "coords": [
                193,168,190,189,202,189,204,167
@@ -4199,6 +4203,7 @@
          },
          {
             "name": "Service_Copy_Room",
+            "alias":"Service Copy Room",
             "shape": "poly",
             "coords": [
                210,165,209,188,221,188,223,166
@@ -4208,6 +4213,7 @@
          },
          {
             "name": "Break_Room",
+            "alias":"Break Room",
             "shape": "poly",
             "coords": [
                230,167,227,187,249,188,250,166
@@ -4217,6 +4223,7 @@
          },
          {
             "name": "Mens_RR_W",
+            "alias":"Men's Restroom W",
             "shape": "poly",
             "coords": [
                256,166,254,189,271,189,271,165
@@ -4226,6 +4233,7 @@
          },
          {
             "name": "Situation_Room",
+            "alias":"Situation Room",
             "shape": "poly",
             "coords": [
                293,199,293,218,307,218,309,201
@@ -4235,6 +4243,7 @@
          },
          {
             "name": "Copy_Room_M",
+            "alias":"Copy Room",
             "shape": "poly",
             "coords": [
                464,143,463,160,474,161,473,142
@@ -4244,6 +4253,7 @@
          },
          {
             "name": "WSC_For_Cmty",
+            "alias":"WSC For Cmty",
             "shape": "poly",
             "coords": [
                464,210,463,219,479,219,479,209
@@ -4253,6 +4263,7 @@
          },
          {
             "name": "Break_Room_M",
+            "alias":"Break Room",
             "shape": "poly",
             "coords": [
                483,198,483,211,562,212,560,197,557,192,538,192,534,197
@@ -4262,6 +4273,7 @@
          },
          {
             "name": "Mens_RR_M",
+            "alias":"Men's Restroom",
             "shape": "poly",
             "coords": [
                491,149,491,158,524,159,523,149
@@ -4271,6 +4283,7 @@
          },
          {
             "name": "Womens_RR_M",
+            "alias":"Women's Restroom",
             "shape": "poly",
             "coords": [
                492,162,491,174,523,173,524,163
@@ -4280,6 +4293,7 @@
          },
          {
             "name": "Press_Two",
+            "alias":"Press Two",
             "shape": "poly",
             "coords": [
                532,139,532,160,546,160,548,140
@@ -4289,6 +4303,7 @@
          },
          {
             "name": "Huddle_Room_M",
+            "alias":"Huddle Room",
             "shape": "poly",
             "coords": [
                551,137,551,147,560,147,561,139
@@ -4298,6 +4313,7 @@
          },
          {
             "name": "Press_One",
+            "alias":"Press One",
             "shape": "poly",
             "coords": [
                533,167,532,179,559,181,560,166
@@ -4307,6 +4323,7 @@
          },
          {
             "name": "Copy_Room_M_NE",
+            "alias":"Copy Room",
             "shape": "poly",
             "coords": [
                632,132,631,143,652,142,652,133
@@ -4316,6 +4333,7 @@
          },
          {
             "name": "Huddle_Room_M_NE",
+            "alias":"Huddle Room",
             "shape": "poly",
             "coords": [
                643,145,642,159,652,160,652,147
@@ -4325,6 +4343,7 @@
          },
          {
             "name": "Together_4",
+            "alias":"Together 4",
             "shape": "poly",
             "coords": [
                819,154,820,169,833,169,832,156
@@ -4334,6 +4353,7 @@
          },
          {
             "name": "Training",
+            "alias":"Training",
             "shape": "poly",
             "coords": [
                840,145,842,174,886,175,880,147
@@ -4343,6 +4363,7 @@
          },
          {
             "name": "Unplugged",
+            "alias":"Unplugged",
             "shape": "poly",
             "coords": [
                837,189,838,209,851,210,849,187
@@ -4352,6 +4373,7 @@
          },
          {
             "name": "Together_3",
+            "alias":"Together 3",
             "shape": "poly",
             "coords": [
                980,188,983,207,998,208,995,187
@@ -4361,6 +4383,7 @@
          },
          {
             "name": "Together_2",
+            "alias":"Together 2",
             "shape": "poly",
             "coords": [
                957,186,960,197,975,196,975,185
@@ -4370,6 +4393,7 @@
          },
          {
             "name": "Mens_RR_E2",
+            "alias":"Men's Restroom",
             "shape": "poly",
             "coords": [
                942,153,945,173,954,174,951,152
@@ -4379,6 +4403,7 @@
          },
          {
             "name": "Womens_RR_E2",
+            "alias":"Women's Restroom",
             "shape": "poly",
             "coords": [
                927,152,929,172,938,173,937,153
@@ -4388,6 +4413,7 @@
          },
          {
             "name": "The_Lab",
+            "alias":"The Lab",
             "shape": "poly",
             "coords": [
                920,152,897,151,898,164,923,163
@@ -4397,6 +4423,7 @@
          },
          {
             "name": "Huddle_1",
+            "alias":"Huddle 1",
             "shape": "poly",
             "coords": [
                905,170,896,167,897,179,906,176
