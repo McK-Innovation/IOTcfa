@@ -22,7 +22,7 @@ const BuildingPage = (props) => {
         console.log(campusData)
     function handleBeforeUnload() {
         dispatch({room: ''})
-        dispatch({title: 'Floor Plan'})
+        dispatch({title: floorName})
     }
     const modifiedCard = (title, data) => {
         if(data && data !== 'NULL') {
