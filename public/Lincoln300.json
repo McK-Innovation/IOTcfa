@@ -7,6 +7,7 @@
     {
       "slotPathIdentifier": "slot:/Drivers/RestAPI/Lincoln_300",
       "area": "EntryExits",
+      "alias":"EntryExits",
       "dailyTally": "NULL",
       "currentCount": 20,
       "zone1CurrentCount": "NULL",
@@ -19,6 +20,7 @@
     {
       "slotPathIdentifier": "slot:/Drivers/RestAPI/Lincoln_300",
       "area": "Mens_RR_W",
+      "alias":"Men's Restroom",
       "dailyTally": 0,
       "currentCount": 0,
       "zone1CurrentCount": "NULL",
@@ -31,6 +33,7 @@
     {
       "slotPathIdentifier": "slot:/Drivers/RestAPI/Lincoln_300",
       "area": "Womens_RR_W",
+      "alias":"Women's Restroom",
       "dailyTally": 0,
       "currentCount": 0,
       "zone1CurrentCount": "NULL",
@@ -43,6 +46,7 @@
     {
       "slotPathIdentifier": "slot:/Drivers/RestAPI/Lincoln_300",
       "area": "Pod_A",
+      "alias":"Pod A",
       "dailyTally": "NULL",
       "currentCount": 0,
       "zone1CurrentCount": 0,
@@ -55,6 +59,7 @@
     {
       "slotPathIdentifier": "slot:/Drivers/RestAPI/Lincoln_300",
       "area": "Pod_C",
+      "alias": "Pod C",
       "dailyTally": "NULL",
       "currentCount": 0,
       "zone1CurrentCount": 0,
@@ -67,6 +72,7 @@
     {
       "slotPathIdentifier": "slot:/Drivers/RestAPI/Lincoln_300",
       "area": "Pod_F",
+      "alias":"Pod F",
       "dailyTally": "NULL",
       "currentCount": 0,
       "zone1CurrentCount": 0,
@@ -79,6 +85,7 @@
     {
       "slotPathIdentifier": "slot:/Drivers/RestAPI/Lincoln_300",
       "area": "Pod_O",
+      "alias":"Pod O",
       "dailyTally": "NULL",
       "currentCount": 0,
       "zone1CurrentCount": 0,
@@ -91,6 +98,7 @@
     {
       "slotPathIdentifier": "slot:/Drivers/RestAPI/Lincoln_300",
       "area": "Pod_E",
+      "alias":"Pod E",
       "dailyTally": "NULL",
       "currentCount": 0,
       "zone1CurrentCount": 0,
@@ -103,6 +111,7 @@
     {
       "slotPathIdentifier": "slot:/Drivers/RestAPI/Lincoln_300",
       "area": "Pod_N",
+      "alias":"Pod N",
       "dailyTally": "NULL",
       "currentCount": 0,
       "zone1CurrentCount": 0,
@@ -115,6 +124,7 @@
     {
       "slotPathIdentifier": "slot:/Drivers/RestAPI/Lincoln_300",
       "area": "InnovNewVntr",
+      "alias":"Innov New Vntr",
       "dailyTally": "NULL",
       "currentCount": 0,
       "zone1CurrentCount": 0,
@@ -127,6 +137,7 @@
     {
       "slotPathIdentifier": "slot:/Drivers/RestAPI/Lincoln_300",
       "area": "Hatch_Airstream",
+      "alias":"Hatch Airstream",
       "dailyTally": 0,
       "currentCount": 0,
       "zone1CurrentCount": "NULL",
@@ -139,6 +150,7 @@
     {
       "slotPathIdentifier": "slot:/Drivers/RestAPI/Lincoln_300",
       "area": "ClimbWithCare",
+      "alias":"Climb With Care",
       "dailyTally": 0,
       "currentCount": 0,
       "zone1CurrentCount": "NULL",
@@ -151,6 +163,7 @@
     {
       "slotPathIdentifier": "slot:/Drivers/RestAPI/Lincoln_300",
       "area": "MoveFast",
+      "alias":"Move Fast",
       "dailyTally": 0,
       "currentCount": 0,
       "zone1CurrentCount": "NULL",
@@ -163,6 +176,7 @@
     {
       "slotPathIdentifier": "slot:/Drivers/RestAPI/Lincoln_300",
       "area": "Mens_RR_E",
+      "alias":"Men's Restroom",
       "dailyTally": 1,
       "currentCount": 0,
       "zone1CurrentCount": "NULL",
@@ -175,6 +189,7 @@
     {
       "slotPathIdentifier": "slot:/Drivers/RestAPI/Lincoln_300",
       "area": "Womens_RR_E",
+      "alias":"Women's Restroom",
       "dailyTally": 0,
       "currentCount": 0,
       "zone1CurrentCount": "NULL",
@@ -187,6 +202,7 @@
     {
       "slotPathIdentifier": "slot:/Drivers/RestAPI/Lincoln_300",
       "area": "Together_Q01",
+      "alias":"Together Q01",
       "dailyTally": "NULL",
       "currentCount": 0,
       "zone1CurrentCount": 0,
@@ -199,6 +215,7 @@
     {
       "slotPathIdentifier": "slot:/Drivers/RestAPI/Lincoln_300",
       "area": "Together_Q02",
+      "alias":"Together Q02",
       "dailyTally": "NULL",
       "currentCount": 0,
       "zone1CurrentCount": 0,
@@ -211,6 +228,7 @@
     {
       "slotPathIdentifier": "slot:/Drivers/RestAPI/Lincoln_300",
       "area": "Together_Q03",
+      "alias":"Together Q03",
       "dailyTally": "NULL",
       "currentCount": 0,
       "zone1CurrentCount": 0,

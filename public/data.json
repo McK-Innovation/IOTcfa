@@ -4,6 +4,7 @@
       "areas":[
          {
             "name":"Rest_Sim_1",
+            "alias": "Rest Sim 1",
             "shape":"poly",
             "coords":[80,209,25,673,323,674,323,634,296,634,314,208],
             "fillColor":"#a207154f",
@@ -11,6 +12,7 @@
          },
          {
             "name":"Perch_D",
+            "alias": "Perch D",
             "shape":"poly",
             "coords":[87,153,82,189,210,191,211,151],
             "fillColor":"#a207154f",
@@ -18,6 +20,7 @@
          },
          {
             "name":"Mens_RR_N",
+            "alias": "Men's Restroom",
             "shape":"poly",
             "coords":[452,87,330,199,339,206,352,194,363,207,464,115,462,92],
             "fillColor":"#a207154f",
@@ -25,6 +28,7 @@
          },
          {
             "name":"Womens_RR_N",
+            "alias":"Women's Restroom",
             "shape":"poly",
             "coords":[380,248,387,257,514,139,507,131,492,145,482,134,380,225,389,238],
             "fillColor":"#a207154f",
@@ -32,6 +36,7 @@
          },
          {
             "name":"Nest_Perch",
+            "alias":"Nest Perch",
             "shape":"poly",
             "coords":[533,143,509,163,533,185,559,167],
             "fillColor":"#a207154f",
@@ -39,6 +44,7 @@
          },
          {
             "name":"Perch_B",
+            "alias":"Perch B",
             "shape":"poly",
             "coords":[635,193,603,221,657,265,687,238],
             "fillColor":"#a207154f",
@@ -46,6 +52,7 @@
          },
          {
             "name":"The_Perch",
+            "alias":"The Perch",
             "shape":"poly",
             "coords":[788,212,722,212,626,308,627,331,711,407,740,407,805,339],
             "fillColor":"#a207154f",
@@ -53,6 +60,7 @@
          },
          {
             "name":"Perch_C",
+            "alias":"Perch C",
             "shape":"poly",
             "coords":[806,363,791,362,745,407,812,407],
             "fillColor":"#a207154f",
@@ -60,6 +68,7 @@
          },
          {
             "name":"Perch_A",
+            "alias":"Perch A",
             "shape":"poly",
             "coords":[719,89,726,150,796,150,791,140,784,128,776,117,767,109,754,100,737,93],
             "fillColor":"#a207154f",
@@ -73,6 +82,7 @@
 
          {
             "name":"Cafe",
+            "alias":"Café",
             "shape":"poly",
             "coords":[192,53,190,74,215,80,237,92,245,110,320,192,328,185,344,204,606,205,593,46,300,46,300,56],
             "fillColor":"#a207154f",
@@ -80,6 +90,7 @@
          },
          {
             "name":"Incubator",
+            "alias":"Incubator",
             "shape":"poly",
             "coords":[235,124,233,113,213,102,186,95,164,100,142,106,123,116,108,129,97,144,87,167,94,185,71,442,340,440,
                341,240,350,238,329,205,319,215],
@@ -88,6 +99,7 @@
          },
          {
             "name":"IncubaterSto",
+            "alias":"Incubator Sto",
             "shape":"poly",
             "coords":[246,554,67,552,53,681,242,683],
             "fillColor":"#a207154f",
@@ -95,6 +107,7 @@
          },
          {
             "name":"Incubator_A",
+            "alias":"Incubator A",
             "shape":"poly",
             "coords":[254,554,251,682,340,682,340,554],
             "fillColor":"#a207154f",
@@ -102,6 +115,7 @@
          },
          {
             "name":"CoopRm_A",
+            "alias":"Coop Room A",
             "shape":"poly",
             "coords":[398,376,400,436,516,433,513,377],
             "fillColor":"#a207154f",
@@ -109,6 +123,7 @@
          },
          {
             "name":"CoopRm_B",
+            "alias":"Coop Room B",
             "shape":"poly",
             "coords":[399,445,400,514,522,514,519,446],
             "fillColor":"#a207154f",
@@ -116,6 +131,7 @@
          },
          {
             "name":"CoopRm_C",
+            "alias":"Coop Room C",
             "shape":"poly",
             "coords":[400,525,401,597,525,595,522,525],
             "fillColor":"#a207154f",
@@ -123,6 +139,7 @@
          },
          {
             "name":"CoopRm_D",
+            "alias":"Coop Room D",
             "shape":"poly",
             "coords":[402,605,403,683,464,682,461,604],
             "fillColor":"#a207154f",
@@ -130,6 +147,7 @@
          },
          {
             "name":"CoopRm_E",
+            "alias":"Coop Room E",
             "shape":"poly",
             "coords":[469,604,472,683,531,682,526,604],
             "fillColor":"#a207154f",
@@ -137,6 +155,7 @@
          },
          {
             "name":"The_Coop",
+            "alias":"The Coop",
             "shape":"poly",
             "coords":[395,224,398,360,522,360,540,669,651,670,609,226],
             "fillColor":"#a207154f",
@@ -149,6 +168,7 @@
       "areas": [
          {
             "name":"Mens_RR_S",
+            "alias":"Men's Restroom",
             "shape":"poly",
             "coords":[88,91,72,88,64,211,79,212,82,190,101,191,106,106,92,104],
             "fillColor":"#a207154f",
@@ -156,6 +176,7 @@
          },
          {
             "name":"Womens_RR_S",
+            "alias":"Women's Restroom",
             "shape":"poly",
             "coords":[124,102,121,193,138,192,137,211,160,210,164,91,146,91,147,102],
             "fillColor":"#a207154f",
@@ -163,6 +184,7 @@
          },
          {
             "name":"The_Coop",
+            "alias":"The Coop",
             "shape":"poly",
             "coords":[194,54,192,210,393,212,394,219,420,219,411,81,400,81,398,56],
             "fillColor":"#a207154f",
@@ -170,6 +192,7 @@
          },
          {
             "name":"Restaurant_Sim_3",
+            "alias":"Restaurant Sim 3",
             "shape":"poly",
             "coords":[354,510,392,509,392,492,376,488,375,462,384,451,384,389,371,389,371,380,199,378,197,474,352,475],
             "fillColor":"#a207154f",
@@ -177,6 +200,7 @@
          },
          {
             "name":"Restaurant_Sim_2",
+            "alias":"Restaurant Sim 2",
             "shape":"poly",
             "coords":[354,510,392,509,392,492,376,488,375,462,384,451,384,389,371,389,371,380,199,378,197,474,352,475],
             "fillColor":"#a207154f",
@@ -189,6 +213,7 @@
       "areas":[
          {
             "name":"Together_Recp",
+            "alias":"Together Recp",
             "shape":"poly",
             "coords":[157,38,155,54,142,57,141,75,162,73,187,64,185,48,187,36],
             "fillColor":"#a207154f",
@@ -196,6 +221,7 @@
          },
          {
             "name":"Auditorium",
+            "alias":"Auditorium",
             "shape":"poly",
             "coords":[164,209,130,261,110,266,81,451,99,459,115,510,251,444,280,443,296,402,304,355,307,304,302,273,278,273],
             "fillColor":"#a207154f",
@@ -203,6 +229,7 @@
          },
          {
             "name":"SusProjRm2",
+            "alias":"Sus Project Room 2",
             "shape":"poly",
             "coords":[336,24,333,50,327,53,335,77,361,68,374,24],
             "fillColor":"#a207154f",
@@ -210,6 +237,7 @@
          },
          {
             "name":"SusProjRm1",
+            "alias":"Sus Project Room 1",
             "shape":"poly",
             "coords":[391,24,374,83,361,89,364,99,387,105,414,108,437,108,455,108,465,23],
             "fillColor":"#a207154f",
@@ -217,6 +245,7 @@
          },
          {
             "name":"S_127",
+            "alias":"S 127",
             "shape":"poly",
             "coords":[472,69,469,93,497,92,499,69],
             "fillColor":"#a207154f",
@@ -224,6 +253,7 @@
          },
          {
             "name":"S_126",
+            "alias":"S 126",
             "shape":"poly",
             "coords":[500,25,476,24,473,51,501,52],
             "fillColor":"#a207154f",
@@ -231,6 +261,7 @@
          },
          {
             "name":"Mens_RR",
+            "alias":"Men's Restroom",
             "shape":"poly",
             "coords":[506,301,385,299,385,316,401,317,400,332,482,331,485,317,505,317],
             "fillColor":"#a207154f",
@@ -238,6 +269,7 @@
          },
          {
             "name":"Womens_RR",
+            "alias":"Women's Restroom",
             "shape":"poly",
             "coords":[376,387,499,384,500,369,480,368,481,342,400,343,396,371,376,371],
             "fillColor":"#a207154f",
@@ -245,6 +277,7 @@
          },
          {
             "name":"Together_Chand2",
+            "alias":"Together Chand 2",
             "shape":"poly",
             "coords":[377,399,371,452,423,452,428,399],
             "fillColor":"#a207154f",
@@ -252,6 +285,7 @@
          },
          {
             "name":"Together_Chand1",
+            "alias":"Together Chand 1",
             "shape":"poly",
             "coords":[422,465,356,465,355,483,357,497,363,509,374,524,389,533,416,536],
             "fillColor":"#a207154f",
@@ -259,6 +293,7 @@
          },
          {
             "name":"S_25",
+            "alias":"S 25",
             "shape":"poly",
             "coords":[422,612,418,651,447,652,450,612],
             "fillColor":"#a207154f",
@@ -266,6 +301,7 @@
          },
          {
             "name":"Huddle_CBR",
+            "alias":"Huddle CBR",
             "shape":"poly",
             "coords":[418,661,413,700,441,700,446,660],
             "fillColor":"#a207154f",
@@ -273,6 +309,7 @@
          },
          {
             "name":"Together_ALA",
+            "alias":"Together ALA",
             "shape":"poly",
             "coords":[604,308,547,305,539,322,534,342,534,362,537,381,599,378],
             "fillColor":"#a207154f",
@@ -280,6 +317,7 @@
          },
          {
             "name":"Sandbox_CCC",
+            "alias":"Sandbox CCC",
             "shape":"poly",
             "coords":[733,307,686,319,681,369,730,382],
             "fillColor":"#a207154f",
@@ -287,6 +325,7 @@
          },
          {
             "name":"Together_DTL",
+            "alias":"Together DTL",
             "shape":"poly",
             "coords":[741,305,740,337,796,336,797,305],
             "fillColor":"#a207154f",
@@ -294,6 +333,7 @@
          },
          {
             "name":"Together_DPD",
+            "alias":"Together DPD",
             "shape":"poly",
             "coords":[739,350,738,383,794,383,796,350],
             "fillColor":"#a207154f",
@@ -301,6 +341,7 @@
          },
          {
             "name":"S_42",
+            "alias":"S 42",
             "shape":"poly",
             "coords":[837,82,832,65,799,73,798,93],
             "fillColor":"#a207154f",
@@ -308,6 +349,7 @@
          },
          {
             "name":"S_41",
+            "alias":"S 41",
             "shape":"poly",
             "coords":[841,100,800,108,813,127,846,119],
             "fillColor":"#a207154f",
@@ -315,6 +357,7 @@
          },
          {
             "name":"Huddle_EW",
+            "alias":"Huddle EW",
             "shape":"poly",
             "coords":[837,63,843,84,883,72,870,56],
             "fillColor":"#a207154f",
@@ -322,6 +365,7 @@
          },
          {
             "name":"Solutions_Lab",
+            "alias":"Solutions Lab",
             "shape":"poly",
             "coords":[888,87,846,97,851,117,888,109],
             "fillColor":"#a207154f",
@@ -329,6 +373,7 @@
          },
          {
             "name":"CorpFinancSysTeam",
+            "alias":"Corp Financ Sys Team",
             "shape":"poly",
             "coords":[824,616,832,583,803,575,784,604],
             "fillColor":"#a207154f",
@@ -336,6 +381,7 @@
          },
          {
             "name":"S_35",
+            "alias":"S 35",
             "shape":"poly",
             "coords":[823,622,779,613,777,649,812,660],
             "fillColor":"#a207154f",
@@ -343,6 +389,7 @@
          },
          {
             "name":"S_38",
+            "alias":"S 38",
             "shape":"poly",
             "coords":[842,583,832,618,876,630,877,594],
             "fillColor":"#a207154f",
@@ -350,6 +397,7 @@
          },
          {
             "name":"Huddle_EMCA",
+            "alias":"Huddle EMCA",
             "shape":"poly",
             "coords":[831,628,820,662,853,671,872,640],
             "fillColor":"#a207154f",
@@ -357,6 +405,7 @@
          },
          {
             "name":"Together_EMCA",
+            "alias":"Together EMCA",
             "shape":"poly",
             "coords":[884,381,945,381,945,307,887,307,882,324,878,341,878,360],
             "fillColor":"#a207154f",
@@ -369,6 +418,7 @@
       "areas":[
          {
             "name":"Together_FLL2",
+            "alias":"Together FLL2",
             "shape":"poly",
             "coords":[45,137,46,144,34,148,33,167,93,166,93,154,83,146,80,138],
             "fillColor":"#a207154f",
@@ -376,6 +426,7 @@
          },
          {
             "name":"Prnt_Svc_East",
+            "alias":"Prnt Svc East",
             "shape":"poly",
             "coords":[33,468,32,506,97,507,96,468],
             "fillColor":"#a207154f",
@@ -383,6 +434,7 @@
          },
          {
             "name":"Together_FLL1",
+            "alias":"Together FLL1",
             "shape":"poly",
             "coords":[90,225,59,223,33,231,38,253,56,257,69,257,82,253,96,241],
             "fillColor":"#a207154f",
@@ -390,6 +442,7 @@
          },
          {
             "name":"Together_GBT",
+            "alias":"Together GBT",
             "shape":"poly",
             "coords":[30,436,36,458,69,458,95,452,90,423,80,418,67,417,52,421,41,427],
             "fillColor":"#a207154f",
@@ -397,6 +450,7 @@
          },
          {
             "name":"Prnt_Svc_West",
+            "alias":"Prnt Svc West",
             "shape":"poly",
             "coords":[33,180,32,209,94,210,93,182],
             "fillColor":"#a207154f",
@@ -404,6 +458,7 @@
          },
          {
             "name":"Together_F100S",
+            "alias":"Together F100S",
             "shape":"poly",
             "coords":[33,517,32,537,38,544,44,549,45,555,85,554,83,549,91,544,95,538,97,517],
             "fillColor":"#a207154f",
@@ -411,6 +466,7 @@
          },
          {
             "name":"Mens_RR_Mid",
+            "alias":"Men's Restroom",
             "shape":"poly",
             "coords":[190,310,109,309,108,329,191,329],
             "fillColor":"#a207154f",
@@ -418,6 +474,7 @@
          },
          {
             "name":"Womens_RR_Mid",
+            "alias":"Women's Restroom",
             "shape":"poly",
             "coords":[109,346,107,367,190,367,191,346],
             "fillColor":"#a207154f",
@@ -425,6 +482,7 @@
          },
          {
             "name":"Together_HSD_S",
+            "alias":"Together HSD S",
             "shape":"poly",
             "coords":[201,69,241,79,246,57,213,49],
             "fillColor":"#a207154f",
@@ -432,6 +490,7 @@
          },
          {
             "name":"Dwarf_Hs_Files",
+            "alias":"Dwarf Hs Files",
             "shape":"poly",
             "coords":[198,105,232,112,239,92,196,81],
             "fillColor":"#a207154f",
@@ -439,6 +498,7 @@
          },
          {
             "name":"Together_HSD_N",
+            "alias":"Together HSD N",
             "shape":"poly",
             "coords":[251,58,244,78,287,89,287,65],
             "fillColor":"#a207154f",
@@ -446,6 +506,7 @@
          },
          {
             "name":"Huddle_IDA",
+            "alias":"Huddle IDA",
             "shape":"poly",
             "coords":[241,94,235,114,272,124,282,105],
             "fillColor":"#a207154f",
@@ -453,6 +514,7 @@
          },
          {
             "name":"Huddle_HH1",
+            "alias":"Huddle HH1",
             "shape":"poly",
             "coords":[212,621,255,610,241,576,208,585,206,599,208,613],
             "fillColor":"#a207154f",
@@ -460,6 +522,7 @@
          },
          {
             "name":"Huddle_HH2",
+            "alias":"Huddle HH2",
             "shape":"poly",
             "coords":[214,631,256,620,266,652,231,662,224,651,218,641],
             "fillColor":"#a207154f",
@@ -467,6 +530,7 @@
          },
          {
             "name":"Huddle_IW1",
+            "alias":"Huddle IW1",
             "shape":"poly",
             "coords":[283,566,252,575,261,609,302,600,298,591,290,577],
             "fillColor":"#a207154f",
@@ -474,6 +538,7 @@
          },
          {
             "name":"Huddle_IW2",
+            "alias":"Huddle IW2",
             "shape":"poly",
             "coords":[305,607,264,616,273,650,309,641,311,628,309,618],
             "fillColor":"#a207154f",
@@ -481,6 +546,7 @@
          },
          {
             "name":"Togeth_IDA",
+            "alias":"Together IDA",
             "shape":"poly",
             "coords":[344,304,288,302,288,332,346,332],
             "fillColor":"#a207154f",
@@ -488,6 +554,7 @@
          },
          {
             "name":"Togeth_Innov_Way",
+            "alias":"Together Innovation Way",
             "shape":"poly",
             "coords":[290,348,290,377,348,377,347,348],
             "fillColor":"#a207154f",
@@ -495,6 +562,7 @@
          },
          {
             "name":"FO_LeadShpHub",
+            "alias":"FO Lead Shp Hub",
             "shape":"poly",
             "coords":[481,302,464,378,355,377,353,304],
             "fillColor":"#a207154f",
@@ -502,6 +570,7 @@
          },
          {
             "name":"Together_KFL",
+            "alias":"Together KFL",
             "shape":"poly",
             "coords":[580,305,540,295,537,303,492,290,472,377,482,376,486,370,518,378,521,372,565,383],
             "fillColor":"#a207154f",
@@ -509,6 +578,7 @@
          },
          {
             "name":"Huddle_JCW",
+            "alias":"Huddle JCW",
             "shape":"poly",
             "coords":[437,130,438,151,396,149,397,129],
             "fillColor":"#a207154f",
@@ -516,6 +586,7 @@
          },
          {
             "name":"CopyRm_C108",
+            "alias":"Copy Room C108",
             "shape":"poly",
             "coords":[445,131,444,150,482,150,480,130],
             "fillColor":"#a207154f",
@@ -523,6 +594,7 @@
          },
          {
             "name":"Huddle_JCD",
+            "alias":"Huddle JCD",
             "shape":"poly",
             "coords":[463,566,461,535,417,534,419,567],
             "fillColor":"#a207154f",
@@ -530,6 +602,7 @@
          },
          {
             "name":"Huddle_KFL",
+            "alias":"Huddle KFL",
             "shape":"poly",
             "coords":[468,534,471,567,513,567,511,534],
             "fillColor":"#a207154f",
@@ -542,6 +615,7 @@
       "areas":[
          {
             "name":"Regions_Huddle",
+            "alias":"Regions Huddle",
             "shape":"poly",
             "coords":[25,57,57,58,52,31,28,30,24,39,23,48],
             "fillColor":"#a207154f",
@@ -549,6 +623,7 @@
          },
          {
             "name":"Huddle_LegLn",
+            "alias":"Huddle LegLn",
             "shape":"poly",
             "coords":[56,75,26,73,27,98,61,97],
             "fillColor":"#a207154f",
@@ -556,6 +631,7 @@
          },
          {
             "name":"Sandbox_MBW",
+            "alias":"Sandbox MBW",
             "shape":"poly",
             "coords":[77,28,64,27,66,56,95,57],
             "fillColor":"#a207154f",
@@ -563,6 +639,7 @@
          },
          {
             "name":"Huddle_MBW2",
+            "alias":"Huddle MBW2",
             "shape":"poly",
             "coords":[68,74,71,98,98,99,95,75],
             "fillColor":"#a207154f",
@@ -570,6 +647,7 @@
          },
          {
             "name":"Huddle_MBW1",
+            "alias":"Huddle MBW1",
             "shape":"poly",
             "coords":[74,153,76,176,101,177,97,154],
             "fillColor":"#a207154f",
@@ -577,6 +655,7 @@
          },
          {
             "name":"Together_MSL2",
+            "alias":"Together MSL2",
             "shape":"poly",
             "coords":[102,432,110,519,126,514,136,503,140,487,141,472,136,459,125,447,114,439],
             "fillColor":"#a207154f",
@@ -584,6 +663,7 @@
          },
          {
             "name":"Huddle_LL1",
+            "alias":"Huddle LL1",
             "shape":"poly",
             "coords":[108,611,76,611,78,653,113,651],
             "fillColor":"#a207154f",
@@ -591,6 +671,7 @@
          },
          {
             "name":"Huddle_LL2",
+            "alias":"Huddle LL2",
             "shape":"poly",
             "coords":[79,662,83,701,117,701,112,662],
             "fillColor":"#a207154f",
@@ -598,6 +679,7 @@
          },
          {
             "name":"Together_MSL1",
+            "alias":"Together MSL1",
             "shape":"poly",
             "coords":[190,660,125,661,128,701,200,701],
             "fillColor":"#a207154f",
@@ -605,6 +687,7 @@
          },
          {
             "name":"Huddle_NT6",
+            "alias":"Huddle NT6",
             "shape":"poly",
             "coords":[269,78,293,85,293,74,271,68],
             "fillColor":"#a207154f",
@@ -612,6 +695,7 @@
          },
          {
             "name":"Huddle_NT5",
+            "alias":"Huddle NT5",
             "shape":"poly",
             "coords":[266,92,263,107,288,114,292,100],
             "fillColor":"#a207154f",
@@ -619,6 +703,7 @@
          },
          {
             "name":"Together_MBW",
+            "alias":"Together MBW",
             "shape":"poly",
             "coords":[209,235,205,253,260,266,262,249],
             "fillColor":"#a207154f",
@@ -626,6 +711,7 @@
          },
          {
             "name":"Huddle_MSL3",
+            "alias":"Huddle MSL3",
             "shape":"poly",
             "coords":[174,505,176,531,191,531,188,506],
             "fillColor":"#a207154f",
@@ -633,6 +719,7 @@
          },
          {
             "name":"Mail_Rm",
+            "alias":"Mail Room",
             "shape":"poly",
             "coords":[277,600,270,543,178,542,182,586,187,593,192,600,198,601],
             "fillColor":"#a207154f",
@@ -640,6 +727,7 @@
          },
          {
             "name":"Roof_Access",
+            "alias":"Roof Access",
             "shape":"poly",
             "coords":[302,537,284,536,292,599,309,600],
             "fillColor":"#a207154f",
@@ -647,6 +735,7 @@
          },
          {
             "name":"Huddle_NT4",
+            "alias":"Huddle NT4",
             "shape":"poly",
             "coords":[397,147,375,148,378,169,401,168],
             "fillColor":"#a207154f",
@@ -654,6 +743,7 @@
          },
          {
             "name":"Huddle_NT3",
+            "alias":"Huddle NT3",
             "shape":"poly",
             "coords":[389,238,390,263,416,261,411,239],
             "fillColor":"#a207154f",
@@ -661,6 +751,7 @@
          },
          {
             "name":"Huddle_NT2",
+            "alias":"Huddle NT2",
             "shape":"poly",
             "coords":[420,460,426,496,452,497,447,461],
             "fillColor":"#a207154f",
@@ -668,6 +759,7 @@
          },
          {
             "name":"Huddle_NT1",
+            "alias":"Huddle NT1",
             "shape":"poly",
             "coords":[396,506,399,529,423,529,422,505],
             "fillColor":"#a207154f",
@@ -675,6 +767,7 @@
          },
          {
             "name":"Shipping_Rec",
+            "alias":"Shipping Rec",
             "shape":"poly",
             "coords":[416,550,346,548,357,635,344,645,251,644,259,700,439,701],
             "fillColor":"#a207154f",
@@ -687,6 +780,7 @@
       "areas": [
          {
             "name": "S1",
+            "alias":"S1",
             "shape": "poly",
             "coords": [
                141,
@@ -705,6 +799,7 @@
          },
          {
             "name": "CmpsMbl_60",
+            "alias":"Cmps Mbl 60",
             "shape": "poly",
             "coords": [
                71,
@@ -727,6 +822,7 @@
          },
          {
             "name": "Pulse_35",
+            "alias":"Pulse 35",
             "shape": "poly",
             "coords": [
                579,
@@ -743,6 +839,7 @@
          },
          {
             "name": "Men's_Restroom",
+            "alias":"Men's Restroom",
             "shape": "poly",
             "coords": [
                731,
@@ -759,6 +856,7 @@
          },
          {
             "name": "Women's_Restroom",
+            "alias":"Women's Restroom",
             "shape": "poly",
             "coords": [
                791,
@@ -775,6 +873,7 @@
          },
          {
             "name": "Huddle_12",
+            "alias":"Huddle 12",
             "shape": "poly",
             "coords": [
                719,
@@ -791,6 +890,7 @@
          },
          {
             "name": "Huddle_14",
+            "alias":"Huddle 14",
             "shape": "poly",
             "coords": [
                794,
@@ -807,6 +907,7 @@
          },
          {
             "name": "Huddle_18",
+            "alias":"Huddle 18",
             "shape": "poly",
             "coords": [
                825,
@@ -823,6 +924,7 @@
          },
          {
             "name": "Huddle_15",
+            "alias":"Huddle 15",
             "shape": "poly",
             "coords": [
                781,
@@ -839,6 +941,7 @@
          },
          {
             "name": "Together_10",
+            "alias":"Together 10",
             "shape": "poly",
             "coords": [
                785,
@@ -855,6 +958,7 @@
          },
          {
             "name": "Together_19",
+            "alias":"Together 19",
             "shape": "poly",
             "coords": [
                850,
@@ -880,6 +984,7 @@
             "areas":[
                {
                   "name":"Together_54",
+                  "alias":"Together 54",
                   "shape":"rect",
                   "coords":[
                      159,134,266,191
@@ -889,6 +994,7 @@
                },
                {
                   "name":"Huddle_52",
+                  "alias":"Huddle 52",
                   "shape":"rect",
                   "coords":[
                      155,194,203,230
@@ -898,6 +1004,7 @@
                },
                {
                   "name":"Together_51",
+                  "alias":"Together 51",
                   "shape":"rect",
                   "coords":[
                      206,194,264,230
@@ -907,6 +1014,7 @@
                },
                {
                   "name":"Huddle_43",
+                  "alias":"Huddle 43",
                   "shape":"rect",
                   "coords":[
                      417,173,456,205
@@ -916,6 +1024,7 @@
                },
                {
                   "name":"Together_7",
+                  "alias":"Together 7",
                   "shape":"poly",
                   "coords":[
                      433,371,501,418
@@ -925,6 +1034,7 @@
                },
                {
                   "name":"Together_18",
+                  "alias":"Together 18",
                   "shape":"rect",
                   "coords":[
                      503,372,577,419
@@ -934,6 +1044,7 @@
                },
                {
                   "name":"Sand_Box_8",
+                  "alias":"Sandbox 8",
                   "shape":"poly",
                   "coords":[
                      367,469,440,481,441,538,358,541
@@ -943,6 +1054,7 @@
                },
                {
                   "name":"Together_9",
+                  "alias":"Together 9",
                   "shape":"rect",
                   "coords":[
                      447,480,535,538
@@ -952,6 +1064,7 @@
                },
                {
                   "name":"Huddle_17",
+                  "alias":"Huddle 17",
                   "shape":"rect",
                   "coords":[
                      539,505,587,537
@@ -961,6 +1074,7 @@
                },
                {
                   "name":"Huddle_24",
+                  "alias":"Huddle 24",
                   "shape":"rect",
                   "coords":[
                      745,503,795,538
@@ -970,6 +1084,7 @@
                },
                {
                   "name":"Huddle_25",
+                  "alias":"Huddle 25",
                   "shape":"rect",
                   "coords":[
                      797,506,844,539
@@ -979,6 +1094,7 @@
                },
                {
                   "name":"Together_27",
+                  "alias":"Together 27",
                   "shape":"rect",
                   "coords":[
                      785,409,849,467
@@ -988,6 +1104,7 @@
                },
                {
                   "name":"Huddle_26",
+                  "alias":"Huddle 26",
                   "shape":"poly",
                   "coords":[
                      846,504,845,538,889,538,879,504
@@ -997,6 +1114,7 @@
                },
                {
                   "name":"Hideaway_30",
+                  "alias":"Hideaway 30",
                   "shape":"poly",
                   "coords":[
                      806,255,809,289,863,300,866,258
@@ -1006,6 +1124,7 @@
                },
                {
                   "name":"Resident_East",
+                  "alias":"Resident East",
                   "shape":"poly",
                   "coords":[
                      868,259,919,280,959,310,988,357,1003,420,991,472,960,502,933,531,889,534
@@ -1021,6 +1140,7 @@
       "areas": [
          {
             "name": "CampMbl_29",
+            "alias":"Camp Mbl 29",
             "shape": "poly",
             "coords": [
                879,334,861,429,867,533,885,560,909,553,929,590,953,581,970,563,987,543,997,513,1003,484,1001,459,994,435,986,414,971,395,957,377,938,361,910,345
@@ -1030,6 +1150,7 @@
          },
          {
             "name": "Hideaway_30",
+            "alias":"Hideaway 30",
             "shape": "poly",
             "coords": [
                813,324,814,352,838,363,868,367,871,326,843,323
@@ -1039,6 +1160,7 @@
          },
          {
             "name": "Women's_Restroom",
+            "alias":"Women's Restroom",
             "shape": "poly",
             "coords": [
                793,438,827,438,856,437,869,370,823,361,812,353,771,355,780,419,791,419
@@ -1048,6 +1170,7 @@
          },
          {
             "name": "Men's_Restroom",
+            "alias":"Men's Restroom",
             "shape": "poly",
             "coords": [
                769,355,732,356,740,438,777,438
@@ -1057,6 +1180,7 @@
          },
          {
             "name": "Huddle_22",
+            "alias":"Huddle 22",
             "shape": "poly",
             "coords": [
                846,562,850,602,893,603,883,563
@@ -1066,6 +1190,7 @@
          },
          {
             "name": "Huddle_21",
+            "alias":"Huddle 21",
             "shape": "poly",
             "coords": [
                802,563,803,602,846,603,842,563
@@ -1075,6 +1200,7 @@
          },
          {
             "name": "Huddle_20",
+            "alias":"Huddle 20",
             "shape": "poly",
             "coords": [
                799,602,796,562,758,563,760,602
@@ -1084,6 +1210,7 @@
          },
          {
             "name": "Print_Services",
+            "alias":"Print Services",
             "shape": "poly",
             "coords": [
                830,180,841,259,731,259,723,195,747,183
@@ -1093,6 +1220,7 @@
          },
          {
             "name": "Huddle_38",
+            "alias":"Huddle 38",
             "shape": "poly",
             "coords": [
                575,337,573,298,531,298,533,337
@@ -1102,6 +1230,7 @@
          },
          {
             "name": "Huddle_40",
+            "alias":"Huddle 40",
             "shape": "poly",
             "coords": [
                486,298,527,298,529,338,485,338
@@ -1111,6 +1240,7 @@
          },
          {
             "name": "Huddle_43",
+            "alias":"Huddle 43",
             "shape": "poly",
             "coords": [
                482,338,481,298,440,299,441,338
@@ -1120,6 +1250,7 @@
          },
          {
             "name":"Sand_Box_8",
+            "alias":"Sand Box 8",
             "shape":"poly",
             "coords":[
                450,515,454,602,391,602,390,591,381,587,390,513
@@ -1129,6 +1260,7 @@
          },
          {
             "name":"Together_45",
+            "alias":"Together 45",
             "shape":"poly",
             "coords":[
                434,183,437,240,540,239,535,182
@@ -1138,6 +1270,7 @@
          },
          {
             "name":"Together_51",
+            "alias":"Together 51",
             "shape":"poly",
             "coords":[
                293,227,301,178,187,177,187,227
@@ -1147,6 +1280,7 @@
          },
          {
             "name":"Together_56",
+            "alias":"Together 56",
             "shape":"rect",
             "coords":[
                165,232,229,266
@@ -1156,6 +1290,7 @@
          },
          {
             "name":"Huddle_52",
+            "alias":"Huddle 52",
             "shape":"poly",
             "coords":[
                232,233,233,264,286,265,291,231
@@ -1165,6 +1300,7 @@
          },
          {
             "name":"Huddle_53",
+            "alias":"Huddle 53",
             "shape":"poly",
             "coords":[
                237,269,235,295,278,297,284,269
@@ -1174,6 +1310,7 @@
          },
          {
             "name":"Huddle_54",
+            "alias":"Huddle 54",
             "shape":"rect",
             "coords":[
                189,270,230,296
@@ -1188,6 +1325,7 @@
       "areas": [
          {
             "name": "CampMbl_29",
+            "alias":"Camp Mbl 29",
             "shape": "poly",
             "coords": [
                878,329,866,394,861,437,859,464,865,528,880,556,896,601,920,595,945,582,965,568,984,552,996,528,1004,502,1005,476,1002,451,997,430,987,411,972,388,954,369,932,351,906,338
@@ -1197,6 +1335,7 @@
          },
          {
             "name": "Tot_Rewards_3030",
+            "alias":"Tot Rewards 3030",
             "shape": "poly",
             "coords": [
                873,329,865,368,820,360,816,327
@@ -1206,6 +1345,7 @@
          },
          {
             "name": "Huddle_22",
+            "alias":"Huddle 22",
             "shape": "poly",
             "coords": [
                844,556,851,599,891,598,875,557
@@ -1215,6 +1355,7 @@
          },
          {
             "name": "Huddle_21",
+            "alias":"Huddle 21",
             "shape": "poly",
             "coords": [
                801,555,806,600,848,599,841,556
@@ -1224,6 +1365,7 @@
          },
          {
             "name": "Huddle_20",
+            "alias":"Huddle 20",
             "shape": "poly",
             "coords": [
                803,600,758,601,753,557,798,556
@@ -1233,6 +1375,7 @@
          },
          {
             "name": "Huddle_21",
+            "alias":"Huddle 21",
             "shape": "poly",
             "coords": [
                802,563,803,602,846,603,842,563
@@ -1242,6 +1385,7 @@
          },
          {
             "name": "Together_27",
+            "alias":"Together 27",
             "shape": "poly",
             "coords": [
                846,469,852,529,754,528,747,469
@@ -1251,6 +1395,7 @@
          },
          {
             "name": "Women's_Restroom",
+            "alias":"Women's Restroom",
             "shape": "poly",
             "coords": [
                813,354,822,437,793,436,790,416,780,415,775,356
@@ -1260,6 +1405,7 @@
          },
          {
             "name": "Men's_Restroom",
+            "alias":"Men's Restroom",
             "shape": "poly",
             "coords": [
                774,415,775,437,740,437,731,355,769,354
@@ -1269,6 +1415,7 @@
          },
          {
             "name": "Huddle_40",
+            "alias":"Huddle 40",
             "shape": "poly",
             "coords": [
                486,298,527,298,529,338,485,338
@@ -1278,6 +1425,7 @@
          },
          {
             "name": "Together_15",
+            "alias":"Together 15",
             "shape": "poly",
             "coords": [
                590,481,520,482,520,438,588,437
@@ -1287,6 +1435,7 @@
          },
          {
             "name":"Together_7",
+            "alias":"Together 7",
             "shape":"poly",
             "coords":[
                449,481,515,480,513,437,447,438
@@ -1296,6 +1445,7 @@
          },
          {
             "name":"SB_12",
+            "alias":"SB 12",
             "shape":"poly",
             "coords":[
                593,546,598,598,530,597,527,547
@@ -1305,6 +1455,7 @@
          },
          {
             "name":"Team_Hub_9",
+            "alias":"Team Hub 9",
             "shape":"poly",
             "coords":[
                520,547,524,598,392,599,392,587,380,586,386,535,444,547
@@ -1314,6 +1465,7 @@
          },
          {
             "name":"Team_Hub_36",
+            "alias":"Team Hub 36",
             "shape":"poly",
             "coords":[
                560,178,564,225,525,225,522,179
@@ -1323,6 +1475,7 @@
          },
          {
             "name":"Together_45",
+            "alias":"Together 45",
             "shape":"poly",
             "coords":[
                517,179,520,226,437,226,436,179
@@ -1332,6 +1485,7 @@
          },
          {
             "name":"Together_52",
+            "alias":"Together 52",
             "shape":"poly",
             "coords":[
                289,227,281,271,183,272,179,22
@@ -1341,6 +1495,7 @@
          },
          {
             "name":"Together_51",
+            "alias":"Together 51",
             "shape":"poly",
             "coords":[
                273,275,273,317,183,317,182,275
@@ -1350,6 +1505,7 @@
          },
          {
             "name":"Together_54",
+            "alias":"Together 54",
             "shape":"poly",
             "coords":[
                185,206,184,176,164,175,111,190,127,218,156,209
@@ -1359,6 +1515,7 @@
          },
          {
             "name":"Together_63",
+            "alias":"Together 63",
             "shape":"poly",
             "coords":[
                182,401,154,398,128,387,112,420,130,428,152,435,182,437
@@ -1368,6 +1525,7 @@
          },
          {
             "name":"Open_Interview",
+            "alias":"Open Interview",
             "shape":"poly",
             "coords":[
                177,395,175,211,146,213,124,221,107,195,81,209,53,239,38,267,33,302,37,336,51,369,74,396,109,418,127,384,153,394
@@ -1382,6 +1540,7 @@
       "areas": [
          {
             "name": "Women's_Restroom",
+            "alias":"Women's Restroom",
             "shape": "poly",
             "coords": [
                825,436,814,358,776,360,781,418,791,419,793,436
@@ -1391,6 +1550,7 @@
          },
          {
             "name": "Men's_Restroom",
+            "alias":"Men's Restroom",
             "shape": "poly",
             "coords": [
                776,436,769,358,732,359,739,436
@@ -1400,6 +1560,7 @@
          },
          {
             "name": "Sand_Box_8",
+            "alias":"Sand Box 8",
             "shape": "poly",
             "coords": [
                431,581,428,511,387,512,376,564,392,570,392,581
@@ -1409,6 +1570,7 @@
          },
          {
             "name": "Huddle_36",
+            "alias":"Huddle 36",
             "shape": "poly",
             "coords": [
                571,298,573,324,533,323,531,299
@@ -1418,6 +1580,7 @@
          },
          {
             "name": "Huddle_40",
+            "alias":"Huddle 40",
             "shape": "poly",
             "coords": [
                525,299,526,324,489,325,488,299
@@ -1427,6 +1590,7 @@
          },
          {
             "name": "Huddle_44",
+            "alias":"Huddle 44",
             "shape": "poly",
             "coords": [
                442,300,442,323,479,323,477,301
@@ -1436,6 +1600,7 @@
          },
          {
             "name": "Huddle_52",
+            "alias":"Huddle 52",
             "shape": "poly",
             "coords": [
                303,178,303,206,270,206,268,178
@@ -1445,6 +1610,7 @@
          },
          {
             "name": "Huddle_53",
+            "alias":"Huddle 53",
             "shape": "poly",
             "coords": [
                264,207,263,178,227,179,227,207
@@ -1454,6 +1620,7 @@
          },
          {
             "name": "Huddle_55",
+            "alias":"Huddle 55",
             "shape": "poly",
             "coords": [
                222,207,221,180,183,181,183,207
@@ -1463,6 +1630,7 @@
          },
          {
             "name": "Together_54",
+            "alias":"Together 54",
             "shape": "poly",
             "coords": [
                237,229,250,274,188,285,182,233
@@ -1472,6 +1640,7 @@
          },
          {
             "name": "Sky_Box_69",
+            "alias":"Sky Box 69",
             "shape": "poly",
             "coords": [
                180,380,181,436,161,436,132,427,97,413,71,391,118,354,141,371
@@ -1481,6 +1650,7 @@
          },
          {
             "name":"Open_Interview",
+            "alias":"Open Interview",
             "shape":"poly",
             "coords":[
                175,180,176,345,116,347,65,384,38,346,36,299,47,251,74,214,106,194,145,180
@@ -1495,6 +1665,7 @@
       "areas": [
          {
             "name": "Together_40",
+            "alias":"Together 40",
             "shape": "poly",
             "coords": [
                51,280,46,312,84,312,177,244,147,209
@@ -1504,6 +1675,7 @@
          },
          {
             "name": "Together_4",
+            "alias":"Together 4",
             "shape": "poly",
             "coords": [
                252,167,246,156,217,157,217,165,156,208,186,248,276,186,277,167
@@ -1513,6 +1685,7 @@
          },
          {
             "name": "IT_Support_3",
+            "alias":"IT Support 3",
             "shape": "poly",
             "coords": [
                376,83,367,83,365,113,371,116,374,134,453,135,452,29,375,30
@@ -1522,6 +1695,7 @@
          },
          {
             "name": "AV_Tech_2",
+            "alias":"AV Tech 2",
             "shape": "poly",
             "coords": [
                459,27,457,136,517,134,518,140,547,140,544,28
@@ -1531,6 +1705,7 @@
          },
          {
             "name": "Mens_RR",
+            "alias":"Men's Restroom",
             "shape": "poly",
             "coords": [
                550,32,550,147,576,147,576,110,590,109,588,33
@@ -1540,6 +1715,7 @@
          },
          {
             "name": "Womens_RR",
+            "alias":"Women's Restroom",
             "shape": "poly",
             "coords": [
                620,107,621,148,648,148,641,30,600,29,602,107
@@ -1549,6 +1725,7 @@
          },
          {
             "name": "West_Section",
+            "alias":"West Section",
             "shape": "poly",
             "coords": [
                285,199,280,319,240,319,235,371,206,370,199,451,176,449,170,521,130,520,141,415,26,411,39,327,77,327,98,340
@@ -1558,6 +1735,7 @@
          },
          {
             "name": "South_Section",
+            "alias":"South Section",
             "shape": "poly",
             "coords": [
                236,372,206,370,200,453,177,448,170,521,560,522,560,419,444,421,443,371,400,371,398,420,233,418
@@ -1567,6 +1745,7 @@
          },
          {
             "name": "Long_Table_S",
+            "alias":"Long Table S",
             "shape": "poly",
             "coords": [
                587,432,586,485,651,487,650,434
@@ -1576,6 +1755,7 @@
          },
          {
             "name": "Long_Table_N",
+            "alias":"Long Table N",
             "shape": "poly",
             "coords": [
                653,434,652,488,727,487,726,436
@@ -1585,6 +1765,7 @@
          },
          {
             "name": "Huddle_12",
+            "alias":"Huddle 12",
             "shape": "poly",
             "coords": [
                504,331,504,363,556,363,555,331
@@ -1594,6 +1775,7 @@
          },
          {
             "name": "Huddle_13",
+            "alias":"Huddle 13",
             "shape": "poly",
             "coords": [
                500,331,500,363,450,364,452,330
@@ -1603,6 +1785,7 @@
          },
          {
             "name": "Huddle_21",
+            "alias":"Huddle 21",
             "shape": "poly",
             "coords": [
                504,375,505,411,556,408,555,375
@@ -1612,6 +1795,7 @@
          },
          {
             "name": "Huddle_22",
+            "alias":"Huddle 22",
             "shape": "poly",
             "coords": [
                499,375,499,408,448,409,449,376
@@ -1621,6 +1805,7 @@
          },
          {
             "name": "ST_11_Join_Up",
+            "alias":"ST 11 Join Up",
             "shape": "poly",
             "coords": [
                430,195,376,194,371,267,429,266
@@ -1630,6 +1815,7 @@
          },
          {
             "name": "Together_14",
+            "alias":"Together 14",
             "shape": "poly",
             "coords": [
                458,191,457,261,548,262,547,192
@@ -1639,6 +1825,7 @@
          },
          {
             "name": "Together_15",
+            "alias":"Together 15",
             "shape": "poly",
             "coords": [
                553,190,554,264,642,262,637,193
@@ -1648,6 +1835,7 @@
          },
          {
             "name": "Bar_Tables_S",
+            "alias":"Bar Tables S",
             "shape": "poly",
             "coords": [
                584,324,582,414,641,412,640,324
@@ -1657,6 +1845,7 @@
          },
          {
             "name": "Bar_Tables_N",
+            "alias":"Bar Tables N",
             "shape": "poly",
             "coords": [
                664,324,664,418,729,418,725,324
@@ -1666,6 +1855,7 @@
          },
          {
             "name": "Hangout_Platfoorm",
+            "alias":"Hangout Platform",
             "shape": "poly",
             "coords": [
                647,176,648,272,739,272,735,178
@@ -1675,6 +1865,7 @@
          },
          {
             "name": "Coffee_Bar_N",
+            "alias":"Coffee Bar N",
             "shape": "poly",
             "coords": [
                817,188,773,187,774,221,819,221
@@ -1684,6 +1875,7 @@
          },
          {
             "name": "Coffee_Bar_S",
+            "alias":"Coffee Bar S",
             "shape": "poly",
             "coords": [
                775,225,775,264,826,264,821,226
@@ -1698,6 +1890,7 @@
       "areas": [
          {
             "name": "Large_Dining_Room",
+            "alias":"Large Dining Room",
             "shape": "poly",
             "coords": [
                778,468,784,565,859,567,850,468
@@ -1707,6 +1900,7 @@
          },
          {
             "name": "Kitchen",
+            "alias":"Kitchen",
             "shape": "poly",
             "coords": [
                496,260,575,261,646,194,645,183,545,180,545,169,407,165,401,181,302,181,299,229,496,230
@@ -1716,6 +1910,7 @@
          },
          {
             "name": "Facilities",
+            "alias":"Facilities",
             "shape": "poly",
             "coords": [
                353,364,356,321,308,319,301,308,299,297,282,296,273,283,267,282,262,365
@@ -1725,6 +1920,7 @@
          },
          {
             "name": "Womens_RR",
+            "alias":"Women's Restroom",
             "shape": "poly",
             "coords": [
                902,139,895,149,915,165,925,160,964,197,956,161,938,160,936,147
@@ -1734,6 +1930,7 @@
          },
          {
             "name": "Mens_RR",
+            "alias":"Men's Restroom",
             "shape": "poly",
             "coords": [
                881,56,872,82,887,92,893,83,919,82,910,56
@@ -1743,6 +1940,7 @@
          },
          {
             "name": "ShippingReceiving",
+            "alias":"Shipping Receiving",
             "shape": "poly",
             "coords": [
                721,99,725,122,617,121,616,96
@@ -1752,6 +1950,7 @@
          },
          {
             "name": "Dining_Area",
+            "alias":"Dining Area",
             "shape": "poly",
             "coords": [
                273,638,278,566,202,564,205,506,217,494,218,477,236,472,240,464,220,457,223,440,244,448,251,438,231,425,
@@ -1767,6 +1966,7 @@
       "areas": [
          {
             "name": "Breezeway",
+            "alias":"Breezeway",
             "shape": "rect",
             "coords": [
                829,295,770,30
@@ -1776,6 +1976,7 @@
          },
          {
             "name": "Patio",
+            "alias":"Patio",
             "shape": "rect",
             "coords": [
                836,87,1022,271
@@ -1785,6 +1986,7 @@
          },
          {
             "name": "Family_Room_42",
+            "alias":"Family Room 42",
             "shape": "rect",
             "coords": [
                790,458,956,543
@@ -1794,6 +1996,7 @@
          },
          {
             "name": "Huddle_45",
+            "alias":"Huddle 45",
             "shape": "rect",
             "coords": [
                837,547,883,580
@@ -1803,6 +2006,7 @@
          },
          {
             "name": "Huddle_47",
+            "alias":"Huddle 47",
             "shape": "rect",
             "coords": [
                918,549,959,579
@@ -1812,6 +2016,7 @@
          },
          {
             "name": "Huddle_41",
+            "alias":"Huddle 41",
             "shape": "rect",
             "coords": [
                729,500,783,545
@@ -1821,6 +2026,7 @@
          },
          {
             "name": "Huddle_40",
+            "alias":"Huddle 40",
             "shape": "rect",
             "coords": [
                678,502,727,546
@@ -1830,6 +2036,7 @@
          },
          {
             "name": "Huddle_52",
+            "alias":"Huddle 52",
             "shape": "rect",
             "coords": [
                678,457,727,500
@@ -1839,6 +2046,7 @@
          },
          {
             "name": "Huddle_32",
+            "alias":"Huddle 32",
             "shape": "poly",
             "coords": [
                411,625,377,631,376,593,410,589
@@ -1848,6 +2056,7 @@
          },
          {
             "name": "Huddle_33",
+            "alias":"Huddle 33",
             "shape": "poly",
             "coords": [
                374,548,407,543,409,583,376,587
@@ -1857,6 +2066,7 @@
          },
          {
             "name": "Huddle_28",
+            "alias":"Huddle 28",
             "shape": "poly",
             "coords": [
                373,630,334,635,334,597,372,591
@@ -1866,6 +2076,7 @@
          },
          {
             "name":"Huddle_27",
+            "alias":"Huddle 27",
             "shape":"poly",
             "coords":[
                333,556,369,549,371,587,333,593
@@ -1875,6 +2086,7 @@
          },
          {
             "name":"Together_25",
+            "alias":"Together 25",
             "shape":"poly",
             "coords":[
                320,458,382,458,378,521,316,529
@@ -1884,6 +2096,7 @@
          },
          {
             "name":"Teamhub_24",
+            "alias":"Team Hub 24",
             "shape":"poly",
             "coords":[
                310,527,314,459,231,457,226,540
@@ -1893,6 +2106,7 @@
          },
          {
             "name":"Huddle_23",
+            "alias":"Huddle 23",
             "shape":"poly",
             "coords":[
                219,538,222,497,181,497,177,545
@@ -1902,6 +2116,7 @@
          },
          {
             "name":"Huddle_17",
+            "alias":"Huddle 17",
             "shape":"poly",
             "coords":[
                226,457,224,492,182,491,183,458
@@ -1911,6 +2126,7 @@
          },
          {
             "name":"Huddle_18",
+            "alias":"Huddle 18",
             "shape":"rect",
             "coords":[
                141,460,179,486
@@ -1920,6 +2136,7 @@
          },
          {
             "name":"Huddle_19",
+            "alias":"Huddle 19",
             "shape":"rect",
             "coords":[
                139,492,179,518
@@ -1929,6 +2146,7 @@
          },
          {
             "name":"Huddle_20",
+            "alias":"Huddle 20",
             "shape":"poly",
             "coords":[
                135,520,174,520,173,543,132,549
@@ -1938,6 +2156,7 @@
          },
          {
             "name":"Men's_Restroom",
+            "alias":"Men's Restroom",
             "shape":"poly",
             "coords":[
                224,285,269,286,257,387,212,387
@@ -1947,6 +2166,7 @@
          },
          {
             "name":"Women's_Restroom",
+            "alias":"Women's Restroom",
             "shape":"poly",
             "coords":[
                305,389,262,388,271,300,313,301
@@ -1956,6 +2176,7 @@
          },
          {
             "name":"Huddle_11",
+            "alias":"Huddle 11",
             "shape":"rect",
             "coords":[
                316,301,353,329
@@ -1965,6 +2186,7 @@
          },
          {
             "name":"Huddle_12",
+            "alias":"Huddle 12",
             "shape":"rect",
             "coords":[
                350,330,382,361
@@ -1974,6 +2196,7 @@
          },
          {
             "name":"Print_Services",
+            "alias":"Print Services",
             "shape":"rect",
             "coords":[
                416,348,495,409
@@ -1988,6 +2211,7 @@
       "areas": [
          {
             "name": "Breezeway",
+            "alias":"Breezeway",
             "shape": "rect",
             "coords": [
                761,17,813,250
@@ -1997,6 +2221,7 @@
          },
          {
             "name": "Together_51",
+            "alias":"Together 51",
             "shape": "rect",
             "coords": [
                828,449,944,512
@@ -2006,6 +2231,7 @@
          },
          {
             "name": "Huddle_44",
+            "alias":"Huddle 44",
             "shape": "rect",
             "coords": [
                829,516,855,557
@@ -2015,6 +2241,7 @@
          },
          {
             "name": "Together_40",
+            "alias":"Together 40",
             "shape": "poly",
             "coords": [
                707,406,723,503,786,502,769,398
@@ -2024,6 +2251,7 @@
          },
          {
             "name": "Gathering_1",
+            "alias":"Gathering 1",
             "shape": "poly",
             "coords": [
                709,401,702,356,764,349,768,395
@@ -2033,6 +2261,7 @@
          },
          {
             "name": "Huddle_2",
+            "alias":"Huddle 2",
             "shape": "poly",
             "coords": [
                651,368,657,412,704,403,697,358
@@ -2042,6 +2271,7 @@
          },
          {
             "name": "Together_39",
+            "alias":"Together 39",
             "shape": "poly",
             "coords": [
                643,417,657,500,718,501,703,408
@@ -2051,6 +2281,7 @@
          },
          {
             "name": "Huddle_36",
+            "alias":"Huddle 36",
             "shape": "poly",
             "coords": [
                615,478,646,472,652,502,619,500
@@ -2060,6 +2291,7 @@
          },
          {
             "name": "Together_6",
+            "alias":"Together 6",
             "shape": "poly",
             "coords": [
                560,384,572,478,646,468,635,399,650,395,644,369
@@ -2069,6 +2301,7 @@
          },
          {
             "name": "Huddle_7",
+            "alias":"Huddle 7",
             "shape": "poly",
             "coords": [
                506,392,510,428,546,426,545,399,556,396,554,385
@@ -2078,6 +2311,7 @@
          },
          {
             "name": "Print_Services",
+            "alias":"Print Services",
             "shape": "poly",
             "coords": [
                529,488,479,498,471,397,501,395,509,431,524,433
@@ -2087,6 +2321,7 @@
          },
          {
             "name":"Huddle_28",
+            "alias":"Huddle 28",
             "shape":"poly",
             "coords":[
                321,586,321,624,373,618,370,580
@@ -2096,6 +2331,7 @@
          },
          {
             "name":"Huddle 27",
+            "alias":"Huddle 27",
             "shape":"poly",
             "coords":[
                369,537,369,575,321,580,321,545
@@ -2105,6 +2341,7 @@
          },
          {
             "name":"Together_25",
+            "alias":"Together 25",
             "shape":"poly",
             "coords":[
                346,455,342,508,283,517,288,456
@@ -2114,6 +2351,7 @@
          },
          {
             "name":"Together_24",
+            "alias":"Together 24",
             "shape":"poly",
             "coords":[
                230,457,226,525,276,518,278,456
@@ -2123,6 +2361,7 @@
          },
          {
             "name":"Sand_Box_22",
+            "alias":"Sand Box 22",
             "shape":"poly",
             "coords":[
                153,455,145,535,214,524,221,454
@@ -2132,6 +2371,7 @@
          },
          {
             "name":"Together_12",
+            "alias":"Together 12",
             "shape":"poly",
             "coords":[
                342,321,334,398,407,397,403,319
@@ -2141,6 +2381,7 @@
          },
          {
             "name":"Huddle_11",
+            "alias":"Huddle 11",
             "shape":"poly",
             "coords":[
                307,288,307,313,339,313,339,289
@@ -2150,6 +2391,7 @@
          },
          {
             "name":"Women's_Restroom",
+            "alias":"Women's Restroom",
             "shape":"poly",
             "coords":[
                298,292,293,397,264,400,267,373,252,372,259,292
@@ -2159,6 +2401,7 @@
          },
          {
             "name":"Men's_Restroom",
+            "alias":"Men's Restroom",
             "shape":"poly",
             "coords":[
                196,398,217,399,218,374,240,374,248,274,210,274
@@ -2173,6 +2416,7 @@
       "areas": [
          {
             "name": "Breezeway",
+            "alias":"Breezeway",
             "shape": "rect",
             "coords": [
                781,60,835,288
@@ -2182,6 +2426,7 @@
          },
          {
             "name": "Together_51",
+            "alias":"Together 51",
             "shape": "poly",
             "coords": [
                927,478,928,544,848,544,871,480
@@ -2191,6 +2436,7 @@
          },
          {
             "name": "Huddle_44",
+            "alias":"Huddle 44",
             "shape": "poly",
             "coords": [
                876,549,875,586,840,586,841,562,847,549
@@ -2200,6 +2446,7 @@
          },
          {
             "name": "Gathering_42",
+            "alias":"Gathering 42",
             "shape": "poly",
             "coords": [
                806,532,791,446,755,450,747,436,664,450,675,532
@@ -2209,6 +2456,7 @@
          },
          {
             "name": "Gathering_1",
+            "alias":"Gathering 1",
             "shape": "poly",
             "coords": [
                790,438,780,380,723,390,731,434,762,431,767,442
@@ -2218,6 +2466,7 @@
          },
          {
             "name": "Huddle_2",
+            "alias":"Huddle 2",
             "shape": "poly",
             "coords": [
                724,434,716,391,670,398,676,441
@@ -2227,6 +2476,7 @@
          },
          {
             "name": "Together_6",
+            "alias":"Together 6",
             "shape": "poly",
             "coords": [
                661,489,649,404,583,413,594,499
@@ -2236,6 +2486,7 @@
          },
          {
             "name": "Huddle_33",
+            "alias":"Huddle 33",
             "shape": "poly",
             "coords": [
                622,565,625,591,593,596,591,570
@@ -2245,6 +2496,7 @@
          },
          {
             "name": "Huddle_34",
+            "alias":"Huddle 34",
             "shape": "poly",
             "coords": [
                624,599,628,624,594,630,592,604
@@ -2254,6 +2506,7 @@
          },
          {
             "name": "Huddle_7",
+            "alias":"Huddle 7",
             "shape": "poly",
             "coords": [
                561,416,563,450,533,455,529,420
@@ -2263,6 +2516,7 @@
          },
          {
             "name":"Huddle_8",
+            "alias":"Huddle 8",
             "shape":"poly",
             "coords":[
                522,420,525,455,495,459,492,425
@@ -2272,6 +2526,7 @@
          },
          {
             "name":"Together_32",
+            "alias":"Together 32",
             "shape":"poly",
             "coords":[
                585,533,503,533,497,469,578,459
@@ -2281,6 +2536,7 @@
          },
          {
             "name":"Together_25",
+            "alias":"Together 25",
             "shape":"poly",
             "coords":[
                331,477,329,539,261,548,265,479
@@ -2290,6 +2546,7 @@
          },
          {
             "name":"Sand_Box_24",
+            "alias":"Sand Box 24",
             "shape":"poly",
             "coords":[
                243,550,250,479,192,479,188,557
@@ -2299,6 +2556,7 @@
          },
          {
             "name":"Huddle_18",
+            "alias":"Huddle 18",
             "shape":"poly",
             "coords":[
                176,501,178,478,146,477,145,501
@@ -2308,6 +2566,7 @@
          },
          {
             "name":"Huddle_19",
+            "alias":"Huddle 19",
             "shape":"rect",
             "coords":[
                140,510,174,534
@@ -2317,6 +2576,7 @@
          },
          {
             "name":"Huddle_20",
+            "alias":"Huddle 20",
             "shape":"rect",
             "coords":[
                138,539,173,562
@@ -2326,6 +2586,7 @@
          },
          {
             "name":"Huddle_13",
+            "alias":"Huddle 13",
             "shape":"poly",
             "coords":[
                392,439,385,351,358,351,352,439
@@ -2335,6 +2596,7 @@
          },
          {
             "name":"Huddle_11",
+            "alias":"Huddle 11",
             "shape":"rect",
             "coords":[
                323,321,358,344
@@ -2344,6 +2606,7 @@
          },
          {
             "name":"Women's_Restroom",
+            "alias":"Women's Restroom",
             "shape":"poly",
             "coords":[
                306,426,281,426,282,408,267,406,277,321,318,320
@@ -2353,6 +2616,7 @@
          },
          {
             "name":"Men's_Restroom",
+            "alias":"Men's Restroom",
             "shape":"poly",
             "coords":[
                255,407,262,306,230,306,214,430,233,431,236,406
@@ -2368,6 +2632,7 @@
       "areas": [
          {
             "name": "Breezeway",
+            "alias":"Breezeway",
             "shape": "rect",
             "coords": [
                774,33,829,210
@@ -2377,6 +2642,7 @@
          },
          {
             "name": "Together_51",
+            "alias":"Together 51",
             "shape": "poly",
             "coords": [
                961,466,960,396,871,395,846,466
@@ -2386,6 +2652,7 @@
          },
          {
             "name": "Huddle_45",
+            "alias":"Huddle 45",
             "shape": "poly",
             "coords": [
                877,509,903,509,903,474,876,473
@@ -2395,6 +2662,7 @@
          },
          {
             "name": "Huddle_46",
+            "alias":"Huddle 46",
             "shape": "poly",
             "coords": [
                934,509,934,472,912,472,912,509
@@ -2404,6 +2672,7 @@
          },
          {
             "name": "Huddle_47",
+            "alias":"Huddle 47",
             "shape": "poly",
             "coords": [
                962,471,963,509,942,509,941,472
@@ -2413,6 +2682,7 @@
          },
          {
             "name": "Oprspthub_42",
+            "alias":"Opr Spt Hub 42",
             "shape": "poly",
             "coords": [
                812,422,782,506,689,506,680,456,692,456,688,441
@@ -2422,6 +2692,7 @@
          },
          {
             "name": "Ctr_Tower_1",
+            "alias":"Ctr Tower 1",
             "shape": "poly",
             "coords": [
                813,416,790,398,772,378,754,340,747,309,671,319,687,432
@@ -2431,6 +2702,7 @@
          },
          {
             "name": "Together_6",
+            "alias":"Together 6",
             "shape": "poly",
             "coords": [
                666,322,675,390,589,404,580,335
@@ -2440,6 +2712,7 @@
          },
          {
             "name": "Together_32",
+            "alias":"Together 32",
             "shape": "poly",
             "coords": [
                583,449,577,384,496,394,501,449
@@ -2449,6 +2722,7 @@
          },
          {
             "name": "Huddle_7",
+            "alias":"Huddle 7",
             "shape": "poly",
             "coords": [
                577,377,571,331,525,337,531,383
@@ -2458,6 +2732,7 @@
          },
          {
             "name": "Huddle_8",
+            "alias":"Huddle 8",
             "shape": "poly",
             "coords": [
                522,384,518,340,489,342,494,388
@@ -2467,6 +2742,7 @@
          },
          {
             "name":"Nook_30",
+            "alias":"Nook 30",
             "shape":"poly",
             "coords":[
                422,481,425,508,394,508,395,483
@@ -2476,6 +2752,7 @@
          },
          {
             "name":"Nook_29",
+            "alias":"Nook 29",
             "shape":"poly",
             "coords":[
                424,515,425,539,394,540,394,515
@@ -2485,6 +2762,7 @@
          },
          {
             "name":"Nook_25",
+            "alias":"Nook 25",
             "shape":"poly",
             "coords":[
                383,507,383,481,350,481,349,508
@@ -2494,6 +2772,7 @@
          },
          {
             "name":"Huddle_26",
+            "alias":"Huddle 26",
             "shape":"rect",
             "coords":[
                348,541,382,516
@@ -2503,6 +2782,7 @@
          },
          {
             "name":"Huddle_27",
+            "alias":"Huddle 27",
             "shape":"poly",
             "coords":[
                348,549,379,585
@@ -2512,6 +2792,7 @@
          },
          {
             "name":"Back_of_House_24",
+            "alias":"Back of House 24",
             "shape":"poly",
             "coords":[
                267,451,270,395,214,393,211,459
@@ -2521,6 +2802,7 @@
          },
          {
             "name":"Sand_Box_22",
+            "alias":"Sand Box 22",
             "shape":"poly",
             "coords":[
                205,458,208,395,130,395,123,467
@@ -2530,6 +2812,7 @@
          },
          {
             "name":"LRD_Conference_Room",
+            "alias":"LRD Conference Room",
             "shape":"poly",
             "coords":[
                413,343,352,347,354,296,410,295
@@ -2539,6 +2822,7 @@
          },
          {
             "name":"Huddle_11",
+            "alias":"Huddle 11",
             "shape":"rect",
             "coords":[
                322,237,350,260
@@ -2548,6 +2832,7 @@
          },
          {
             "name":"Women's_Restroom",
+            "alias":"Women's Restroom",
             "shape":"poly",
             "coords":[
                306,346,314,239,273,239,266,327,281,328,278,348
@@ -2557,6 +2842,7 @@
          },
          {
             "name":"Men's_Restroom",
+            "alias":"Men's Restroom",
             "shape":"poly",
             "coords":[
                256,328,232,328,230,352,212,351,223,227,260,227
@@ -2572,6 +2858,7 @@
       "areas": [
          {
             "name": "Together_15",
+            "alias":"Together 15",
             "shape": "poly",
             "coords": [
                244,735,366,664,332,599,212,667
@@ -2581,6 +2868,7 @@
          },
          {
             "name": "Together_16",
+            "alias":"Together 16",
             "shape": "poly",
             "coords": [
                212,660,294,614,239,504,156,550
@@ -2590,6 +2878,7 @@
          },
          {
             "name": "Together_17",
+            "alias":"Together 17",
             "shape": "poly",
             "coords": [
                104,428,151,537,232,493,182,389
@@ -2599,6 +2888,7 @@
          },
          {
             "name": "Together_18",
+            "alias":"Together 18",
             "shape": "poly",
             "coords": [
                75,372,100,421,213,368,185,315
@@ -2608,6 +2898,7 @@
          },
          {
             "name": "Together_20",
+            "alias":"Together 20",
             "shape": "poly",
             "coords": [
                251,420,301,518,357,490,306,392
@@ -2617,6 +2908,7 @@
          },
          {
             "name": "Storage",
+            "alias":"Storage",
             "shape": "poly",
             "coords": [
                326,511,346,535,435,459,373,395,326,417,364,489
@@ -2626,6 +2918,7 @@
          },
          {
             "name": "Huddle_5",
+            "alias":"Huddle 5",
             "shape": "poly",
             "coords": [
                460,420,485,449,458,474,432,445
@@ -2635,6 +2928,7 @@
          },
          {
             "name": "Huddle_23",
+            "alias":"Huddle 23",
             "shape": "poly",
             "coords": [
                391,348,418,377,388,402,356,368
@@ -2644,6 +2938,7 @@
          },
          {
             "name": "Together_4",
+            "alias":"Together 4",
             "shape": "poly",
             "coords": [
                647,397,696,467,606,525,552,467
@@ -2653,6 +2948,7 @@
          },
          {
             "name": "Together_67",
+            "alias":"Together 67",
             "shape": "poly",
             "coords": [
                759,321,817,402,880,364,816,288
@@ -2662,6 +2958,7 @@
          },
          {
             "name": "Together_27",
+            "alias":"Together 27",
             "shape": "poly",
             "coords": [
                493,158,522,202,448,241,450,251,419,265,377,218
@@ -2671,6 +2968,7 @@
          },
          {
             "name":"Women's_Restroom",
+            "alias":"Women's Restroom",
             "shape":"poly",
             "coords":[
                638,219,698,307,731,292,713,261,719,257,679,200
@@ -2680,6 +2978,7 @@
          },
          {
             "name":"Men's_Restroom",
+            "alias":"Men's Restroom",
             "shape":"poly",
             "coords":[
                687,197,728,251,737,247,759,274,780,263,718,178
@@ -2689,6 +2988,7 @@
          },
          {
             "name":"Cafe",
+            "alias":"Café",
             "shape":"poly",
             "coords":[
                497,157,560,252,814,117,758,26
@@ -2698,6 +2998,7 @@
          },
          {
             "name":"Together_31",
+            "alias":"Together 31",
             "shape":"poly",
             "coords":[
                862,18,865,67,788,68,767,20
@@ -2712,6 +3013,7 @@
       "areas": [
          {
             "name": "Together_32",
+            "alias": "Together 32",
             "shape": "rect",
             "coords": [
                96,12,177,77
@@ -2721,6 +3023,7 @@
          },
          {
             "name": "Open_B1",
+            "alias":"Open B1",
             "shape": "poly",
             "coords": [
                188,448,197,282,206,159,213,122,79,117,56,277,34,449
@@ -2730,6 +3033,7 @@
          },
          {
             "name": "Huddle_64",
+            "alias":"Huddle 64",
             "shape": "rect",
             "coords": [
                230,307,317,365
@@ -2739,6 +3043,7 @@
          },
          {
             "name": "Open_B2",
+            "alias":"Open B2",
             "shape": "rect",
             "coords": [
                201,286,355,452
@@ -2748,6 +3053,7 @@
          },
          {
             "name": "Open_B3",
+            "alias":"Open B3",
             "shape": "rect",
             "coords": [
                360,288,483,450
@@ -2757,6 +3063,7 @@
          },
          {
             "name": "Huddle_65",
+            "alias":"Huddle 65",
             "shape": "rect",
             "coords": [
                208,227,272,279
@@ -2766,6 +3073,7 @@
          },
          {
             "name": "Together_38",
+            "alias":"Together 38",
             "shape": "rect",
             "coords": [
                220,160,274,220
@@ -2775,6 +3083,7 @@
          },
          {
             "name": "Project_39",
+            "alias":"Project 39",
             "shape": "rect",
             "coords": [
                283,157,352,279
@@ -2784,6 +3093,7 @@
          },
          {
             "name": "Family_Restroom",
+            "alias":"Family Restroom",
             "shape": "rect",
             "coords": [
                359,157,478,282
@@ -2793,6 +3103,7 @@
          },
          {
             "name": "Open_B6",
+            "alias":"Open B6",
             "shape": "rect",
             "coords": [
                233,13,358,150
@@ -2802,6 +3113,7 @@
          },
          {
             "name": "Huddle_41",
+            "alias":"Huddle 41",
             "shape": "rect",
             "coords": [
                405,98,479,149
@@ -2811,6 +3123,7 @@
          },
          {
             "name":"Print_Services",
+            "alias":"Print Services",
             "shape":"rect",
             "coords":[
                489,156,545,282
@@ -2820,6 +3133,7 @@
          },
          {
             "name":"Open_B5",
+            "alias":"Open B5",
             "shape":"poly",
             "coords":[
                363,146,365,13,615,13,661,148
@@ -2829,6 +3143,7 @@
          },
          {
             "name":"Project_44",
+            "alias":"Project 44",
             "shape":"rect",
             "coords":[
                549,157,622,283
@@ -2838,6 +3153,7 @@
          },
          {
             "name":"Together_50",
+            "alias":"Together 50",
             "shape":"rect",
             "coords":[
                662,11,762,77
@@ -2847,6 +3163,7 @@
          },
          {
             "name":"Huddle 53",
+            "alias":"Huddle 53",
             "shape":"rect",
             "coords":[
                736,251,815,302
@@ -2856,6 +3173,7 @@
          },
          {
             "name":"Together_51",
+            "alias":"Together 51",
             "shape":"poly",
             "coords":[
                625,182,676,180,692,227,629,226
@@ -2865,6 +3183,7 @@
          },
          {
             "name":"Together_56",
+            "alias":"Together 56",
             "shape":"poly",
             "coords":[
                628,235,693,234,711,281,629,280
@@ -2874,6 +3193,7 @@
          },
          {
             "name":"Together_55/58",
+            "alias":"Together 55/58",
             "shape":"poly",
             "coords":[
                529,325,740,325,785,449,534,448
@@ -2883,6 +3203,7 @@
          },
          {
             "name":"Open_B4",
+            "alias":"Open B4",
             "shape":"poly",
             "coords":[
                660,125,795,451,960,447,920,159,776,162,769,120
@@ -2897,6 +3218,7 @@
       "areas": [
          {
             "name": "Lot_11",
+            "alias":"Lot 11",
             "shape": "rect",
             "coords": [
                305,282,367,321
@@ -2906,6 +3228,7 @@
          },
          {
             "name": "Lot_10",
+            "alias":"Lot 10",
             "shape": "rect",
             "coords": [
                317,238,378,276
@@ -2915,6 +3238,7 @@
          },
          {
             "name": "S_29",
+            "alias":"S 29",
             "shape": "rect",
             "coords": [
                423,238,505,274
@@ -2924,6 +3248,7 @@
          },
          {
             "name": "S_31",
+            "alias":"S 31",
             "shape": "rect",
             "coords": [
                460,281,522,319
@@ -2933,6 +3258,7 @@
          },
          {
             "name": "Svc_Bay_1",
+            "alias":"Svc Bay 1",
             "shape": "poly",
             "coords": [
                754,233,719,224,682,228,658,240,639,260,625,289,625,312,628,338,637,356,656,378,670,384
@@ -2942,6 +3268,7 @@
          },
          {
             "name": "Svc_Bay_2",
+            "alias":"Svc Bay 2",
             "shape": "poly",
             "coords": [
                794,263,813,286,822,305,828,329,824,361,806,383,792,399,770,408,745,413,717,409,693,402
@@ -2951,6 +3278,7 @@
          },
          {
             "name": "Together_38",
+            "alias":"Together 38",
             "shape": "rect",
             "coords": [
                220,160,274,220
@@ -2960,6 +3288,7 @@
          },
          {
             "name": "Web_Lab",
+            "alias":"Web Lab",
             "shape": "poly",
             "coords": [
                728,131,678,151,679,187,729,188
@@ -2969,6 +3298,7 @@
          },
          {
             "name": "Team_Room",
+            "alias":"Team Room",
             "shape": "rect",
             "coords": [
                834,411,900,451
@@ -2978,6 +3308,7 @@
          },
          {
             "name": "Mens_RR_N",
+            "alias":"Men's Restroom",
             "shape": "poly",
             "coords": [
                886,158,890,196,987,196,982,158
@@ -2987,6 +3318,7 @@
          },
          {
             "name": "CTS_Team_Rm",
+            "alias":"CTS Team Room",
             "shape": "rect",
             "coords": [
                900,364,964,402
@@ -2996,6 +3328,7 @@
          },
          {
             "name":"Womens_RR_N",
+            "alias":"Women's Restroom",
             "shape":"rect",
             "coords":[
                881,103,975,145
@@ -3010,6 +3343,7 @@
       "areas": [
          {
             "name": "Main_Deck",
+            "alias":"Main Deck",
             "shape": "poly",
             "coords": [
                647,460,668,500,688,522,726,556,756,573,796,586,837,584,870,568,889,533,898,494,897,459,891,426,878,388
@@ -3019,6 +3353,7 @@
          },
          {
             "name": "Deck_2",
+            "alias":"Deck 2",
             "shape": "poly",
             "coords": [
                851,333,838,306,811,271,795,257,741,280,786,362
@@ -3028,6 +3363,7 @@
          },
          {
             "name": "Deck_3",
+            "alias":"Deck 3",
             "shape": "poly",
             "coords": [
                736,284,779,366,715,395,672,317
@@ -3037,6 +3373,7 @@
          },
          {
             "name": "Deck_4",
+            "alias":"Deck 4",
             "shape": "poly",
             "coords": [
                664,319,708,397,633,437,606,387,600,348
@@ -3046,6 +3383,7 @@
          },
          {
             "name": "Deck_1",
+            "alias":"Deck 1",
             "shape": "poly",
             "coords": [
                668,278,758,225,719,199,683,192,647,197,621,213
@@ -3055,6 +3393,7 @@
          },
          {
             "name": "IntView1",
+            "alias":"Int View 1",
             "shape": "rect",
             "coords": [
                573,489,622,548
@@ -3064,6 +3403,7 @@
          },
          {
             "name": "Lot_6",
+            "alias":"Lot 6",
             "shape": "rect",
             "coords": [
                543,557,616,620
@@ -3073,6 +3413,7 @@
          },
          {
             "name": "IntView2",
+            "alias":"Int View 2",
             "shape": "rect",
             "coords": [
                482,556,536,619
@@ -3082,6 +3423,7 @@
          },
          {
             "name": "Lot_5",
+            "alias":"Lot 5",
             "shape": "rect",
             "coords": [
                483,491,567,551
@@ -3091,6 +3433,7 @@
          },
          {
             "name": "Lot_4",
+            "alias":"Lot 4",
             "shape": "rect",
             "coords": [
                472,425,592,483
@@ -3100,6 +3443,7 @@
          },
          {
             "name": "Lot_3",
+            "alias":"Lot 3",
             "shape": "rect",
             "coords": [
                449,357,564,416
@@ -3109,6 +3453,7 @@
          },
          {
             "name": "Lot_2",
+            "alias":"Lot 2",
             "shape": "rect",
             "coords": [
                465,262,402,347
@@ -3118,6 +3463,7 @@
          },
          {
             "name": "Lot_1",
+            "alias":"Lot 1",
             "shape": "rect",
             "coords": [
                473,259,536,348
@@ -3126,6 +3472,7 @@
             "strokeColor": "#ffffff"
          },{
             "name": "OpenAve",
+            "alias":"Open Ave",
             "shape": "rect",
             "coords": [
                207,16,437,217
@@ -3140,6 +3487,7 @@
       "areas": [
          {
             "name": "TheGarage",
+            "alias":"The Garage",
             "shape": "poly",
             "coords": [
                887,440,884,411,873,409,862,337,831,328,737,373,796,484
@@ -3149,6 +3497,7 @@
          },
          {
             "name": "TrainingRm",
+            "alias":"Training Room",
             "shape": "rect",
             "coords": [
                350,30,463,91
@@ -3158,6 +3507,7 @@
          },
          {
             "name": "SptTable1",
+            "alias":"Spt Table 1",
             "shape": "rect",
             "coords": [
                192,97,242,133
@@ -3167,6 +3517,7 @@
          },
          {
             "name": "SptTable2",
+            "alias":"Spt Table 2",
             "shape": "rect",
             "coords": [
                129,97,180,134
@@ -3176,6 +3527,7 @@
          },
          {
             "name": "SptTable3",
+            "alias":"Spt Table 3",
             "shape": "rect",
             "coords": [
                186,160,237,200
@@ -3185,6 +3537,7 @@
          },
          {
             "name": "SptTable4",
+            "alias":"Spt Table 4",
             "shape": "rect",
             "coords": [
                118,160,174,200
@@ -3194,6 +3547,7 @@
          },
          {
             "name": "Lot_15",
+            "alias":"Lot 15",
             "shape": "rect",
             "coords": [
                139,37,193,73
@@ -3203,6 +3557,7 @@
          },
          {
             "name": "Huddle_3",
+            "alias":"Huddle 3",
             "shape": "rect",
             "coords": [
                98,36,132,73
@@ -3212,6 +3567,7 @@
          },
          {
             "name": "Huddle_A003",
+            "alias":"Huddle A003",
             "shape": "rect",
             "coords": [
                45,39,89,73
@@ -3221,6 +3577,7 @@
          },
          {
             "name": "Huddle_A005",
+            "alias":"Huddle A005",
             "shape": "rect",
             "coords": [
                29,110,79,146
@@ -3230,6 +3587,7 @@
          },
          {
             "name": "Huddle_A006",
+            "alias":"Huddle A006",
             "shape": "rect",
             "coords": [
                24,153,73,184
@@ -3244,6 +3602,7 @@
       "areas": [
          {
             "name": "Lot_9",
+            "alias":"Lot 9",
             "shape": "poly",
             "coords": [
                99,60,164,37,182,73,116,99
@@ -3253,6 +3612,7 @@
          },
          {
             "name": "Lot_8",
+            "alias":"Lot 8",
             "shape": "poly",
             "coords": [
                119,108,183,84,197,118,131,143
@@ -3262,6 +3622,7 @@
          },
          {
             "name": "OTS_Team_Rm",
+            "alias":"OTS Team Room",
             "shape": "poly",
             "coords": [
                580,238,647,212,669,252,601,283
@@ -3271,6 +3632,7 @@
          },
          {
             "name": "CS_Team_Rm",
+            "alias":"CS Team Room",
             "shape": "poly",
             "coords": [
                583,296,603,342,673,313,649,271
@@ -3280,6 +3642,7 @@
          },
          {
             "name": "Womens_RR_S",
+            "alias":"Women's Restroom",
             "shape": "poly",
             "coords": [
                835,49,893,49,900,116,842,115
@@ -3289,6 +3652,7 @@
          },
          {
             "name": "Mens_RR_S",
+            "alias":"Men's Restroom",
             "shape": "poly",
             "coords": [
                823,47,752,43,754,81,769,81,773,116,829,115
@@ -3303,6 +3667,7 @@
       "areas": [
          {
             "name": "The_Rest_Kit",
+            "alias":"The Rest Kit",
             "shape": "poly",
             "coords": [
                31,256,16,348,66,348,80,257
@@ -3312,6 +3677,7 @@
          },
          {
             "name": "Kit_Core_S",
+            "alias":"Kit Core S",
             "shape": "poly",
             "coords": [
                35,227,31,248,79,247,82,227
@@ -3321,6 +3687,7 @@
          },
          {
             "name": "The_Benchtop",
+            "alias":"The Benchtop",
             "shape": "poly",
             "coords": [
                49,133,36,216,86,216,97,134
@@ -3330,6 +3697,7 @@
          },
          {
             "name": "Food_Theater",
+            "alias":"Food Theater",
             "shape": "poly",
             "coords": [
                63,35,54,93,102,92,107,32
@@ -3339,6 +3707,7 @@
          },
          {
             "name": "Kit_Core_N",
+            "alias":"Kit Core N",
             "shape": "poly",
             "coords": [
                117,32,113,76,132,76,137,32
@@ -3348,6 +3717,7 @@
          },
          {
             "name": "Counter_Kit",
+            "alias":"Counter Kit",
             "shape": "poly",
             "coords": [
                148,34,143,77,198,77,202,32
@@ -3357,6 +3727,7 @@
          },
          {
             "name": "The_Counter",
+            "alias":"The Counter",
             "shape": "poly",
             "coords": [
                219,19,220,33,213,33,207,76,239,76,243,19
@@ -3366,6 +3737,7 @@
          },
          {
             "name": "Reception",
+            "alias":"Reception",
             "shape": "poly",
             "coords": [
                252,20,248,78,285,76,289,29,272,31,271,19
@@ -3375,6 +3747,7 @@
          },
          {
             "name": "The_Mixer",
+            "alias":"The Mixer",
             "shape": "poly",
             "coords": [
                298,29,293,76,372,77,374,28
@@ -3384,6 +3757,7 @@
          },
          {
             "name": "The_Table",
+            "alias":"The Table",
             "shape": "poly",
             "coords": [
                288,168,291,124,272,125,270,110,250,112,250,100,212,100,209,167
@@ -3393,6 +3767,7 @@
          },
          {
             "name": "Open_Office",
+            "alias":"Open Office",
             "shape": "poly",
             "coords": [
                287,179,284,222,228,222,232,179
@@ -3402,6 +3777,7 @@
          },
          {
             "name": "The_Dish2",
+            "alias":"The Dish 2",
             "shape": "poly",
             "coords": [
                220,198,204,197,200,220,218,220
@@ -3411,6 +3787,7 @@
          },
          {
             "name": "The_Dish3",
+            "alias":"The Dish 3",
             "shape": "poly",
             "coords": [
                174,199,170,221,182,221,186,198
@@ -3420,6 +3797,7 @@
          },
          {
             "name": "The_Nooks",
+            "alias":"The Nooks",
             "shape": "poly",
             "coords": [
                162,223,138,222,146,149,174,151,179,98,195,99,189,189,166,189
@@ -3429,6 +3807,7 @@
          },
          {
             "name": "The_Lab",
+            "alias":"The Lab",
             "shape": "poly",
             "coords": [
                129,123,128,140,158,140,160,123
@@ -3438,6 +3817,7 @@
          },
          {
             "name": "The_Container",
+            "alias":"The Container",
             "shape": "poly",
             "coords": [
                254,243,251,282,280,283,283,243
@@ -3447,6 +3827,7 @@
          },
          {
             "name": "The_Experience",
+            "alias":"The Experience",
             "shape": "poly",
             "coords": [
                305,245,304,284,364,283,367,245
@@ -3456,6 +3837,7 @@
          },
          {
             "name": "The_Shop2",
+            "alias":"The Shop 2",
             "shape": "poly",
             "coords": [
                304,292,304,304,298,306,294,349,332,348,336,292
@@ -3465,6 +3847,7 @@
          },
          {
             "name": "Shop_Core",
+            "alias":"Shop Core",
             "shape": "poly",
             "coords": [
                257,306,254,347,287,347,290,305
@@ -3474,6 +3857,7 @@
          },
          {
             "name": "The_Shop1",
+            "alias":"The Shop 1",
             "shape": "poly",
             "coords": [
                211,307,206,348,244,348,248,308
@@ -3483,6 +3867,7 @@
          },
          {
             "name": "The_Rest_Conf",
+            "alias":"The Rest Conf",
             "shape": "poly",
             "coords": [
                128,305,84,304,77,347,122,349
@@ -3492,6 +3877,7 @@
          },
          {
             "name": "Mens_RR_M",
+            "alias":"Men's Restroom",
             "shape": "poly",
             "coords": [
                425,112,425,99,378,99,378,11
@@ -3501,6 +3887,7 @@
          },
          {
             "name": "Womens_RR_M",
+            "alias":"Women's Restroom",
             "shape": "poly",
             "coords": [
                377,123,376,135,424,136,424,123
@@ -3510,6 +3897,7 @@
          },
          {
             "name": "Together_E40",
+            "alias":"Together E40",
             "shape": "poly",
             "coords": [
                442,100,441,121,463,121,463,101
@@ -3519,6 +3907,7 @@
          },
          {
             "name": "Together_E41",
+            "alias":"Together E41",
             "shape": "poly",
             "coords": [
                441,129,438,152,462,152,463,130
@@ -3528,6 +3917,7 @@
          },
          {
             "name": "The_Dish4",
+            "alias":"The Dish 4",
             "shape": "poly",
             "coords": [
                131,208,129,222,114,224,117,210
@@ -3537,6 +3927,7 @@
          },
          {
             "name": "The_Dish5",
+            "alias":"The Dish 5",
             "shape": "poly",
             "coords": [
                123,189,120,201,132,201,133,189
@@ -3546,6 +3937,7 @@
          },
          {
             "name": "The_Dish6",
+            "alias":"The Dish 6",
             "shape": "poly",
             "coords": [
                123,170,122,180,133,180,135,170
@@ -3555,6 +3947,7 @@
          },
          {
             "name": "The_Dish7",
+            "alias":"The Dish 7",
             "shape": "poly",
             "coords": [
                126,151,124,161,137,161,138,151
@@ -3564,6 +3957,7 @@
          },
          {
             "name": "S_2_M",
+            "alias":"S2M",
             "shape": "poly",
             "coords": [
                438,33,438,58,481,57,480,34
@@ -3573,6 +3967,7 @@
          },
          {
             "name": "S_3_M",
+            "alias":"S3M",
             "shape": "poly",
             "coords": [
                439,60,439,83,479,84,479,60
@@ -3582,6 +3977,7 @@
          },
          {
             "name": "E_26_Flex",
+            "alias":"E 26 Flex",
             "shape": "poly",
             "coords": [
                468,97,467,109,484,108,483,97
@@ -3591,6 +3987,7 @@
          },
          {
             "name": "E_27_Flex",
+            "alias":"E 27 Flex",
             "shape": "poly",
             "coords": [
                468,119,467,131,484,133,484,118
@@ -3600,6 +3997,7 @@
          },
          {
             "name": "E_28_Flex",
+            "alias":"E 28 Flex",
             "shape": "poly",
             "coords": [
                467,140,467,156,484,154,484,141
@@ -3609,6 +4007,7 @@
          },
          {
             "name": "S_50",
+            "alias":"S 50",
             "shape": "poly",
             "coords": [
                678,284,680,337,700,337,701,285
@@ -3618,6 +4017,7 @@
          },
          {
             "name": "S_55",
+            "alias":"S 55",
             "shape": "poly",
             "coords": [
                720,237,721,276,740,273,738,238
@@ -3627,6 +4027,7 @@
          },
          {
             "name": "L1313_Conf",
+            "alias":"L1313 Conf",
             "shape": "poly",
             "coords": [
                746,242,747,267,778,268,777,243
@@ -3636,6 +4037,7 @@
          },
          {
             "name": "L1137_Conf",
+            "alias":"L1137 Conf",
             "shape": "poly",
             "coords": [
                936,308,939,336,980,337,977,308
@@ -3645,6 +4047,7 @@
          },
          {
             "name": "Huddle_Hub",
+            "alias":"Huddle Hub",
             "shape": "poly",
             "coords": [
                760,170,761,181,772,181,773,169
@@ -3654,6 +4057,7 @@
          },
          {
             "name": "L1501_Conf",
+            "alias":"L1501 Conf",
             "shape": "poly",
             "coords": [
                654,129,655,150,688,151,689,131
@@ -3663,6 +4067,7 @@
          },
          {
             "name": "Snack_Car",
+            "alias":"Snack Car",
             "shape": "poly",
             "coords": [
                769,84,740,85,738,79,710,78,713,150,734,149,737,156,784,155,780,115,773,114
@@ -3672,6 +4077,7 @@
          },
          {
             "name": "L1525",
+            "alias":"L1525",
             "shape": "poly",
             "coords": [
                666,25,666,43,700,38,698,27
@@ -3681,6 +4087,7 @@
          },
          {
             "name": "L1002",
+            "alias":"L1002",
             "shape": "poly",
             "coords": [
                759,15,761,44,788,44,786,17
@@ -3690,6 +4097,7 @@
          },
          {
             "name": "L1003",
+            "alias":"L1003",
             "shape": "poly",
             "coords": [
                796,24,797,49,834,49,833,26
@@ -3699,6 +4107,7 @@
          },
          {
             "name": "L1004",
+            "alias":"L1004",
             "shape": "poly",
             "coords": [
                843,27,844,57,868,54,866,29
@@ -3708,6 +4117,7 @@
          },
          {
             "name": "L1005",
+            "alias":"L1005",
             "shape": "poly",
             "coords": [
                874,29,877,59,925,56,920,31
@@ -3717,6 +4127,7 @@
          },
          {
             "name": "L1006",
+            "alias":"L1006",
             "shape": "poly",
             "coords": [
                928,28,933,57,951,57,946,29
@@ -3726,6 +4137,7 @@
          },
          {
             "name": "Womens_RR_E",
+            "alias":"Women's Restroom",
             "shape": "poly",
             "coords": [
                879,110,875,78,797,79,800,109
@@ -3735,6 +4147,7 @@
          },
          {
             "name": "Mens_RR_E",
+            "alias":"Men's Restroom",
             "shape": "poly",
             "coords": [
                879,118,802,118,805,152,884,151
@@ -3749,6 +4162,7 @@
       "areas": [
          {
             "name": "Warehouse",
+            "alias":"Warehouse",
             "shape": "poly",
             "coords": [
                108,208,12,210,42,17,643,17,647,128,506,129,505,116,390,118,386,208,327,211,327,222,310,221,311,196,
@@ -3759,6 +4173,7 @@
          },
          {
             "name": "Warehouse_Conference_1",
+            "alias":"Warehouse Conference 1",
             "shape": "poly",
             "coords": [
                118,199,116,218,128,217,132,198
@@ -3768,6 +4183,7 @@
          },
          {
             "name": "S4_W",
+            "alias":"S4W",
             "shape": "poly",
             "coords": [
                172,167,172,176,184,175,187,166
@@ -3777,6 +4193,7 @@
          },
          {
             "name": "Womens_RR_W",
+            "alias":"Women's Restroom",
             "shape": "poly",
             "coords": [
                193,168,190,189,202,189,204,167
@@ -3786,6 +4203,7 @@
          },
          {
             "name": "Service_Copy_Room",
+            "alias":"Service Copy Room",
             "shape": "poly",
             "coords": [
                210,165,209,188,221,188,223,166
@@ -3795,6 +4213,7 @@
          },
          {
             "name": "Break_Room",
+            "alias":"Break Room",
             "shape": "poly",
             "coords": [
                230,167,227,187,249,188,250,166
@@ -3804,6 +4223,7 @@
          },
          {
             "name": "Mens_RR_W",
+            "alias":"Men's Restroom W",
             "shape": "poly",
             "coords": [
                256,166,254,189,271,189,271,165
@@ -3813,6 +4233,7 @@
          },
          {
             "name": "Situation_Room",
+            "alias":"Situation Room",
             "shape": "poly",
             "coords": [
                293,199,293,218,307,218,309,201
@@ -3822,6 +4243,7 @@
          },
          {
             "name": "Copy_Room_M",
+            "alias":"Copy Room",
             "shape": "poly",
             "coords": [
                464,143,463,160,474,161,473,142
@@ -3831,6 +4253,7 @@
          },
          {
             "name": "WSC_For_Cmty",
+            "alias":"WSC For Cmty",
             "shape": "poly",
             "coords": [
                464,210,463,219,479,219,479,209
@@ -3840,6 +4263,7 @@
          },
          {
             "name": "Break_Room_M",
+            "alias":"Break Room",
             "shape": "poly",
             "coords": [
                483,198,483,211,562,212,560,197,557,192,538,192,534,197
@@ -3849,6 +4273,7 @@
          },
          {
             "name": "Mens_RR_M",
+            "alias":"Men's Restroom",
             "shape": "poly",
             "coords": [
                491,149,491,158,524,159,523,149
@@ -3858,6 +4283,7 @@
          },
          {
             "name": "Womens_RR_M",
+            "alias":"Women's Restroom",
             "shape": "poly",
             "coords": [
                492,162,491,174,523,173,524,163
@@ -3867,6 +4293,7 @@
          },
          {
             "name": "Press_Two",
+            "alias":"Press Two",
             "shape": "poly",
             "coords": [
                532,139,532,160,546,160,548,140
@@ -3876,6 +4303,7 @@
          },
          {
             "name": "Huddle_Room_M",
+            "alias":"Huddle Room",
             "shape": "poly",
             "coords": [
                551,137,551,147,560,147,561,139
@@ -3885,6 +4313,7 @@
          },
          {
             "name": "Press_One",
+            "alias":"Press One",
             "shape": "poly",
             "coords": [
                533,167,532,179,559,181,560,166
@@ -3894,6 +4323,7 @@
          },
          {
             "name": "Copy_Room_M_NE",
+            "alias":"Copy Room",
             "shape": "poly",
             "coords": [
                632,132,631,143,652,142,652,133
@@ -3903,6 +4333,7 @@
          },
          {
             "name": "Huddle_Room_M_NE",
+            "alias":"Huddle Room",
             "shape": "poly",
             "coords": [
                643,145,642,159,652,160,652,147
@@ -3912,6 +4343,7 @@
          },
          {
             "name": "Together_4",
+            "alias":"Together 4",
             "shape": "poly",
             "coords": [
                819,154,820,169,833,169,832,156
@@ -3921,6 +4353,7 @@
          },
          {
             "name": "Training",
+            "alias":"Training",
             "shape": "poly",
             "coords": [
                840,145,842,174,886,175,880,147
@@ -3930,6 +4363,7 @@
          },
          {
             "name": "Unplugged",
+            "alias":"Unplugged",
             "shape": "poly",
             "coords": [
                837,189,838,209,851,210,849,187
@@ -3939,6 +4373,7 @@
          },
          {
             "name": "Together_3",
+            "alias":"Together 3",
             "shape": "poly",
             "coords": [
                980,188,983,207,998,208,995,187
@@ -3948,6 +4383,7 @@
          },
          {
             "name": "Together_2",
+            "alias":"Together 2",
             "shape": "poly",
             "coords": [
                957,186,960,197,975,196,975,185
@@ -3957,6 +4393,7 @@
          },
          {
             "name": "Mens_RR_E2",
+            "alias":"Men's Restroom",
             "shape": "poly",
             "coords": [
                942,153,945,173,954,174,951,152
@@ -3966,6 +4403,7 @@
          },
          {
             "name": "Womens_RR_E2",
+            "alias":"Women's Restroom",
             "shape": "poly",
             "coords": [
                927,152,929,172,938,173,937,153
@@ -3975,6 +4413,7 @@
          },
          {
             "name": "The_Lab",
+            "alias":"The Lab",
             "shape": "poly",
             "coords": [
                920,152,897,151,898,164,923,163
@@ -3984,6 +4423,7 @@
          },
          {
             "name": "Huddle_1",
+            "alias":"Huddle 1",
             "shape": "poly",
             "coords": [
                905,170,896,167,897,179,906,176
@@ -3998,6 +4438,7 @@
       "areas": [
          {
             "name": "InnovNewVntr",
+            "alias":"Innov New Vntr",
             "shape": "poly",
             "coords": [
                297,171,284,170,283,186,296,186
@@ -4007,6 +4448,7 @@
          },
          {
             "name": "Mens_RR_W",
+            "alias":"Men's Restroom",
             "shape": "poly",
             "coords": [
                310,78,309,94,339,94,338,79
@@ -4016,6 +4458,7 @@
          },
          {
             "name": "Womens_RR_W",
+            "alias":"Women's Restroom",
             "shape": "poly",
             "coords": [
                308,99,305,115,335,116,339,99
@@ -4025,6 +4468,7 @@
          },
          {
             "name": "MoveFast",
+            "alias":"Move Fast",
             "shape": "poly",
             "coords": [
                386,14,384,28,404,28,404,15
@@ -4034,6 +4478,7 @@
          },
          {
             "name": "ClimbWithCare",
+            "alias":"Climb With Care",
             "shape": "poly",
             "coords": [
                408,17,408,40,426,41,427,16
@@ -4043,6 +4488,7 @@
          },
          {
             "name": "Mens_RR_E",
+            "alias":"Men's Restroom",
             "shape": "poly",
             "coords": [
                689,76,690,91,737,92,735,78
@@ -4052,6 +4498,7 @@
          },
          {
             "name": "Womens_RR_E",
+            "alias":"Women's Restroom",
             "shape": "poly",
             "coords": [
                690,95,691,114,739,115,737,96
@@ -4061,6 +4508,7 @@
          },
          {
             "name": "Together_Q01",
+            "alias":"Together Q01",
             "shape": "poly",
             "coords": [
                836,124,839,143,873,145,871,126
@@ -4070,6 +4518,7 @@
          },
          {
             "name": "Together_Q02",
+            "alias":"Together Q02",
             "shape": "poly",
             "coords": [
                940,124,943,143,960,143,958,126
@@ -4079,6 +4528,7 @@
          },
          {
             "name": "Together_Q03",
+            "alias":"Together Q03",
             "shape": "poly",
             "coords": [
                917,126,916,143,931,141,929,126
