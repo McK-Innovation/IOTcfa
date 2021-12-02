@@ -4,6 +4,7 @@
       "areas":[
          {
             "name":"Rest_Sim_1",
+            "alias": "Rest Sim 1",
             "shape":"poly",
             "coords":[80,209,25,673,323,674,323,634,296,634,314,208],
             "fillColor":"#a207154f",
@@ -11,6 +12,7 @@
          },
          {
             "name":"Perch_D",
+            "alias": "Perch D",
             "shape":"poly",
             "coords":[87,153,82,189,210,191,211,151],
             "fillColor":"#a207154f",
@@ -18,6 +20,7 @@
          },
          {
             "name":"Mens_RR_N",
+            "alias": "Men's Restroom",
             "shape":"poly",
             "coords":[452,87,330,199,339,206,352,194,363,207,464,115,462,92],
             "fillColor":"#a207154f",
@@ -25,6 +28,7 @@
          },
          {
             "name":"Womens_RR_N",
+            "alias":"Women's Restroom",
             "shape":"poly",
             "coords":[380,248,387,257,514,139,507,131,492,145,482,134,380,225,389,238],
             "fillColor":"#a207154f",
@@ -32,6 +36,7 @@
          },
          {
             "name":"Nest_Perch",
+            "alias":"Nest Perch",
             "shape":"poly",
             "coords":[533,143,509,163,533,185,559,167],
             "fillColor":"#a207154f",
@@ -39,6 +44,7 @@
          },
          {
             "name":"Perch_B",
+            "alias":"Perch B",
             "shape":"poly",
             "coords":[635,193,603,221,657,265,687,238],
             "fillColor":"#a207154f",
@@ -46,6 +52,7 @@
          },
          {
             "name":"The_Perch",
+            "alias":"The Perch",
             "shape":"poly",
             "coords":[788,212,722,212,626,308,627,331,711,407,740,407,805,339],
             "fillColor":"#a207154f",
@@ -53,6 +60,7 @@
          },
          {
             "name":"Perch_C",
+            "alias":"Perch C",
             "shape":"poly",
             "coords":[806,363,791,362,745,407,812,407],
             "fillColor":"#a207154f",
@@ -60,6 +68,7 @@
          },
          {
             "name":"Perch_A",
+            "alias":"Perch A",
             "shape":"poly",
             "coords":[719,89,726,150,796,150,791,140,784,128,776,117,767,109,754,100,737,93],
             "fillColor":"#a207154f",
