@@ -126,7 +126,7 @@ const FloorPlan = (props) => {
 
     const clicked = (area)=>{
         dispatch({room: area.name})
-        dispatch({title: `Statistics on ` + area.name})
+        dispatch({title: area.alias})
     }
     return (
         <>

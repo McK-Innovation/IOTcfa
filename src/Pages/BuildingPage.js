@@ -5,12 +5,12 @@ import {useHistory} from "react-router-dom";
 
 const BuildingPage = (props) => {
     let history = useHistory()
-    const { state: { building, floorName, campusData, room }, dispatch } = useContext(CFAContext);
+    const { state: { building, floorName, campusData, room, title }, dispatch } = useContext(CFAContext);
     let [obj, setobj] = useState({})
 
     useEffect(() => {
              setobj(campusData[building][floorName][room])
-             dispatch({title: `${room} Details`})
+             dispatch({title: `${title} Details`})
             return history.listen(location => {
                 if(history.action === 'POP') {
                     handleBeforeUnload()
