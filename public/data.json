@@ -3013,6 +3013,7 @@
       "areas": [
          {
             "name": "Together_32",
+            "alias": "Together 32"
             "shape": "rect",
             "coords": [
                96,12,177,77
@@ -3022,6 +3023,7 @@
          },
          {
             "name": "Open_B1",
+            "alias":"Open B1",
             "shape": "poly",
             "coords": [
                188,448,197,282,206,159,213,122,79,117,56,277,34,449
@@ -3031,6 +3033,7 @@
          },
          {
             "name": "Huddle_64",
+            "alias":"Huddle 64",
             "shape": "rect",
             "coords": [
                230,307,317,365
@@ -3040,6 +3043,7 @@
          },
          {
             "name": "Open_B2",
+            "alias":"Open B2",
             "shape": "rect",
             "coords": [
                201,286,355,452
@@ -3049,6 +3053,7 @@
          },
          {
             "name": "Open_B3",
+            "alias":"Open B3",
             "shape": "rect",
             "coords": [
                360,288,483,450
@@ -3058,6 +3063,7 @@
          },
          {
             "name": "Huddle_65",
+            "alias":"Huddle 65",
             "shape": "rect",
             "coords": [
                208,227,272,279
@@ -3067,6 +3073,7 @@
          },
          {
             "name": "Together_38",
+            "alias":"Together 38",
             "shape": "rect",
             "coords": [
                220,160,274,220
@@ -3076,6 +3083,7 @@
          },
          {
             "name": "Project_39",
+            "alias":"Project 39",
             "shape": "rect",
             "coords": [
                283,157,352,279
@@ -3085,6 +3093,7 @@
          },
          {
             "name": "Family_Restroom",
+            "alias":"Family Restroom",
             "shape": "rect",
             "coords": [
                359,157,478,282
@@ -3094,6 +3103,7 @@
          },
          {
             "name": "Open_B6",
+            "alias":"Open B6",
             "shape": "rect",
             "coords": [
                233,13,358,150
@@ -3103,6 +3113,7 @@
          },
          {
             "name": "Huddle_41",
+            "alias":"Huddle 41",
             "shape": "rect",
             "coords": [
                405,98,479,149
@@ -3112,6 +3123,7 @@
          },
          {
             "name":"Print_Services",
+            "alias":"Print Services",
             "shape":"rect",
             "coords":[
                489,156,545,282
@@ -3121,6 +3133,7 @@
          },
          {
             "name":"Open_B5",
+            "alias":"Open B5",
             "shape":"poly",
             "coords":[
                363,146,365,13,615,13,661,148
@@ -3130,6 +3143,7 @@
          },
          {
             "name":"Project_44",
+            "alias":"Project 44",
             "shape":"rect",
             "coords":[
                549,157,622,283
@@ -3139,6 +3153,7 @@
          },
          {
             "name":"Together_50",
+            "alias":"Together 50",
             "shape":"rect",
             "coords":[
                662,11,762,77
@@ -3148,6 +3163,7 @@
          },
          {
             "name":"Huddle 53",
+            "alias":"Huddle 53",
             "shape":"rect",
             "coords":[
                736,251,815,302
@@ -3157,6 +3173,7 @@
          },
          {
             "name":"Together_51",
+            "alias":"Together 51",
             "shape":"poly",
             "coords":[
                625,182,676,180,692,227,629,226
@@ -3166,6 +3183,7 @@
          },
          {
             "name":"Together_56",
+            "alias":"Together 56",
             "shape":"poly",
             "coords":[
                628,235,693,234,711,281,629,280
@@ -3175,6 +3193,7 @@
          },
          {
             "name":"Together_55/58",
+            "alias":"Together 55/58",
             "shape":"poly",
             "coords":[
                529,325,740,325,785,449,534,448
@@ -3184,6 +3203,7 @@
          },
          {
             "name":"Open_B4",
+            "alias":"Open B4",
             "shape":"poly",
             "coords":[
                660,125,795,451,960,447,920,159,776,162,769,120
