@@ -213,6 +213,7 @@
       "areas":[
          {
             "name":"Together_Recp",
+            "alias":"Together Recp",
             "shape":"poly",
             "coords":[157,38,155,54,142,57,141,75,162,73,187,64,185,48,187,36],
             "fillColor":"#a207154f",
@@ -220,6 +221,7 @@
          },
          {
             "name":"Auditorium",
+            "alias":"Auditorium",
             "shape":"poly",
             "coords":[164,209,130,261,110,266,81,451,99,459,115,510,251,444,280,443,296,402,304,355,307,304,302,273,278,273],
             "fillColor":"#a207154f",
@@ -227,6 +229,7 @@
          },
          {
             "name":"SusProjRm2",
+            "alias":"Sus Project Room 2",
             "shape":"poly",
             "coords":[336,24,333,50,327,53,335,77,361,68,374,24],
             "fillColor":"#a207154f",
@@ -234,6 +237,7 @@
          },
          {
             "name":"SusProjRm1",
+            "alias":"Sus Project Room 1",
             "shape":"poly",
             "coords":[391,24,374,83,361,89,364,99,387,105,414,108,437,108,455,108,465,23],
             "fillColor":"#a207154f",
@@ -241,6 +245,7 @@
          },
          {
             "name":"S_127",
+            "alias":"S 127",
             "shape":"poly",
             "coords":[472,69,469,93,497,92,499,69],
             "fillColor":"#a207154f",
@@ -248,6 +253,7 @@
          },
          {
             "name":"S_126",
+            "alias":"S 126",
             "shape":"poly",
             "coords":[500,25,476,24,473,51,501,52],
             "fillColor":"#a207154f",
@@ -255,6 +261,7 @@
          },
          {
             "name":"Mens_RR",
+            "alias":"Men's Restroom",
             "shape":"poly",
             "coords":[506,301,385,299,385,316,401,317,400,332,482,331,485,317,505,317],
             "fillColor":"#a207154f",
@@ -262,6 +269,7 @@
          },
          {
             "name":"Womens_RR",
+            "alias":"Women's Restroom",
             "shape":"poly",
             "coords":[376,387,499,384,500,369,480,368,481,342,400,343,396,371,376,371],
             "fillColor":"#a207154f",
@@ -269,6 +277,7 @@
          },
          {
             "name":"Together_Chand2",
+            "alias":"Together Chand 2",
             "shape":"poly",
             "coords":[377,399,371,452,423,452,428,399],
             "fillColor":"#a207154f",
@@ -276,6 +285,7 @@
          },
          {
             "name":"Together_Chand1",
+            "alias":"Together Chand 1",
             "shape":"poly",
             "coords":[422,465,356,465,355,483,357,497,363,509,374,524,389,533,416,536],
             "fillColor":"#a207154f",
@@ -283,6 +293,7 @@
          },
          {
             "name":"S_25",
+            "alias":"S 25",
             "shape":"poly",
             "coords":[422,612,418,651,447,652,450,612],
             "fillColor":"#a207154f",
@@ -290,6 +301,7 @@
          },
          {
             "name":"Huddle_CBR",
+            "alias":"Huddle CBR",
             "shape":"poly",
             "coords":[418,661,413,700,441,700,446,660],
             "fillColor":"#a207154f",
@@ -297,6 +309,7 @@
          },
          {
             "name":"Together_ALA",
+            "alias":"Together ALA",
             "shape":"poly",
             "coords":[604,308,547,305,539,322,534,342,534,362,537,381,599,378],
             "fillColor":"#a207154f",
@@ -304,6 +317,7 @@
          },
          {
             "name":"Sandbox_CCC",
+            "alias":"Sandbox CCC",
             "shape":"poly",
             "coords":[733,307,686,319,681,369,730,382],
             "fillColor":"#a207154f",
@@ -311,6 +325,7 @@
          },
          {
             "name":"Together_DTL",
+            "alias":"Together DTL",
             "shape":"poly",
             "coords":[741,305,740,337,796,336,797,305],
             "fillColor":"#a207154f",
@@ -318,6 +333,7 @@
          },
          {
             "name":"Together_DPD",
+            "alias":"Together DPD",
             "shape":"poly",
             "coords":[739,350,738,383,794,383,796,350],
             "fillColor":"#a207154f",
@@ -325,6 +341,7 @@
          },
          {
             "name":"S_42",
+            "alias":"S 42",
             "shape":"poly",
             "coords":[837,82,832,65,799,73,798,93],
             "fillColor":"#a207154f",
@@ -332,6 +349,7 @@
          },
          {
             "name":"S_41",
+            "alias":"S 41",
             "shape":"poly",
             "coords":[841,100,800,108,813,127,846,119],
             "fillColor":"#a207154f",
@@ -339,6 +357,7 @@
          },
          {
             "name":"Huddle_EW",
+            "alias":"Huddle EW",
             "shape":"poly",
             "coords":[837,63,843,84,883,72,870,56],
             "fillColor":"#a207154f",
@@ -346,6 +365,7 @@
          },
          {
             "name":"Solutions_Lab",
+            "alias":"Solutions Lab",
             "shape":"poly",
             "coords":[888,87,846,97,851,117,888,109],
             "fillColor":"#a207154f",
@@ -353,6 +373,7 @@
          },
          {
             "name":"CorpFinancSysTeam",
+            "alias":"Corp Financ Sys Team",
             "shape":"poly",
             "coords":[824,616,832,583,803,575,784,604],
             "fillColor":"#a207154f",
@@ -360,6 +381,7 @@
          },
          {
             "name":"S_35",
+            "alias":"S 35",
             "shape":"poly",
             "coords":[823,622,779,613,777,649,812,660],
             "fillColor":"#a207154f",
@@ -367,6 +389,7 @@
          },
          {
             "name":"S_38",
+            "alias":"S 38",
             "shape":"poly",
             "coords":[842,583,832,618,876,630,877,594],
             "fillColor":"#a207154f",
@@ -374,6 +397,7 @@
          },
          {
             "name":"Huddle_EMCA",
+            "alias":"Huddle EMCA",
             "shape":"poly",
             "coords":[831,628,820,662,853,671,872,640],
             "fillColor":"#a207154f",
@@ -381,6 +405,7 @@
          },
          {
             "name":"Together_EMCA",
+            "alias":"Together EMCA",
             "shape":"poly",
             "coords":[884,381,945,381,945,307,887,307,882,324,878,341,878,360],
             "fillColor":"#a207154f",
@@ -393,6 +418,7 @@
       "areas":[
          {
             "name":"Together_FLL2",
+            "alias":"Together FLL2",
             "shape":"poly",
             "coords":[45,137,46,144,34,148,33,167,93,166,93,154,83,146,80,138],
             "fillColor":"#a207154f",
@@ -400,6 +426,7 @@
          },
          {
             "name":"Prnt_Svc_East",
+            "alias":"Prnt Svc East",
             "shape":"poly",
             "coords":[33,468,32,506,97,507,96,468],
             "fillColor":"#a207154f",
@@ -407,6 +434,7 @@
          },
          {
             "name":"Together_FLL1",
+            "alias":"Together FLL1",
             "shape":"poly",
             "coords":[90,225,59,223,33,231,38,253,56,257,69,257,82,253,96,241],
             "fillColor":"#a207154f",
@@ -414,6 +442,7 @@
          },
          {
             "name":"Together_GBT",
+            "alias":"Together GBT",
             "shape":"poly",
             "coords":[30,436,36,458,69,458,95,452,90,423,80,418,67,417,52,421,41,427],
             "fillColor":"#a207154f",
@@ -421,6 +450,7 @@
          },
          {
             "name":"Prnt_Svc_West",
+            "alias":"Prnt Svc West",
             "shape":"poly",
             "coords":[33,180,32,209,94,210,93,182],
             "fillColor":"#a207154f",
@@ -428,6 +458,7 @@
          },
          {
             "name":"Together_F100S",
+            "alias":"Together F100S",
             "shape":"poly",
             "coords":[33,517,32,537,38,544,44,549,45,555,85,554,83,549,91,544,95,538,97,517],
             "fillColor":"#a207154f",
@@ -435,6 +466,7 @@
          },
          {
             "name":"Mens_RR_Mid",
+            "alias":"Men's Restroom",
             "shape":"poly",
             "coords":[190,310,109,309,108,329,191,329],
             "fillColor":"#a207154f",
@@ -442,6 +474,7 @@
          },
          {
             "name":"Womens_RR_Mid",
+            "alias":"Women's Restroom",
             "shape":"poly",
             "coords":[109,346,107,367,190,367,191,346],
             "fillColor":"#a207154f",
@@ -449,6 +482,7 @@
          },
          {
             "name":"Together_HSD_S",
+            "alias":"Together HSD S",
             "shape":"poly",
             "coords":[201,69,241,79,246,57,213,49],
             "fillColor":"#a207154f",
@@ -456,6 +490,7 @@
          },
          {
             "name":"Dwarf_Hs_Files",
+            "alias":"Dwarf Hs Files",
             "shape":"poly",
             "coords":[198,105,232,112,239,92,196,81],
             "fillColor":"#a207154f",
@@ -463,6 +498,7 @@
          },
          {
             "name":"Together_HSD_N",
+            "alias":"Together HSD N",
             "shape":"poly",
             "coords":[251,58,244,78,287,89,287,65],
             "fillColor":"#a207154f",
@@ -470,6 +506,7 @@
          },
          {
             "name":"Huddle_IDA",
+            "alias":"Huddle IDA",
             "shape":"poly",
             "coords":[241,94,235,114,272,124,282,105],
             "fillColor":"#a207154f",
@@ -477,6 +514,7 @@
          },
          {
             "name":"Huddle_HH1",
+            "alias":"Huddle HH1",
             "shape":"poly",
             "coords":[212,621,255,610,241,576,208,585,206,599,208,613],
             "fillColor":"#a207154f",
@@ -484,6 +522,7 @@
          },
          {
             "name":"Huddle_HH2",
+            "alias":"Huddle HH2",
             "shape":"poly",
             "coords":[214,631,256,620,266,652,231,662,224,651,218,641],
             "fillColor":"#a207154f",
@@ -491,6 +530,7 @@
          },
          {
             "name":"Huddle_IW1",
+            "alias":"Huddle IW1",
             "shape":"poly",
             "coords":[283,566,252,575,261,609,302,600,298,591,290,577],
             "fillColor":"#a207154f",
@@ -498,6 +538,7 @@
          },
          {
             "name":"Huddle_IW2",
+            "alias":"Huddle IW2",
             "shape":"poly",
             "coords":[305,607,264,616,273,650,309,641,311,628,309,618],
             "fillColor":"#a207154f",
@@ -505,6 +546,7 @@
          },
          {
             "name":"Togeth_IDA",
+            "alias":"Together IDA",
             "shape":"poly",
             "coords":[344,304,288,302,288,332,346,332],
             "fillColor":"#a207154f",
@@ -512,6 +554,7 @@
          },
          {
             "name":"Togeth_Innov_Way",
+            "alias":"Together Innovation Way",
             "shape":"poly",
             "coords":[290,348,290,377,348,377,347,348],
             "fillColor":"#a207154f",
@@ -519,6 +562,7 @@
          },
          {
             "name":"FO_LeadShpHub",
+            "alias":"FO Lead Shp Hub",
             "shape":"poly",
             "coords":[481,302,464,378,355,377,353,304],
             "fillColor":"#a207154f",
@@ -526,6 +570,7 @@
          },
          {
             "name":"Together_KFL",
+            "alias":"Together KFL",
             "shape":"poly",
             "coords":[580,305,540,295,537,303,492,290,472,377,482,376,486,370,518,378,521,372,565,383],
             "fillColor":"#a207154f",
@@ -533,6 +578,7 @@
          },
          {
             "name":"Huddle_JCW",
+            "alias":"Huddle JCW",
             "shape":"poly",
             "coords":[437,130,438,151,396,149,397,129],
             "fillColor":"#a207154f",
@@ -540,6 +586,7 @@
          },
          {
             "name":"CopyRm_C108",
+            "alias":"Copy Room C108",
             "shape":"poly",
             "coords":[445,131,444,150,482,150,480,130],
             "fillColor":"#a207154f",
@@ -547,6 +594,7 @@
          },
          {
             "name":"Huddle_JCD",
+            "alias":"Huddle JCD",
             "shape":"poly",
             "coords":[463,566,461,535,417,534,419,567],
             "fillColor":"#a207154f",
@@ -554,6 +602,7 @@
          },
          {
             "name":"Huddle_KFL",
+            "alias":"Huddle KFL",
             "shape":"poly",
             "coords":[468,534,471,567,513,567,511,534],
             "fillColor":"#a207154f",
@@ -566,6 +615,7 @@
       "areas":[
          {
             "name":"Regions_Huddle",
+            "alias":"Regions Huddle",
             "shape":"poly",
             "coords":[25,57,57,58,52,31,28,30,24,39,23,48],
             "fillColor":"#a207154f",
@@ -573,6 +623,7 @@
          },
          {
             "name":"Huddle_LegLn",
+            "alias":"Huddle LegLn",
             "shape":"poly",
             "coords":[56,75,26,73,27,98,61,97],
             "fillColor":"#a207154f",
@@ -580,6 +631,7 @@
          },
          {
             "name":"Sandbox_MBW",
+            "alias":"Sandbox MBW",
             "shape":"poly",
             "coords":[77,28,64,27,66,56,95,57],
             "fillColor":"#a207154f",
@@ -587,6 +639,7 @@
          },
          {
             "name":"Huddle_MBW2",
+            "alias":"Huddle MBW2",
             "shape":"poly",
             "coords":[68,74,71,98,98,99,95,75],
             "fillColor":"#a207154f",
@@ -594,6 +647,7 @@
          },
          {
             "name":"Huddle_MBW1",
+            "alias":"Huddle MBW1",
             "shape":"poly",
             "coords":[74,153,76,176,101,177,97,154],
             "fillColor":"#a207154f",
@@ -601,6 +655,7 @@
          },
          {
             "name":"Together_MSL2",
+            "alias":"Together MSL2",
             "shape":"poly",
             "coords":[102,432,110,519,126,514,136,503,140,487,141,472,136,459,125,447,114,439],
             "fillColor":"#a207154f",
@@ -608,6 +663,7 @@
          },
          {
             "name":"Huddle_LL1",
+            "alias":"Huddle LL1",
             "shape":"poly",
             "coords":[108,611,76,611,78,653,113,651],
             "fillColor":"#a207154f",
@@ -615,6 +671,7 @@
          },
          {
             "name":"Huddle_LL2",
+            "alias":"Huddle LL2",
             "shape":"poly",
             "coords":[79,662,83,701,117,701,112,662],
             "fillColor":"#a207154f",
@@ -622,6 +679,7 @@
          },
          {
             "name":"Together_MSL1",
+            "alias":"Together MSL1",
             "shape":"poly",
             "coords":[190,660,125,661,128,701,200,701],
             "fillColor":"#a207154f",
@@ -629,6 +687,7 @@
          },
          {
             "name":"Huddle_NT6",
+            "alias":"Huddle NT6",
             "shape":"poly",
             "coords":[269,78,293,85,293,74,271,68],
             "fillColor":"#a207154f",
@@ -636,6 +695,7 @@
          },
          {
             "name":"Huddle_NT5",
+            "alias":"Huddle NT5",
             "shape":"poly",
             "coords":[266,92,263,107,288,114,292,100],
             "fillColor":"#a207154f",
@@ -643,6 +703,7 @@
          },
          {
             "name":"Together_MBW",
+            "alias":"Together MBW",
             "shape":"poly",
             "coords":[209,235,205,253,260,266,262,249],
             "fillColor":"#a207154f",
@@ -650,6 +711,7 @@
          },
          {
             "name":"Huddle_MSL3",
+            "alias":"Huddle MSL3",
             "shape":"poly",
             "coords":[174,505,176,531,191,531,188,506],
             "fillColor":"#a207154f",
@@ -657,6 +719,7 @@
          },
          {
             "name":"Mail_Rm",
+            "alias":"Mail Room",
             "shape":"poly",
             "coords":[277,600,270,543,178,542,182,586,187,593,192,600,198,601],
             "fillColor":"#a207154f",
@@ -664,6 +727,7 @@
          },
          {
             "name":"Roof_Access",
+            "alias":"Roof Access",
             "shape":"poly",
             "coords":[302,537,284,536,292,599,309,600],
             "fillColor":"#a207154f",
@@ -671,6 +735,7 @@
          },
          {
             "name":"Huddle_NT4",
+            "alias":"Huddle NT4",
             "shape":"poly",
             "coords":[397,147,375,148,378,169,401,168],
             "fillColor":"#a207154f",
@@ -678,6 +743,7 @@
          },
          {
             "name":"Huddle_NT3",
+            "alias":"Huddle NT3",
             "shape":"poly",
             "coords":[389,238,390,263,416,261,411,239],
             "fillColor":"#a207154f",
@@ -685,6 +751,7 @@
          },
          {
             "name":"Huddle_NT2",
+            "alias":"Huddle NT2",
             "shape":"poly",
             "coords":[420,460,426,496,452,497,447,461],
             "fillColor":"#a207154f",
@@ -692,6 +759,7 @@
          },
          {
             "name":"Huddle_NT1",
+            "alias":"Huddle NT1",
             "shape":"poly",
             "coords":[396,506,399,529,423,529,422,505],
             "fillColor":"#a207154f",
@@ -699,6 +767,7 @@
          },
          {
             "name":"Shipping_Rec",
+            "alias":"Shipping Rec",
             "shape":"poly",
             "coords":[416,550,346,548,357,635,344,645,251,644,259,700,439,701],
             "fillColor":"#a207154f",
