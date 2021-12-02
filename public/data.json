@@ -168,6 +168,7 @@
       "areas": [
          {
             "name":"Mens_RR_S",
+            "alias":"Men's Restroom",
             "shape":"poly",
             "coords":[88,91,72,88,64,211,79,212,82,190,101,191,106,106,92,104],
             "fillColor":"#a207154f",
@@ -175,6 +176,7 @@
          },
          {
             "name":"Womens_RR_S",
+            "alias":"Women's Restroom",
             "shape":"poly",
             "coords":[124,102,121,193,138,192,137,211,160,210,164,91,146,91,147,102],
             "fillColor":"#a207154f",
@@ -182,6 +184,7 @@
          },
          {
             "name":"The_Coop",
+            "alias":"The Coop",
             "shape":"poly",
             "coords":[194,54,192,210,393,212,394,219,420,219,411,81,400,81,398,56],
             "fillColor":"#a207154f",
@@ -189,6 +192,7 @@
          },
          {
             "name":"Restaurant_Sim_3",
+            "alias":"Restaurant Sim 3",
             "shape":"poly",
             "coords":[354,510,392,509,392,492,376,488,375,462,384,451,384,389,371,389,371,380,199,378,197,474,352,475],
             "fillColor":"#a207154f",
@@ -196,6 +200,7 @@
          },
          {
             "name":"Restaurant_Sim_2",
+            "alias":"Restaurant Sim 2",
             "shape":"poly",
             "coords":[354,510,392,509,392,492,376,488,375,462,384,451,384,389,371,389,371,380,199,378,197,474,352,475],
             "fillColor":"#a207154f",
