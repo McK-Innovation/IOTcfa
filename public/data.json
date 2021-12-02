@@ -3343,6 +3343,7 @@
       "areas": [
          {
             "name": "Main_Deck",
+            "alias":"Main Deck",
             "shape": "poly",
             "coords": [
                647,460,668,500,688,522,726,556,756,573,796,586,837,584,870,568,889,533,898,494,897,459,891,426,878,388
@@ -3352,6 +3353,7 @@
          },
          {
             "name": "Deck_2",
+            "alias":"Deck 2",
             "shape": "poly",
             "coords": [
                851,333,838,306,811,271,795,257,741,280,786,362
@@ -3361,6 +3363,7 @@
          },
          {
             "name": "Deck_3",
+            "alias":"Deck 3",
             "shape": "poly",
             "coords": [
                736,284,779,366,715,395,672,317
@@ -3370,6 +3373,7 @@
          },
          {
             "name": "Deck_4",
+            "alias":"Deck 4",
             "shape": "poly",
             "coords": [
                664,319,708,397,633,437,606,387,600,348
@@ -3379,6 +3383,7 @@
          },
          {
             "name": "Deck_1",
+            "alias":"Deck 1",
             "shape": "poly",
             "coords": [
                668,278,758,225,719,199,683,192,647,197,621,213
@@ -3388,6 +3393,7 @@
          },
          {
             "name": "IntView1",
+            "alias":"Int View 1",
             "shape": "rect",
             "coords": [
                573,489,622,548
@@ -3397,6 +3403,7 @@
          },
          {
             "name": "Lot_6",
+            "alias":"Lot 6",
             "shape": "rect",
             "coords": [
                543,557,616,620
@@ -3406,6 +3413,7 @@
          },
          {
             "name": "IntView2",
+            "alias":"Int View 2",
             "shape": "rect",
             "coords": [
                482,556,536,619
@@ -3415,6 +3423,7 @@
          },
          {
             "name": "Lot_5",
+            "alias":"Lot 5",
             "shape": "rect",
             "coords": [
                483,491,567,551
@@ -3424,6 +3433,7 @@
          },
          {
             "name": "Lot_4",
+            "alias":"Lot 4",
             "shape": "rect",
             "coords": [
                472,425,592,483
@@ -3433,6 +3443,7 @@
          },
          {
             "name": "Lot_3",
+            "alias":"Lot 3",
             "shape": "rect",
             "coords": [
                449,357,564,416
@@ -3442,6 +3453,7 @@
          },
          {
             "name": "Lot_2",
+            "alias":"Lot 2",
             "shape": "rect",
             "coords": [
                465,262,402,347
@@ -3451,6 +3463,7 @@
          },
          {
             "name": "Lot_1",
+            "alias":"Lot 1",
             "shape": "rect",
             "coords": [
                473,259,536,348
@@ -3459,6 +3472,7 @@
             "strokeColor": "#ffffff"
          },{
             "name": "OpenAve",
+            "alias":"Open Ave",
             "shape": "rect",
             "coords": [
                207,16,437,217
@@ -3473,6 +3487,7 @@
       "areas": [
          {
             "name": "TheGarage",
+            "alias":"The Garage",
             "shape": "poly",
             "coords": [
                887,440,884,411,873,409,862,337,831,328,737,373,796,484
@@ -3482,6 +3497,7 @@
          },
          {
             "name": "TrainingRm",
+            "alias":"Training Room",
             "shape": "rect",
             "coords": [
                350,30,463,91
@@ -3491,6 +3507,7 @@
          },
          {
             "name": "SptTable1",
+            "alias":"Spt Table 1",
             "shape": "rect",
             "coords": [
                192,97,242,133
@@ -3500,6 +3517,7 @@
          },
          {
             "name": "SptTable2",
+            "alias":"Spt Table 2",
             "shape": "rect",
             "coords": [
                129,97,180,134
@@ -3509,6 +3527,7 @@
          },
          {
             "name": "SptTable3",
+            "alias":"Spt Table 3",
             "shape": "rect",
             "coords": [
                186,160,237,200
@@ -3518,6 +3537,7 @@
          },
          {
             "name": "SptTable4",
+            "alias":"Spt Table 4",
             "shape": "rect",
             "coords": [
                118,160,174,200
@@ -3527,6 +3547,7 @@
          },
          {
             "name": "Lot_15",
+            "alias":"Lot 15",
             "shape": "rect",
             "coords": [
                139,37,193,73
@@ -3536,6 +3557,7 @@
          },
          {
             "name": "Huddle_3",
+            "alias":"Huddle 3",
             "shape": "rect",
             "coords": [
                98,36,132,73
@@ -3545,6 +3567,7 @@
          },
          {
             "name": "Huddle_A003",
+            "alias":"Huddle A003",
             "shape": "rect",
             "coords": [
                45,39,89,73
@@ -3554,6 +3577,7 @@
          },
          {
             "name": "Huddle_A005",
+            "alias":"Huddle A005",
             "shape": "rect",
             "coords": [
                29,110,79,146
@@ -3563,6 +3587,7 @@
          },
          {
             "name": "Huddle_A006",
+            "alias":"Huddle A006",
             "shape": "rect",
             "coords": [
                24,153,73,184
@@ -3577,6 +3602,7 @@
       "areas": [
          {
             "name": "Lot_9",
+            "alias":"Lot 9",
             "shape": "poly",
             "coords": [
                99,60,164,37,182,73,116,99
@@ -3586,6 +3612,7 @@
          },
          {
             "name": "Lot_8",
+            "alias":"Lot 8",
             "shape": "poly",
             "coords": [
                119,108,183,84,197,118,131,143
@@ -3595,6 +3622,7 @@
          },
          {
             "name": "OTS_Team_Rm",
+            "alias":"OTS Team Room",
             "shape": "poly",
             "coords": [
                580,238,647,212,669,252,601,283
@@ -3604,6 +3632,7 @@
          },
          {
             "name": "CS_Team_Rm",
+            "alias":"CS Team Room",
             "shape": "poly",
             "coords": [
                583,296,603,342,673,313,649,271
@@ -3613,6 +3642,7 @@
          },
          {
             "name": "Womens_RR_S",
+            "alias":"Women's Restroom",
             "shape": "poly",
             "coords": [
                835,49,893,49,900,116,842,115
@@ -3622,6 +3652,7 @@
          },
          {
             "name": "Mens_RR_S",
+            "alias":"Men's Restroom",
             "shape": "poly",
             "coords": [
                823,47,752,43,754,81,769,81,773,116,829,115
