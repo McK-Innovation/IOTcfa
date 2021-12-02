@@ -82,6 +82,7 @@
 
          {
             "name":"Cafe",
+            "alias":"Café",
             "shape":"poly",
             "coords":[192,53,190,74,215,80,237,92,245,110,320,192,328,185,344,204,606,205,593,46,300,46,300,56],
             "fillColor":"#a207154f",
@@ -89,6 +90,7 @@
          },
          {
             "name":"Incubator",
+            "alias":"Incubator",
             "shape":"poly",
             "coords":[235,124,233,113,213,102,186,95,164,100,142,106,123,116,108,129,97,144,87,167,94,185,71,442,340,440,
                341,240,350,238,329,205,319,215],
@@ -97,6 +99,7 @@
          },
          {
             "name":"IncubaterSto",
+            "alias":"Incubator Sto",
             "shape":"poly",
             "coords":[246,554,67,552,53,681,242,683],
             "fillColor":"#a207154f",
@@ -104,6 +107,7 @@
          },
          {
             "name":"Incubator_A",
+            "alias":"Incubator A",
             "shape":"poly",
             "coords":[254,554,251,682,340,682,340,554],
             "fillColor":"#a207154f",
@@ -111,6 +115,7 @@
          },
          {
             "name":"CoopRm_A",
+            "alias":"Coop Room A",
             "shape":"poly",
             "coords":[398,376,400,436,516,433,513,377],
             "fillColor":"#a207154f",
@@ -118,6 +123,7 @@
          },
          {
             "name":"CoopRm_B",
+            "alias":"Coop Room B",
             "shape":"poly",
             "coords":[399,445,400,514,522,514,519,446],
             "fillColor":"#a207154f",
@@ -125,6 +131,7 @@
          },
          {
             "name":"CoopRm_C",
+            "alias":"Coop Room C",
             "shape":"poly",
             "coords":[400,525,401,597,525,595,522,525],
             "fillColor":"#a207154f",
@@ -132,6 +139,7 @@
          },
          {
             "name":"CoopRm_D",
+            "alias":"Coop Room D",
             "shape":"poly",
             "coords":[402,605,403,683,464,682,461,604],
             "fillColor":"#a207154f",
@@ -139,6 +147,7 @@
          },
          {
             "name":"CoopRm_E",
+            "alias":"Coop Room E",
             "shape":"poly",
             "coords":[469,604,472,683,531,682,526,604],
             "fillColor":"#a207154f",
@@ -146,6 +155,7 @@
          },
          {
             "name":"The_Coop",
+            "alias":"The Coop",
             "shape":"poly",
             "coords":[395,224,398,360,522,360,540,669,651,670,609,226],
             "fillColor":"#a207154f",
