@@ -4438,6 +4438,7 @@
       "areas": [
          {
             "name": "InnovNewVntr",
+            "alias":"Innov New Vntr",
             "shape": "poly",
             "coords": [
                297,171,284,170,283,186,296,186
@@ -4447,6 +4448,7 @@
          },
          {
             "name": "Mens_RR_W",
+            "alias":"Men's Restroom",
             "shape": "poly",
             "coords": [
                310,78,309,94,339,94,338,79
@@ -4456,6 +4458,7 @@
          },
          {
             "name": "Womens_RR_W",
+            "alias":"Women's Restroom",
             "shape": "poly",
             "coords": [
                308,99,305,115,335,116,339,99
@@ -4465,6 +4468,7 @@
          },
          {
             "name": "MoveFast",
+            "alias":"Move Fast",
             "shape": "poly",
             "coords": [
                386,14,384,28,404,28,404,15
@@ -4474,6 +4478,7 @@
          },
          {
             "name": "ClimbWithCare",
+            "alias":"Climb With Care",
             "shape": "poly",
             "coords": [
                408,17,408,40,426,41,427,16
@@ -4483,6 +4488,7 @@
          },
          {
             "name": "Mens_RR_E",
+            "alias":"Men's Restroom",
             "shape": "poly",
             "coords": [
                689,76,690,91,737,92,735,78
@@ -4492,6 +4498,7 @@
          },
          {
             "name": "Womens_RR_E",
+            "alias":"Women's Restroom",
             "shape": "poly",
             "coords": [
                690,95,691,114,739,115,737,96
@@ -4501,6 +4508,7 @@
          },
          {
             "name": "Together_Q01",
+            "alias":"Together Q01",
             "shape": "poly",
             "coords": [
                836,124,839,143,873,145,871,126
@@ -4510,6 +4518,7 @@
          },
          {
             "name": "Together_Q02",
+            "alias":"Together Q02",
             "shape": "poly",
             "coords": [
                940,124,943,143,960,143,958,126
@@ -4519,6 +4528,7 @@
          },
          {
             "name": "Together_Q03",
+            "alias":"Together Q03",
             "shape": "poly",
             "coords": [
                917,126,916,143,931,141,929,126
