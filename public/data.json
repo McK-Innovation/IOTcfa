@@ -3013,7 +3013,7 @@
       "areas": [
          {
             "name": "Together_32",
-            "alias": "Together 32"
+            "alias": "Together 32",
             "shape": "rect",
             "coords": [
                96,12,177,77
@@ -3218,6 +3218,7 @@
       "areas": [
          {
             "name": "Lot_11",
+            "alias":"Lot 11",
             "shape": "rect",
             "coords": [
                305,282,367,321
@@ -3227,6 +3228,7 @@
          },
          {
             "name": "Lot_10",
+            "alias":"Lot 10",
             "shape": "rect",
             "coords": [
                317,238,378,276
@@ -3236,6 +3238,7 @@
          },
          {
             "name": "S_29",
+            "alias":"S 29",
             "shape": "rect",
             "coords": [
                423,238,505,274
@@ -3245,6 +3248,7 @@
          },
          {
             "name": "S_31",
+            "alias":"S 31",
             "shape": "rect",
             "coords": [
                460,281,522,319
@@ -3254,6 +3258,7 @@
          },
          {
             "name": "Svc_Bay_1",
+            "alias":"Svc Bay 1",
             "shape": "poly",
             "coords": [
                754,233,719,224,682,228,658,240,639,260,625,289,625,312,628,338,637,356,656,378,670,384
@@ -3263,6 +3268,7 @@
          },
          {
             "name": "Svc_Bay_2",
+            "alias":"Svc Bay 2",
             "shape": "poly",
             "coords": [
                794,263,813,286,822,305,828,329,824,361,806,383,792,399,770,408,745,413,717,409,693,402
@@ -3272,6 +3278,7 @@
          },
          {
             "name": "Together_38",
+            "alias":"Together 38",
             "shape": "rect",
             "coords": [
                220,160,274,220
@@ -3281,6 +3288,7 @@
          },
          {
             "name": "Web_Lab",
+            "alias":"Web Lab",
             "shape": "poly",
             "coords": [
                728,131,678,151,679,187,729,188
@@ -3290,6 +3298,7 @@
          },
          {
             "name": "Team_Room",
+            "alias":"Team Room",
             "shape": "rect",
             "coords": [
                834,411,900,451
@@ -3299,6 +3308,7 @@
          },
          {
             "name": "Mens_RR_N",
+            "alias":"Men's Restroom",
             "shape": "poly",
             "coords": [
                886,158,890,196,987,196,982,158
@@ -3308,6 +3318,7 @@
          },
          {
             "name": "CTS_Team_Rm",
+            "alias":"CTS Team Room",
             "shape": "rect",
             "coords": [
                900,364,964,402
@@ -3317,6 +3328,7 @@
          },
          {
             "name":"Womens_RR_N",
+            "alias":"Women's Restroom",
             "shape":"rect",
             "coords":[
                881,103,975,145
