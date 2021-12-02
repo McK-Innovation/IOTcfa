@@ -141,6 +141,7 @@ const BuildingList = () => {
                         let key = fullData[x] //the data needs to be accessed like this since there's an object within an object. This is a key
                         //array of values we care about
                         let valueArray = {
+                            'alias': key.alias,
                             'dailyTally': key.dailyTally,
                             'currentCount' : key.currentCount,
                             'dayAverage': key.dayAverage,
