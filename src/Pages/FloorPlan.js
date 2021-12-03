@@ -30,6 +30,9 @@ import itD from "../Assets/ITD.gif"
 import ponceA from "../Assets/PonceAnew.png"
 import ponceB from "../Assets/PonceBnew.png"
 import Linc1 from "../Assets/Lincoln100.png"
+import Linc1E from "../Assets/Lincoln100East.png"
+import Linc1FIC from "../Assets/Lincoln100West.png"
+import Linc1M from "../Assets/Lincoln100Middle.png"
 import Linc2 from "../Assets/Lincoln200_Overall.png"
 import Linc3 from "../Assets/Lincoln300_Overall.png"
 
@@ -97,6 +100,9 @@ const FloorPlan = (props) => {
         ITDeckWest: itC,
         ITDeckSouth: itD,
         Lincoln1001: Linc1,
+        Lincoln100East: Linc1E,
+        Lincoln100FIC: Linc1FIC,
+        Lincoln100Middle: Linc1M,
         Lincoln2001: Linc2,
         Lincoln3001: Linc3}
 
