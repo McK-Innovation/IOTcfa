@@ -18,7 +18,7 @@ const LandingPage = () => {
     const { state: { building, floorName, title, cTotal }, dispatch } = useContext(CFAContext);
     // console.log(cTotal);
     // page that contains the video, building name/count label and building list component. Using MDBkit for faster styling
-    console.log(building);
+    
     let background = move3;
     switch(building) {
         case 'OakmontA':

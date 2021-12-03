@@ -30,8 +30,16 @@ import itD from "../Assets/ITD.gif"
 import ponceA from "../Assets/PonceAnew.png"
 import ponceB from "../Assets/PonceBnew.png"
 import Linc1 from "../Assets/Lincoln100.png"
+import Linc1E from "../Assets/Lincoln100East.png"
+import Linc1FIC from "../Assets/Lincoln100West.png"
+import Linc1M from "../Assets/Lincoln100Middle.png"
 import Linc2 from "../Assets/Lincoln200_Overall.png"
+import Linc2E from '../Assets/Lincoln200East.png'
+import Linc2M from '../Assets/Lincoln200Middle.png'
+import Linc2W from '../Assets/Lincoln200West.png'
 import Linc3 from "../Assets/Lincoln300_Overall.png"
+import Linc3E from '../Assets/Lincoln300East.png'
+import Linc3W from '../Assets/Lincoln300West.png'
 
 const FloorPlan = (props) => {
     // images and areas will probably need to be prebuilt and sent here. Can send floor but will still have to manually change all of them
@@ -97,8 +105,17 @@ const FloorPlan = (props) => {
         ITDeckWest: itC,
         ITDeckSouth: itD,
         Lincoln1001: Linc1,
+        Lincoln100East: Linc1E,
+        Lincoln100FIC: Linc1FIC,
+        Lincoln100Middle: Linc1M,
         Lincoln2001: Linc2,
-        Lincoln3001: Linc3}
+        Lincoln200East: Linc2E,
+        Lincoln200Middle: Linc2M,
+        Lincoln200West: Linc2W,
+        Lincoln3001: Linc3,
+        Lincoln300East: Linc3E,
+        Lincoln300West: Linc3W
+    }
 
 
     useEffect(()=>{
