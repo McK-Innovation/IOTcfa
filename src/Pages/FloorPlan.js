@@ -38,6 +38,8 @@ import Linc2E from '../Assets/Lincoln200East.png'
 import Linc2M from '../Assets/Lincoln200Middle.png'
 import Linc2W from '../Assets/Lincoln200West.png'
 import Linc3 from "../Assets/Lincoln300_Overall.png"
+import Linc3E from '../Assets/Lincoln300East.png'
+import Linc3W from '../Assets/Lincoln300West.png'
 
 const FloorPlan = (props) => {
     // images and areas will probably need to be prebuilt and sent here. Can send floor but will still have to manually change all of them
@@ -110,7 +112,10 @@ const FloorPlan = (props) => {
         Lincoln200East: Linc2E,
         Lincoln200Middle: Linc2M,
         Lincoln200West: Linc2W,
-        Lincoln3001: Linc3}
+        Lincoln3001: Linc3,
+        Lincoln300East: Linc3E,
+        Lincoln300West: Linc3W
+    }
 
 
     useEffect(()=>{

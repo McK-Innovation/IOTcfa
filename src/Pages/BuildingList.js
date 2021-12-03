@@ -86,7 +86,10 @@ const BuildingList = () => {
                 {name: "West", path: 'Lincoln200.json',},
             ], buildingInformation: {} },
         {imagePath: mLincoln3,
-            name: 'Lincoln300', floors: [{name: "1", path: 'Lincoln300.json',}, ], buildingInformation: {} },
+            name: 'Lincoln300', floors: [
+                {name: "East", path: 'Lincoln300.json',}, 
+                {name: "West", path: 'Lincoln300.json',},
+            ], buildingInformation: {} },
         {imagePath: mITDeck,
             name: 'ITDeck', floors: [
                 {name: "North", path: 'ITDeck.json',},
