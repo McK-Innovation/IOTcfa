@@ -776,6 +776,80 @@
       ]
    },
    {
+      "name": "MainNorthFitness Lower",
+      "areas": [
+         {
+            "name":"Corridor",
+            "alias":"Corridor",
+            "shape":"poly",
+            "coords":[168,98,161,157,219,156,216,205,538,201,538,96],
+            "fillColor":"#a207154f",
+            "strokeColor":"#ffffff"
+         },
+         {
+            "name":"Storage",
+            "alias":"Storage",
+            "shape":"poly",
+            "coords":[221,228,202,433,540,433,537,230],
+            "fillColor":"#a207154f",
+            "strokeColor":"#ffffff"
+         },
+         {
+            "name":"SpinRm",
+            "alias":"Spin Room",
+            "shape":"poly",
+            "coords":[542,184,544,428,773,429,752,183],
+            "fillColor":"#a207154f",
+            "strokeColor":"#ffffff"
+         },
+         {
+            "name":"RacqBallCt",
+            "alias":"Racquet Ball Court",
+            "shape":"poly",
+            "coords":[767,108,796,432,958,430,913,109],
+            "fillColor":"#a207154f",
+            "strokeColor":"#ffffff"
+         }
+      ]
+   },
+   {
+      "name": "MainNorthFitness",
+      "areas": [
+         {
+            "name":"AerobicRm",
+            "alias":"Aerobic Room",
+            "shape":"poly",
+            "coords":[416,61,413,194,534,194,548,192,562,188,572,183,583,177,595,168,601,159,598,62],
+            "fillColor":"#a207154f",
+            "strokeColor":"#ffffff"
+         },
+         {
+            "name":"WomensLocker",
+            "alias":"Women's Locker Roomm",
+            "shape":"poly",
+            "coords":[650,278,799,277,790,208,755,212,763,197,751,183,776,155,685,79,634,79,636,115,646,117],
+            "fillColor":"#a207154f",
+            "strokeColor":"#ffffff"
+         },
+         {
+            "name":"MensLocker",
+            "alias":"Men's Locker Room",
+            "shape":"poly",
+            "coords":[707,57,700,70,787,141,806,125,842,159,847,151,859,163,848,180,919,182,914,153,944,144,925,27,842,26,813,56],
+            "fillColor":"#a207154f",
+            "strokeColor":"#ffffff"
+         },
+         {
+            "name":"FrontDesk",
+            "alias":"Front Desk",
+            "shape":"poly",
+            "coords":[418,306,544,304,545,341,509,342,509,366,455,367,455,378,417,379],
+            "fillColor":"#a207154f",
+            "strokeColor":"#ffffff"
+         }
+      ]
+   },
+   {
       "name": "MainNorth1",
       "areas": [
          {

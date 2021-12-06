@@ -84,7 +84,7 @@ const FloorPlan = (props) => {
         OakmontBNorth: oakBN,
         OakmontBMiddle: oakBM,
         OakmontBSouth: oakBS,
-        MainNorthFitnessLower: mainFL,
+        "MainNorthFitness Lower": mainFL,
         MainNorthFitness: mainF,
         MainNorth1: mainN1,
         MainNorth2: mainN2,
