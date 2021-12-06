@@ -52,13 +52,13 @@ const BuildingList = () => {
         {imagePath: mMainN,
             name: 'MainNorth',
             floors: [
-                {name: "Fitness Lower", path: 'OakmontB.json'},
-                {name: "Fitness", path: 'OakmontB.json'},
-                {name: "1", path: 'OakmontB.json'},
-                {name: "2", path: 'OakmontB.json'},
-                {name: "3", path: 'OakmontB.json'},
-                {name: "4", path: 'OakmontB.json'},
-                {name: "5", path: 'OakmontB.json'}
+                {name: "Fitness Lower", path: 'MainNorth.json'},
+                {name: "Fitness", path: 'MainNorth.json'},
+                {name: "1", path: 'MainNorth.json'},
+                {name: "2", path: 'MainNorth.json'},
+                {name: "3", path: 'MainNorth.json'},
+                {name: "4", path: 'MainNorth.json'},
+                {name: "5", path: 'MainNorth.json'}
             ], buildingInformation: {} },
         {imagePath: mMainS,
             name: 'MainSouth', floors: [
