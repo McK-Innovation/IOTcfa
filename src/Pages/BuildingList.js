@@ -46,8 +46,8 @@ const BuildingList = () => {
             name: 'OakmontB', 
             floors: [
                 {name: "North", path: 'OakmontB.json'},
-                {name: "South", path: 'OakmontB.json'},
                 {name: "Middle", path: 'OakmontB.json'},
+                {name: "South", path: 'OakmontB.json'},
             ], buildingInformation: {} },
         {imagePath: mMainN,
             name: 'MainNorth',
@@ -64,15 +64,17 @@ const BuildingList = () => {
             name: 'MainSouth', floors: [
                 {name: "Terrace", path: 'OakmontB.json',},
                 {name: "Dining", path: 'OakmontB.json',},
+                {name: "1", path: 'OakmontB.json',},
                 {name: "2", path: 'OakmontB.json',},
                 {name: "3", path: 'OakmontB.json',},
                 {name: "4", path: 'OakmontB.json',},
                 {name: "5", path: 'OakmontB.json',},
             ], buildingInformation: {} },
         {imagePath: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg',
-            name: 'PonceA', floors: [{name: "1", path: 'OakmontB.json',}, ], buildingInformation: {} },
-        {imagePath: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg',
-            name: 'PonceB', floors: [{name: "1", path: 'OakmontB.json',}, ], buildingInformation: {} },
+            name: 'Ponce', floors: [
+                {name: "A", path: 'OakmontB.json',},
+                {name: "B", path: 'OakmontB.json',},  
+            ], buildingInformation: {} },
         {imagePath: mLincoln1,
             name: 'Lincoln100', floors: [
                 {name: "East", path: 'Lincoln100.json',},
@@ -152,6 +154,7 @@ const BuildingList = () => {
                         let key = fullData[x] //the data needs to be accessed like this since there's an object within an object. This is a key
                         //array of values we care about
                         let valueArray = {
+                            'Monday': key.history,
                             'alias': key.alias,
                             'dailyTally': key.dailyTally,
                             'currentCount' : key.currentCount,
@@ -249,6 +252,7 @@ const BuildingList = () => {
                            <MDBCol size = '5' className= 'align-items-end'>
                            <img src = {value.imagePath} className='img-fluid rounded-6' height='80'/>
                            <p className= 'font-weight-bold newFont'> {value.name}</p>
+                           <p className='textColor totalCount'>Total Count:</p>
                            <p className='biggerFont textColor'><strong>{total[value.name]}</strong></p>
                            </MDBCol>
 
