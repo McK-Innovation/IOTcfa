@@ -1,6 +1,6 @@
 [
    {
-      "name":"OakmontANorth",
+      "name":"OakmontAFloor North",
       "areas":[
          {
             "name":"Rest_Sim_1",
@@ -77,7 +77,7 @@
       ]
    },
    {
-      "name":"OakmontAMiddle",
+      "name":"OakmontAFloor Middle",
       "areas": [
 
          {
@@ -164,7 +164,7 @@
       ]
    },
    {
-      "name":"OakmontASouth",
+      "name":"OakmontAFloor South",
       "areas": [
          {
             "name":"Mens_RR_S",
@@ -209,7 +209,7 @@
       ]
    },
    {
-      "name":"OakmontBSouth",
+      "name":"OakmontBFloor South",
       "areas":[
          {
             "name":"Together_Recp",
@@ -414,7 +414,7 @@
       ]
    },
    {
-      "name":"OakmontBMiddle",
+      "name":"OakmontBFloor Middle",
       "areas":[
          {
             "name":"Together_FLL2",
@@ -611,7 +611,7 @@
       ]
    },
    {
-      "name":"OakmontBNorth",
+      "name":"OakmontBFloor North",
       "areas":[
          {
             "name":"Regions_Huddle",
@@ -850,7 +850,7 @@
       ]
    },
    {
-      "name": "MainNorth1",
+      "name": "MainNorthFloor 1",
       "areas": [
          {
             "name": "S1",
@@ -1054,7 +1054,7 @@
       ]
    },
          {
-            "name":"MainNorth2",
+            "name":"MainNorthFloor 2",
             "areas":[
                {
                   "name":"Together_54",
@@ -1210,7 +1210,7 @@
       ]
    },
    {
-      "name": "MainNorth3",
+      "name": "MainNorthFloor 3",
       "areas": [
          {
             "name": "CampMbl_29",
@@ -1395,7 +1395,7 @@
       ]
    },
    {
-      "name": "MainNorth4",
+      "name": "MainNorthFloor 4",
       "areas": [
          {
             "name": "CampMbl_29",
@@ -1610,7 +1610,7 @@
       ]
    },
    {
-      "name": "MainNorth5",
+      "name": "MainNorthFloor 5",
       "areas": [
          {
             "name": "Women's_Restroom",
@@ -2036,7 +2036,7 @@
       ]
    },
    {
-      "name": "MainSouth2",
+      "name": "MainSouthFloor 2",
       "areas": [
          {
             "name": "Breezeway",
@@ -2281,7 +2281,7 @@
       ]
    },
    {
-      "name": "MainSouth3",
+      "name": "MainSouthFloor 3",
       "areas": [
          {
             "name": "Breezeway",
@@ -2486,7 +2486,7 @@
       ]
    },
    {
-      "name": "MainSouth4",
+      "name": "MainSouthFloor 4",
       "areas": [
          {
             "name": "Breezeway",
@@ -2702,7 +2702,7 @@
       ]
    },
    {
-      "name": "MainSouth5",
+      "name": "MainSouthFloor 5",
       "areas": [
          {
             "name": "Breezeway",
@@ -2928,7 +2928,7 @@
       ]
    },
    {
-      "name": "PonceA",
+      "name": "PonceFloor A",
       "areas": [
          {
             "name": "Together_15",
@@ -3083,7 +3083,7 @@
       ]
    },
    {
-      "name": "PonceB",
+      "name": "PonceFloor B",
       "areas": [
          {
             "name": "Together_32",
@@ -3288,7 +3288,7 @@
       ]
    },
    {
-      "name": "ITDeckNorth",
+      "name": "ITDeckFloor North",
       "areas": [
          {
             "name": "Lot_11",
@@ -3413,7 +3413,7 @@
       ]
    },
    {
-      "name": "ITDeckEast",
+      "name": "ITDeckFloor East",
       "areas": [
          {
             "name": "Main_Deck",
@@ -3557,7 +3557,7 @@
       ]
    },
    {
-      "name": "ITDeckWest",
+      "name": "ITDeckFloor West",
       "areas": [
          {
             "name": "TheGarage",
@@ -3672,7 +3672,7 @@
       ]
    },
    {
-      "name": "ITDeckSouth",
+      "name": "ITDeckFloor South",
       "areas": [
          {
             "name": "Lot_9",
@@ -3737,7 +3737,7 @@
       ]
    },  
    {
-      "name": "Lincoln100FIC",
+      "name": "Lincoln100Floor FIC",
       "areas": [
          {
             "name": "The_Mixer",
@@ -3992,7 +3992,7 @@
       ]
    },
    {
-      "name": "Lincoln100East",
+      "name": "Lincoln100Floor East",
       "areas": [
          {
             "name": "S_50",
@@ -4147,7 +4147,7 @@
       ]
    },
    {
-      "name": "Lincoln100Middle",
+      "name": "Lincoln100Floor Middle",
       "areas": [ 
          {
             "name": "S_2_M",
@@ -4242,7 +4242,7 @@
       ]
    },
    {
-      "name": "Lincoln200West",
+      "name": "Lincoln200Floor West",
       "areas": [
          {
             "name": "Warehouse",
@@ -4328,7 +4328,7 @@
       ]
    },
    {
-      "name": "Lincoln200Middle",
+      "name": "Lincoln200Floor Middle",
       "areas": [
          {
             "name": "Warehouse",
@@ -4443,7 +4443,7 @@
       ]
    },
    {
-      "name": "Lincoln200East",
+      "name": "Lincoln200Floor East",
       "areas": [
          {
             "name": "Together_4",
@@ -4538,7 +4538,7 @@
       ]
    },
    {
-      "name": "Lincoln300West",
+      "name": "Lincoln300Floor West",
       "areas": [
          {
             "name": "InnovNewVntr",
@@ -4593,7 +4593,7 @@
       ]
    },
    {
-      "name": "Lincoln300East",
+      "name": "Lincoln300Floor East",
       "areas": [
          {
             "name": "Mens_RR_E",

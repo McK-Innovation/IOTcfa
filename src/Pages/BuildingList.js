@@ -38,66 +38,66 @@ const BuildingList = () => {
         {imagePath: mOakA,
             name: 'OakmontA',
             floors: [
-                {name: "North", path: 'OakmontA.json'},
-                {name: "Middle", path: 'OakmontA.json'},
-                {name: "South", path: 'OakmontA.json'},
+                {name: "Floor North", path: 'OakmontA.json', path2: 'test7Day.json'},
+                {name: "Floor Middle", path: 'OakmontA.json', path2: 'test7Day.json'},
+                {name: "Floor South", path: 'OakmontA.json', path2: 'test7Day.json'},
             ], buildingInformation: {} },
         {imagePath: mOakB,
             name: 'OakmontB', 
             floors: [
-                {name: "North", path: 'OakmontB.json'},
-                {name: "Middle", path: 'OakmontB.json'},
-                {name: "South", path: 'OakmontB.json'},
+                {name: "Floor North", path: 'OakmontB.json', path2: 'test7Day.json'},
+                {name: "Floor Middle", path: 'OakmontB.json', path2: 'test7Day.json'},
+                {name: "Floor South", path: 'OakmontB.json', path2: 'test7Day.json'},
             ], buildingInformation: {} },
         {imagePath: mMainN,
             name: 'MainNorth',
             floors: [
-                {name: "Fitness Lower", path: 'MainNorth.json'},
-                {name: "Fitness", path: 'MainNorth.json'},
-                {name: "1", path: 'MainNorth.json'},
-                {name: "2", path: 'MainNorth.json'},
-                {name: "3", path: 'MainNorth.json'},
-                {name: "4", path: 'MainNorth.json'},
-                {name: "5", path: 'MainNorth.json'}
+                {name: "Fitness Lower", path: 'MainNorth.json', path2: 'test7Day.json'},
+                {name: "Fitness", path: 'MainNorth.json', path2: 'test7Day.json'},
+                {name: "Floor 1", path: 'MainNorth.json', path2: 'test7Day.json'},
+                {name: "Floor 2", path: 'MainNorth.json', path2: 'test7Day.json'},
+                {name: "Floor 3", path: 'MainNorth.json', path2: 'test7Day.json'},
+                {name: "Floor 4", path: 'MainNorth.json', path2: 'test7Day.json'},
+                {name: "Floor 5", path: 'MainNorth.json', path2: 'test7Day.json'}
             ], buildingInformation: {} },
         {imagePath: mMainS,
             name: 'MainSouth', floors: [
-                {name: "Terrace", path: 'OakmontB.json',},
-                {name: "Dining", path: 'OakmontB.json',},
-                {name: "1", path: 'OakmontB.json',},
-                {name: "2", path: 'OakmontB.json',},
-                {name: "3", path: 'OakmontB.json',},
-                {name: "4", path: 'OakmontB.json',},
-                {name: "5", path: 'OakmontB.json',},
+                {name: "Terrace", path: 'OakmontB.json', path2: 'test7Day.json'},
+                {name: "Dining", path: 'OakmontB.json', path2: 'test7Day.json'},
+                {name: "Floor 1", path: 'OakmontB.json', path2: 'test7Day.json'},
+                {name: "Floor 2", path: 'OakmontB.json', path2: 'test7Day.json'},
+                {name: "Floor 3", path: 'OakmontB.json', path2: 'test7Day.json'},
+                {name: "Floor 4", path: 'OakmontB.json', path2: 'test7Day.json'},
+                {name: "Floor 5", path: 'OakmontB.json', path2: 'test7Day.json'},
             ], buildingInformation: {} },
         {imagePath: 'https://blueandgoldnewspaper.com/wp-content/uploads/2017/09/DSC08876.jpg',
             name: 'Ponce', floors: [
-                {name: "A", path: 'OakmontB.json',},
-                {name: "B", path: 'OakmontB.json',},  
+                {name: "Floor A", path: 'OakmontB.json', path2: 'test7Day.json'},
+                {name: "Floor B", path: 'OakmontB.json', path2: 'test7Day.json'},  
             ], buildingInformation: {} },
         {imagePath: mLincoln1,
             name: 'Lincoln100', floors: [
-                {name: "East", path: 'Lincoln100.json',},
-                {name: "Middle", path: 'Lincoln100.json',}, 
-                {name: "FIC", path: 'Lincoln100.json',}, 
+                {name: "Floor East", path: 'Lincoln100.json', path2: 'test7Day.json'},
+                {name: "Floor Middle", path: 'Lincoln100.json', path2: 'test7Day.json'}, 
+                {name: "Floor FIC", path: 'Lincoln100.json', path2: 'test7Day.json'}, 
             ], buildingInformation: {} },
         {imagePath: mLincoln2,
             name: 'Lincoln200', floors: [
-                {name: "East", path: 'Lincoln200.json',},
-                {name: "Middle", path: 'Lincoln200.json',},
-                {name: "West", path: 'Lincoln200.json',},
+                {name: "Floor East", path: 'Lincoln200.json', path2: 'test7Day.json'},
+                {name: "Floor Middle", path: 'Lincoln200.json', path2: 'test7Day.json'},
+                {name: "Floor West", path: 'Lincoln200.json', path2: 'test7Day.json'},
             ], buildingInformation: {} },
         {imagePath: mLincoln3,
             name: 'Lincoln300', floors: [
-                {name: "East", path: 'Lincoln300.json',}, 
-                {name: "West", path: 'Lincoln300.json',},
+                {name: "Floor East", path: 'Lincoln300.json', path2: 'test7Day.json'}, 
+                {name: "Floor West", path: 'Lincoln300.json', path2: 'test7Day.json'},
             ], buildingInformation: {} },
         {imagePath: mITDeck,
             name: 'ITDeck', floors: [
-                {name: "North", path: 'ITDeck.json',},
-                {name: "East", path: 'ITDeck.json',},
-                {name: "South", path: 'ITDeck.json',},
-                {name: "West", path: 'ITDeck.json',},
+                {name: "Floor North", path: 'ITDeck.json', path2: 'test7Day.json'},
+                {name: "Floor East", path: 'ITDeck.json', path2: 'test7Day.json'},
+                {name: "Floor South", path: 'ITDeck.json', path2: 'test7Day.json'},
+                {name: "Floor West", path: 'ITDeck.json', path2: 'test7Day.json'},
             ], buildingInformation: {} },
     ])
 
@@ -125,6 +125,36 @@ const BuildingList = () => {
     const handleCampusTotal = (total) => {
         dispatch({cTotal: total})
     }
+
+    const handleSunday = (total) => {
+        dispatch({Sunday: total})
+    }
+
+    const handleMonday = (total) => {
+        dispatch({Monday: total})
+    }
+
+    const handleTuesday = (total) => {
+        dispatch({Tuesday: total})
+    }
+
+    const handleWednesday = (total) => {
+        dispatch({Wednesday: total})
+    }
+
+    const handleThursday = (total) => {
+        dispatch({Thursday: total})
+    }
+
+    const handleFriday = (total) => {
+        dispatch({Friday: total})
+    }
+
+    const handleSaturday = (total) => {
+        dispatch({Saturday: total})
+    }
+
+
     async function getData (object) {
         let data = await fetch(object, {headers : {
             'Content-Type': 'application/json',
@@ -166,13 +196,9 @@ const BuildingList = () => {
                         //put this object into a new object with the key of the room name
                         roomsInBuilding[area] = valueArray
                     }
-                    //create an empty object value with the building name as a key
-                    // console.log(totalCampus)
                     totalCampus[name][floorName] = roomsInBuilding //place the floor number (string) as a nested object with the value of the rooms object
-                    // console.log(totalCampus)
                     dispatch({campusData: totalCampus }) //add this to the global context
-                    // console.log(totalCampus) //can be deleted when done with testing
-                    // console.log(buildingArray)
+                    
                             
                             //modify building array to include the rooms object
                             setArray(buildingArray.map((value) => {
@@ -186,22 +212,27 @@ const BuildingList = () => {
                             for(let room in roomsInBuilding) {
                                 if(room == "EntryExits") {
                                     tot = roomsInBuilding[room].currentCount;
-                                    // ttl += tot;
-                                    // handleCampusTotal(ttl);
+                                    
                                 }
                             }
                             tt[name] = tot
-                            // console.log(tt)
-                            // console.log(typeof tt)
-                            // console.log(tt.name)
-                            // console.log(typeof tt.name)
                             setTotal(tt)
 
                             const sumValues = obj => Object.values(obj).reduce((a, b) => a + b);
 
-                            // console.log(sumValues(tt));
+                            
                             handleCampusTotal(sumValues(tt));
                             
+                        })
+
+                        getData(floorVal.path2).then((data) => {
+                            handleSunday(data.history[0].maximum);
+                            handleMonday(data.history[1].maximum);
+                            handleTuesday(data.history[2].maximum);
+                            handleWednesday(data.history[3].maximum);
+                            handleThursday(data.history[4].maximum);
+                            handleFriday(data.history[5].maximum);
+                            handleSaturday(data.history[6].maximum);
                         })
                     })
                     
@@ -209,15 +240,7 @@ const BuildingList = () => {
                 })
             }
             , [])
-        // const getTotal = () => {
-        //     for(let bldg in tt ) {
-        //         console.log('WHAT ARE YOU' + bldg.value);
-        //         ttl += bldg.value;
-        //         console.log("HEllo" + ttl);
-        //     }
-        // }
-
-        // getTotal();
+        
     // renders the building list component with the object above, filtered
     return (
         !loading ? (
@@ -262,7 +285,7 @@ const BuildingList = () => {
 
                                            <MDBListGroupItem
                                                onClick = {()=>{handleSetBuilding(value.name); handleSetFloor(floor.name); handleTitle(floor.name); history.push("/floorPlan");}}
-                                               className="justify-content-between align-items-center floorBtn">{"Floor " + floor.name}
+                                               className="justify-content-between align-items-center floorBtn">{floor.name}
                                            </MDBListGroupItem>))
                                        }
                                    </MDBListGroup>

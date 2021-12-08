@@ -6,37 +6,15 @@ import {useHistory} from "react-router-dom";
 
 const BuildingPage = (props) => {
     let history = useHistory()
-    const { state: { building, floorName, campusData, room, title }, dispatch } = useContext(CFAContext);
+    const { state: {
+         building, 
+         floorName, 
+         campusData, 
+         room, 
+         title, 
+         Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday}, dispatch } = useContext(CFAContext);
     let [obj, setobj] = useState({})
-    // let [weekData, setWeekData] = useState([])
-    // let weekDatas =[];
-    // let fullWeek = false;
-    // // console.log(WeekData)
     
-    // async function getData(object) {
-    //     let data = await fetch(object, {headers : {
-    //         'Content-Type': 'application/json',
-    //             'Accept': 'application/json'
-    //     }}
-    //     )
-    //     data = await data.json()
-    //     return data
-    // }
-    
-    // getData('test7Day.json').then((data) => {
-       
-    //     console.log(data)
-    //     console.log(data.history)
-    //     console.log(typeof data.history)
-    //     console.log(data.history[0])
-    //     console.log(data.history[0].maximum)
-    //     console.log(data.history[1].maximum)
-    //     weekDatas.Monday = data.history[1].maximum
-    //     console.log(weekDatas.Monday)
-                    
-    // })
-                    
-    // console.log(weekDatas)
     useEffect(() => {
              setobj(campusData[building][floorName][room])
              dispatch({title: `${title} Details`})
@@ -48,6 +26,8 @@ const BuildingPage = (props) => {
         } //get data to pull into the dom
         , [history])
         // console.log(weekDatas)
+        console.log(Sunday)
+        console.log(typeof Sunday)
         console.log(campusData)
     function handleBeforeUnload() {
         dispatch({room: ''})
@@ -98,22 +78,22 @@ const BuildingPage = (props) => {
             <MDBContainer className='mt-3 backgroundColorforMain p-3 rounded-6 over' style = {{minWidth: 1200, maxHeight: 900}}>
                 <MDBRow>
                 
-                  <MDBCol className='d-flex justify-content-around'>{modifiedCard('Sunday',0)}</MDBCol>
-                  <MDBCol className='d-flex justify-content-around'>{modifiedCard('Monday',5)}</MDBCol>
+                  <MDBCol className='d-flex justify-content-around'>{modifiedCard('Sunday',Sunday)}</MDBCol>
+                  <MDBCol className='d-flex justify-content-around'>{modifiedCard('Monday',Monday)}</MDBCol>
                   <MDBCol className='d-flex justify-content-around'>
-                    {modifiedCard('Tuesday',1)}
+                    {modifiedCard('Tuesday',Tuesday)}
                   </MDBCol> 
                   <MDBCol className='d-flex justify-content-around'>
-                    {modifiedCard('Wednesday',3)}
+                    {modifiedCard('Wednesday',Wednesday)}
                   </MDBCol>
                   <MDBCol className='d-flex justify-content-around'>
-                    {modifiedCard('Thursday',10)}
+                    {modifiedCard('Thursday', Thursday)}
                   </MDBCol>
                   <MDBCol className='d-flex justify-content-around'>
-                    {modifiedCard('Friday',7)}
+                    {modifiedCard('Friday',Friday)}
                   </MDBCol>
                   <MDBCol className='d-flex justify-content-around'>
-                    {modifiedCard('Saturday',0)}
+                    {modifiedCard('Saturday', Saturday)}
                   </MDBCol>
                 
                 </MDBRow>
