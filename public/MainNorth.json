@@ -1,255 +1,385 @@
-{
 
-    "timestamp": "2021-11-29 13:22:06.385-0500",
-  
-    "restAPI": {
-  
-      "MainNorth": "Folder"
-  
+{
+  "timestamp": "2021-11-18 12:03:41.480-0500",
+  "building": {
+    "main": "Folder",
+    "side": {
+      "north": "Folder"
+    }
+  },
+  "boundQueryResult": [
+    {
+      "slotPathIdentifier": "slot:/Drivers/RestAPI/Main/North/FL_1",
+      "area": "EntryExits",
+      "dailyTally": 126,
+      "currentCount": 8,
+      "dayAverage": 0,
+      "dayMax": 0,
+      "monthAverage": 0,
+      "monthMax": 0
     },
-  
-    "boundQueryResult": [
-  
-      {
-  
-        "slotPathIdentifier": "slot:/Drivers/RestAPI/Main/North/Fitness",
-  
-        "area": "EntryExits",
-  
-        "dailyTally": "NULL",
-  
-        "currentCount": 4,
-  
-        "zone1CurrentCount": "NULL",
-  
-        "zone1DailyTally": "NULL",
-  
-        "dayAverage": 0,
-  
-        "dayMax": 0,
-  
-        "monthAverage": 0,
-  
-        "monthMax": 0
-  
-      },
-  
-      {
-  
-        "slotPathIdentifier": "slot:/Drivers/RestAPI/Main/North/Fitness",
-  
-        "area": "AerobicRm",
-  
-        "dailyTally": "NULL",
-  
-        "currentCount": 0,
-  
-        "zone1CurrentCount": "NULL",
-  
-        "zone1DailyTally": "NULL",
-  
-        "dayAverage": 0,
-  
-        "dayMax": 0,
-  
-        "monthAverage": 0,
-  
-        "monthMax": 0
-  
-      },
-  
-      {
-  
-        "slotPathIdentifier": "slot:/Drivers/RestAPI/Main/North/Fitness",
-  
-        "area": "MensLocker",
-  
-        "dailyTally": "NULL",
-  
-        "currentCount": 0,
-  
-        "zone1CurrentCount": "NULL",
-  
-        "zone1DailyTally": "NULL",
-  
-        "dayAverage": 0,
-  
-        "dayMax": 0,
-  
-        "monthAverage": 0,
-  
-        "monthMax": 0
-  
-      },
-  
-      {
-  
-        "slotPathIdentifier": "slot:/Drivers/RestAPI/Main/North/Fitness",
-  
-        "area": "WomensLocker",
-  
-        "dailyTally": "NULL",
-  
-        "currentCount": 0,
-  
-        "zone1CurrentCount": "NULL",
-  
-       "zone1DailyTally": "NULL",
-  
-        "dayAverage": 0,
-  
-        "dayMax": 0,
-  
-        "monthAverage": 0,
-  
-        "monthMax": 0
-  
-      },
-  
-      {
-  
-        "slotPathIdentifier": "slot:/Drivers/RestAPI/Main/North/Fitness",
-  
-        "area": "LowerLevel",
-  
-        "dailyTally": "NULL",
-  
-        "currentCount": 0,
-  
-        "zone1CurrentCount": "NULL",
-  
-        "zone1DailyTally": "NULL",
-  
-        "dayAverage": 0,
-  
-        "dayMax": 0,
-  
-        "monthAverage": 0,
-  
-        "monthMax": 0
-  
-      },
-  
-      {
-  
-        "slotPathIdentifier": "slot:/Drivers/RestAPI/Main/North/Fitness",
-  
-        "area": "Storage",
-  
-        "dailyTally": "NULL",
-  
-        "currentCount": 0,
-  
-        "zone1CurrentCount": "NULL",
-  
-        "zone1DailyTally": "NULL",
-  
-        "dayAverage": 0,
-  
-        "dayMax": 0,
-  
-        "monthAverage": 0,
-  
-        "monthMax": 0
-  
-      },
-  
-      {
-  
-        "slotPathIdentifier": "slot:/Drivers/RestAPI/Main/North/Fitness",
-  
-        "area": "RacqBallCt",
-  
-        "dailyTally": 0,
-  
-        "currentCount": 0,
-  
-        "zone1CurrentCount": "NULL",
-  
-        "zone1DailyTally": "NULL",
-  
-        "dayAverage": 0,
-  
-        "dayMax": 0,
-  
-        "monthAverage": 0,
-  
-        "monthMax": 0
-  
-      },
-  
-      {
-  
-        "slotPathIdentifier": "slot:/Drivers/RestAPI/Main/North/Fitness",
-  
-        "area": "SpinRm",
-  
-        "dailyTally": 2,
-  
-        "currentCount": 0,
-  
-        "zone1CurrentCount": "NULL",
-  
-        "zone1DailyTally": "NULL",
-  
-        "dayAverage": 0,
-  
-        "dayMax": 0,
-  
-        "monthAverage": 0,
-  
-        "monthMax": 0
-        
-      },
-  
-      {
-  
-        "slotPathIdentifier": "slot:/Drivers/RestAPI/Main/North/Fitness",
-  
-        "area": "FrontDesk",
-  
-        "dailyTally": "NULL",
-  
-        "currentCount": 1,
-  
-        "zone1CurrentCount": 1,
-  
-        "zone1DailyTally": 337,
-  
-        "dayAverage": "NULL",
-  
-        "dayMax": "NULL",
-  
-        "monthAverage": "NULL",
-  
-        "monthMax": "NULL"
-  
-      },
-  
-      {
-  
-        "slotPathIdentifier": "slot:/Drivers/RestAPI/Main/North/Fitness",
-  
-        "area": "Corridor",
-  
-        "dailyTally": "NULL",
-  
-        "currentCount": 0,
-  
-        "zone1CurrentCount": "NULL",
-  
-        "zone1DailyTally": "NULL",
-  
-        "dayAverage": 0,
-  
-        "dayMax": 0,
-  
-        "monthAverage": 0,
-  
-        "monthMax": 0
-  
-      }
-  
-    ]
-  
-  }
+    {
+      "slotPathIdentifier": "slot:/Drivers/RestAPI/Main/North/FL_1",
+      "area": "LeadershipHub",
+      "dailyTally": 0,
+      "currentCount": 2,
+      "dayAverage": 0,
+      "dayMax": 0,
+      "monthAverage": 0,
+      "monthMax": 0
+    },
+    {
+      "slotPathIdentifier": "slot:/Drivers/RestAPI/Main/North/FL_1",
+      "area": "ThePulse_35",
+      "dailyTally": 0,
+      "currentCount": 0,
+      "dayAverage": 0,
+      "dayMax": 0,
+      "monthAverage": 0,
+      "monthMax": 0
+    },
+    {
+      "slotPathIdentifier": "slot:/Drivers/RestAPI/Main/North/FL_1",
+      "area": "Womens_RR",
+      "dailyTally": 11,
+      "currentCount": 0,
+      "dayAverage": 0,
+      "dayMax": 0,
+      "monthAverage": 0,
+      "monthMax": 0
+    },
+    {
+      "slotPathIdentifier": "slot:/Drivers/RestAPI/Main/North/FL_2",
+      "area": "Rsdnt_East",
+      "dailyTally": 6,
+      "currentCount": 0,
+      "dayAverage": 0,
+      "dayMax": 0,
+      "monthAverage": 0,
+      "monthMax": 0
+    },
+    {
+      "slotPathIdentifier": "slot:/Drivers/RestAPI/Main/North/FL_2",
+      "area": "EntryExits",
+      "dailyTally": 89,
+      "currentCount": 0,
+      "dayAverage": 0,
+      "dayMax": 0,
+      "monthAverage": 0,
+      "monthMax": 0
+    },
+    {
+      "slotPathIdentifier": "slot:/Drivers/RestAPI/Main/North/FL_2",
+      "area": "Breezeway",
+      "dailyTally": 46,
+      "currentCount": 0,
+      "dayAverage": 0,
+      "dayMax": 0,
+      "monthAverage": 0,
+      "monthMax": 0
+    },
+    {
+      "slotPathIdentifier": "slot:/Drivers/RestAPI/Main/North/FL_2",
+      "area": "Patio",
+      "dailyTally": 13,
+      "currentCount": 0,
+      "dayAverage": 0,
+      "dayMax": 0,
+      "monthAverage": 0,
+      "monthMax": 0
+    },
+    {
+      "slotPathIdentifier": "slot:/Drivers/RestAPI/Main/North/FL_2",
+      "area": "Hideaway_30",
+      "dailyTally": 0,
+      "currentCount": 0,
+      "dayAverage": 0,
+      "dayMax": 0,
+      "monthAverage": 0,
+      "monthMax": 0
+    },
+    {
+      "slotPathIdentifier": "slot:/Drivers/RestAPI/Main/North/FL_3",
+      "area": "EntryExits",
+      "dailyTally": 0,
+      "currentCount": 9,
+      "dayAverage": "NULL",
+      "dayMax": "NULL",
+      "monthAverage": "NULL",
+      "monthMax": "NULL"
+    },
+    {
+      "slotPathIdentifier": "slot:/Drivers/RestAPI/Main/North/FL_3",
+      "area": "Hideaway_30",
+      "dailyTally": 0,
+      "currentCount": 0,
+      "dayAverage": 0,
+      "dayMax": 0,
+      "monthAverage": 0,
+      "monthMax": 0
+    },
+    {
+      "slotPathIdentifier": "slot:/Drivers/RestAPI/Main/North/FL_3",
+      "area": "CampMbl_29",
+      "dailyTally": 0,
+      "currentCount": 0,
+      "dayAverage": 0,
+      "dayMax": 0,
+      "monthAverage": 0,
+      "monthMax": 0
+    },
+    {
+      "slotPathIdentifier": "slot:/Drivers/RestAPI/Main/North/FL_3",
+      "area": "Breezeway",
+      "dailyTally": 27,
+      "currentCount": 0,
+      "dayAverage": 0,
+      "dayMax": 0,
+      "monthAverage": 0,
+      "monthMax": 0
+    },
+    {
+      "slotPathIdentifier": "slot:/Drivers/RestAPI/Main/North/FL_4",
+      "area": "TotRewards_30",
+      "dailyTally": 0,
+      "currentCount": 0,
+      "dayAverage": 0,
+      "dayMax": 0,
+      "monthAverage": 0,
+      "monthMax": 0
+    },
+    {
+      "slotPathIdentifier": "slot:/Drivers/RestAPI/Main/North/FL_4",
+      "area": "EntryExits",
+      "dailyTally": 0,
+      "currentCount": 1,
+      "dayAverage": 0,
+      "dayMax": 0,
+      "monthAverage": 0,
+      "monthMax": 0
+    },
+    {
+      "slotPathIdentifier": "slot:/Drivers/RestAPI/Main/North/FL_4",
+      "area": "CampMbl_29",
+      "dailyTally": 0,
+      "currentCount": 0,
+      "dayAverage": 0,
+      "dayMax": 0,
+      "monthAverage": 0,
+      "monthMax": 0
+    },
+    {
+      "slotPathIdentifier": "slot:/Drivers/RestAPI/Main/North/FL_4",
+      "area": "Breezeway",
+      "dailyTally": 27,
+      "currentCount": 0,
+      "dayAverage": 0,
+      "dayMax": 0,
+      "monthAverage": 0,
+      "monthMax": 0
+    },
+    {
+      "slotPathIdentifier": "slot:/Drivers/RestAPI/Main/North/FL_4",
+      "area": "Open_Interview",
+      "dailyTally": 0,
+      "currentCount": 0,
+      "dayAverage": 0,
+      "dayMax": 0,
+      "monthAverage": 0,
+      "monthMax": 0
+    },
+    {
+      "slotPathIdentifier": "slot:/Drivers/RestAPI/Main/North/FL_5",
+      "area": "EntryExits",
+      "dailyTally": 0,
+      "currentCount": 0,
+      "dayAverage": 0,
+      "dayMax": 0,
+      "monthAverage": 0,
+      "monthMax": 0
+    },
+    {
+      "slotPathIdentifier": "slot:/Drivers/RestAPI/Main/North/FL_5",
+      "area": "Break_Area",
+      "dailyTally": 0,
+      "currentCount": 0,
+      "dayAverage": 0,
+      "dayMax": 0,
+      "monthAverage": 0,
+      "monthMax": 0
+    },
+    {
+      "slotPathIdentifier": "slot:/Drivers/RestAPI/Main/North/FL_5",
+      "area": "Breezeway",
+      "dailyTally": 24,
+      "currentCount": 0,
+      "dayAverage": 0,
+      "dayMax": 0,
+      "monthAverage": 0,
+      "monthMax": 0
+    },
+    {
+      "slotPathIdentifier": "slot:/Drivers/RestAPI/Main/North/FL_5",
+      "area": "Together_54",
+      "dailyTally": 0,
+      "currentCount": 0,
+      "dayAverage": 0,
+      "dayMax": 0,
+      "monthAverage": 0,
+      "monthMax": 0
+    },
+    {
+      "slotPathIdentifier": "slot:/Drivers/RestAPI/Main/North/FL_5",
+      "area": "Open_Interview",
+      "dailyTally": 0,
+      "currentCount": 0,
+      "dayAverage": 0,
+      "dayMax": 0,
+      "monthAverage": 0,
+      "monthMax": 0
+    },
+    {
+      "slotPathIdentifier": "slot:/Drivers/RestAPI/Main/North/Fitness",
+      "area": "EntryExits",
+      "dailyTally": 0,
+      "currentCount": 4,
+      "dayAverage": 0,
+      "dayMax": 0,
+      "monthAverage": 0,
+      "monthMax": 0
+    },
+    {
+      "slotPathIdentifier": "slot:/Drivers/RestAPI/Main/North/Fitness",
+      "area": "AerobicRm",
+      "dailyTally": 0,
+      "currentCount": 0,
+      "dayAverage": 0,
+      "dayMax": 0,
+      "monthAverage": 0,
+      "monthMax": 0
+    },
+    {
+      "slotPathIdentifier": "slot:/Drivers/RestAPI/Main/North/Fitness",
+      "area": "MensLocker",
+      "dailyTally": 0,
+      "currentCount": 0,
+      "dayAverage": 0,
+      "dayMax": 0,
+      "monthAverage": 0,
+      "monthMax": 0
+    },
+    {
+      "slotPathIdentifier": "slot:/Drivers/RestAPI/Main/North/Fitness",
+      "area": "WomensLocker",
+      "dailyTally": 0,
+      "currentCount": 0,
+      "dayAverage": 0,
+      "dayMax": 0,
+      "monthAverage": 0,
+      "monthMax": 0
+    },
+    {
+      "slotPathIdentifier": "slot:/Drivers/RestAPI/Main/North/Fitness",
+      "area": "LowerLevel",
+      "dailyTally": 880,
+      "currentCount": 0,
+      "dayAverage": 0,
+      "dayMax": 0,
+      "monthAverage": 0,
+      "monthMax": 0
+    },
+    {
+      "slotPathIdentifier": "slot:/Drivers/RestAPI/Main/North/Fitness",
+      "area": "Storage",
+      "dailyTally": 0,
+      "currentCount": 0,
+      "dayAverage": 0,
+      "dayMax": 0,
+      "monthAverage": 0,
+      "monthMax": 0
+    },
+    {
+      "slotPathIdentifier": "slot:/Drivers/RestAPI/Main/North/Fitness",
+      "area": "Corridor",
+      "dailyTally": 20,
+      "currentCount": 0,
+      "dayAverage": 0,
+      "dayMax": 0,
+      "monthAverage": 0,
+      "monthMax": 0
+    },
+    {
+  
+      "slotPathIdentifier": "slot:/Drivers/RestAPI/Main/North/Fitness",
+
+      "area": "RacqBallCt",
+
+      "dailyTally": 0,
+
+      "currentCount": 0,
+
+      "zone1CurrentCount": "NULL",
+
+      "zone1DailyTally": "NULL",
+
+      "dayAverage": 0,
+
+      "dayMax": 0,
+
+      "monthAverage": 0,
+
+      "monthMax": 0
+
+    },
+
+    {
+
+      "slotPathIdentifier": "slot:/Drivers/RestAPI/Main/North/Fitness",
+
+      "area": "SpinRm",
+
+      "dailyTally": 2,
+
+      "currentCount": 0,
+
+      "zone1CurrentCount": "NULL",
+
+      "zone1DailyTally": "NULL",
+
+      "dayAverage": 0,
+
+      "dayMax": 0,
+
+      "monthAverage": 0,
+
+      "monthMax": 0
+      
+    },
+
+    {
+
+      "slotPathIdentifier": "slot:/Drivers/RestAPI/Main/North/Fitness",
+
+      "area": "FrontDesk",
+
+      "dailyTally": "NULL",
+
+      "currentCount": 1,
+
+      "zone1CurrentCount": 1,
+
+      "zone1DailyTally": 337,
+
+      "dayAverage": "NULL",
+
+      "dayMax": "NULL",
+
+      "monthAverage": "NULL",
+
+      "monthMax": "NULL"
+
+    }
+    
+  ]
+}
+

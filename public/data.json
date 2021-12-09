@@ -912,7 +912,7 @@
             "strokeColor": "#ffffff"
          },
          {
-            "name": "Men's_Restroom",
+            "name": "Mens_RR",
             "alias":"Men's Restroom",
             "shape": "poly",
             "coords": [
@@ -929,7 +929,7 @@
             "strokeColor": "#ffffff"
          },
          {
-            "name": "Women's_Restroom",
+            "name": "Womens_RR",
             "alias":"Women's Restroom",
             "shape": "poly",
             "coords": [
@@ -1233,7 +1233,7 @@
             "strokeColor": "#ffffff"
          },
          {
-            "name": "Women's_Restroom",
+            "name": "Womens_RR",
             "alias":"Women's Restroom",
             "shape": "poly",
             "coords": [
@@ -1243,7 +1243,7 @@
             "strokeColor": "#ffffff"
          },
          {
-            "name": "Men's_Restroom",
+            "name": "Mens_RR",
             "alias":"Men's Restroom",
             "shape": "poly",
             "coords": [
@@ -1468,7 +1468,7 @@
             "strokeColor": "#ffffff"
          },
          {
-            "name": "Women's_Restroom",
+            "name": "Womens_RR",
             "alias":"Women's Restroom",
             "shape": "poly",
             "coords": [
@@ -1478,7 +1478,7 @@
             "strokeColor": "#ffffff"
          },
          {
-            "name": "Men's_Restroom",
+            "name": "Mens_RR",
             "alias":"Men's Restroom",
             "shape": "poly",
             "coords": [
@@ -1562,7 +1562,7 @@
             "alias":"Together 52",
             "shape":"poly",
             "coords":[
-               289,227,281,271,183,272,179,22
+               289,227,281,271,183,272,179,229
             ],
             "fillColor":"#a207154f",
             "strokeColor":"#ffffff"
@@ -1613,7 +1613,7 @@
       "name": "MainNorthFloor 5",
       "areas": [
          {
-            "name": "Women's_Restroom",
+            "name": "Womens_RR",
             "alias":"Women's Restroom",
             "shape": "poly",
             "coords": [
@@ -1623,7 +1623,7 @@
             "strokeColor": "#ffffff"
          },
          {
-            "name": "Men's_Restroom",
+            "name": "Mens_RR",
             "alias":"Men's Restroom",
             "shape": "poly",
             "coords": [
