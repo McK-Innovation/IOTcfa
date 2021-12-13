@@ -895,7 +895,7 @@
             "strokeColor": "#ffffff"
          },
          {
-            "name": "Pulse_35",
+            "name": "ThePulse_35",
             "alias":"Pulse 35",
             "shape": "poly",
             "coords": [
@@ -1197,7 +1197,7 @@
                   "strokeColor":"#ffffff"
                },
                {
-                  "name":"Resident_East",
+                  "name":"Rsdnt_East",
                   "alias":"Resident East",
                   "shape":"poly",
                   "coords":[
@@ -1408,8 +1408,8 @@
             "strokeColor": "#ffffff"
          },
          {
-            "name": "Tot_Rewards_3030",
-            "alias":"Tot Rewards 3030",
+            "name": "TotRewards_30",
+            "alias":"Tot Rewards 30",
             "shape": "poly",
             "coords": [
                873,329,865,368,820,360,816,327
