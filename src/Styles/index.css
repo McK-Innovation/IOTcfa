@@ -138,8 +138,16 @@ cursor: pointer;
   color: #dd0031;
 }
 
+.cursorPointer:hover{
+  cursor: pointer,
+}
 
-.video {
+.cursorPointer {
+  cursor:pointer,
+}
+
+
+#video {
   position: fixed;
   right: 0;
   bottom: 0;

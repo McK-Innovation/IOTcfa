@@ -1,5 +1,6 @@
 export const initialState = {
     campusData: {},
+    campusHistoryData: {},
     isSignedIn: null,
     building: '',
     room: '',

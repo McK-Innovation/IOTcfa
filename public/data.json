@@ -825,7 +825,7 @@
          },
          {
             "name":"WomensLocker",
-            "alias":"Women's Locker Roomm",
+            "alias":"Women's Locker Room",
             "shape":"poly",
             "coords":[650,278,799,277,790,208,755,212,763,197,751,183,776,155,685,79,634,79,636,115,646,117],
             "fillColor":"#a207154f",
@@ -1101,7 +1101,7 @@
                   "alias":"Together 7",
                   "shape":"poly",
                   "coords":[
-                     433,371,501,418
+                     434,372,498,371,502,418,437,418
                   ],
                   "fillColor":"#a207154f",
                   "strokeColor":"#ffffff"
@@ -1443,16 +1443,6 @@
             "shape": "poly",
             "coords": [
                803,600,758,601,753,557,798,556
-            ],
-            "fillColor": "#a207154f",
-            "strokeColor": "#ffffff"
-         },
-         {
-            "name": "Huddle_21",
-            "alias":"Huddle 21",
-            "shape": "poly",
-            "coords": [
-               802,563,803,602,846,603,842,563
             ],
             "fillColor": "#a207154f",
             "strokeColor": "#ffffff"
@@ -2029,6 +2019,131 @@
             "coords": [
                273,638,278,566,202,564,205,506,217,494,218,477,236,472,240,464,220,457,223,440,244,448,251,438,231,425,
                243,405,264,421,294,402,321,391,362,387,369,323,415,320,416,374,837,384,843,453,758,459,767,561,693,555,696,636
+            ],
+            "fillColor": "#a207154f",
+            "strokeColor": "#ffffff"
+         }
+      ]
+   },
+   {
+      "name": "MainSouthFloor 1",
+      "areas": [
+         {
+            "name": "Loft",
+            "alias":"Loft",
+            "shape": "poly",
+            "coords": [
+               568,306,617,296,622,339,606,339,602,312,572,319
+            ],
+            "fillColor": "#a207154f",
+            "strokeColor": "#ffffff"
+         },
+         {
+            "name": "Kitchen",
+            "alias":"Kitchen",
+            "shape": "poly",
+            "coords": [
+               203,330,306,330,298,458,192,458
+            ],
+            "fillColor": "#a207154f",
+            "strokeColor": "#ffffff"
+         },
+         {
+            "name": "Edit_Studio",
+            "alias":"Edit Studio",
+            "shape": "poly",
+            "coords": [
+               358,303,369,303,370,272,412,272,412,318,358,318
+            ],
+            "fillColor": "#a207154f",
+            "strokeColor": "#ffffff"
+         },
+         {
+            "name": "Together08",
+            "alias":"Together 08",
+            "shape": "poly",
+            "coords": [
+               420,276,483,276,484,318,421,318
+            ],
+            "fillColor": "#a207154f",
+            "strokeColor": "#ffffff"
+         },
+         {
+            "name": "Giftshop",
+            "alias":"Giftshop",
+            "shape": "poly",
+            "coords": [
+               489,206,626,207,632,223,644,221,648,235,628,240,616,244,617,258,519,258,518,227,489,226
+            ],
+            "fillColor": "#a207154f",
+            "strokeColor": "#ffffff"
+         },
+         {
+            "name": "BckStg_Tour",
+            "alias":"Back Stage Tour",
+            "shape": "poly",
+            "coords": [
+               624,308,674,308,680,314,686,317,692,318,700,434,686,442,687,477,712,477,713,497,632,498
+            ],
+            "fillColor": "#a207154f",
+            "strokeColor": "#ffffff"
+         },
+         {
+            "name": "UnderLoft",
+            "alias":"Under Loft",
+            "shape": "poly",
+            "coords": [
+               556,355,615,355,621,496,558,496
+            ],
+            "fillColor": "#a207154f",
+            "strokeColor": "#ffffff"
+         },
+         {
+            "name": "Family_RR",
+            "alias":"Family Restroom",
+            "shape": "poly",
+            "coords": [
+               762,435,786,435,787,456,764,455
+            ],
+            "fillColor": "#a207154f",
+            "strokeColor": "#ffffff"
+         },
+         {
+            "name": "Womens_RR",
+            "alias":"Women's Restroom",
+            "shape": "poly",
+            "coords": [
+               759,387,860,388,865,436,793,436,789,415,781,416,784,428,761,427
+            ],
+            "fillColor": "#a207154f",
+            "strokeColor": "#ffffff"
+         },
+         {
+            "name": "Mens_RR",
+            "alias":"Men's Restroom",
+            "shape": "poly",
+            "coords": [
+               754,354,781,354,778,326,856,327,861,374,783,376,756,376
+            ],
+            "fillColor": "#a207154f",
+            "strokeColor": "#ffffff"
+         },
+         {
+            "name": "Atrium",
+            "alias":"Atrium",
+            "shape": "poly",
+            "coords": [
+               688,30,730,30,733,73,940,72,943,84,960,84,964,101,965,110,960,126,956,140,944,158,933,170,914,182,890,192,866,194,850,193,846,182,697,184
+            ],
+            "fillColor": "#a207154f",
+            "strokeColor": "#ffffff"
+         },
+         {
+            "name": "Sound_Studio",
+            "alias":"Sound Studio",
+            "shape": "poly",
+            "coords": [
+               318,335,547,334,549,497,301,499,302,472,311,472
             ],
             "fillColor": "#a207154f",
             "strokeColor": "#ffffff"

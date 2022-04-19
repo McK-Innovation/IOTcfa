@@ -825,7 +825,7 @@
          },
          {
             "name":"WomensLocker",
-            "alias":"Women's Locker Roomm",
+            "alias":"Women's Locker Room",
             "shape":"poly",
             "coords":[650,278,799,277,790,208,755,212,763,197,751,183,776,155,685,79,634,79,636,115,646,117],
             "fillColor":"#a207154f",
@@ -1443,16 +1443,6 @@
             "shape": "poly",
             "coords": [
                803,600,758,601,753,557,798,556
-            ],
-            "fillColor": "#a207154f",
-            "strokeColor": "#ffffff"
-         },
-         {
-            "name": "Huddle_21",
-            "alias":"Huddle 21",
-            "shape": "poly",
-            "coords": [
-               802,563,803,602,846,603,842,563
             ],
             "fillColor": "#a207154f",
             "strokeColor": "#ffffff"
