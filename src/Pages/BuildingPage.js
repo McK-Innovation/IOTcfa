@@ -2,21 +2,54 @@ import { MDBCol, MDBContainer, MDBRow} from "mdb-react-ui-kit";
 import {useContext, useEffect, useState} from "react";
 import {CFAContext} from "../State/Context";
 import {useHistory} from "react-router-dom";
+import mqtt from 'mqtt'
+
 // import { WeekData } from '../Assets/test7Day.json'
 
 const BuildingPage = (props) => {
     let history = useHistory()
+    let result
     const { state: {
          building, 
          floorName, 
-         campusData, 
+         campusData,
+         campusHistoryData,
          room, 
          title, 
          Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday}, dispatch } = useContext(CFAContext);
     let [obj, setobj] = useState({})
+    let [histArr, setHist] = useState([])
+    console.log(campusHistoryData)
+    // const options = {
+    //     protocol: 'ws',
+    //     clientId: 342900,
+    
+    //    }
+
+    // useEffect(() => {
+    //     console.log("Hello")
+    //     let client = mqtt.connect("ws://10.9.9.210:9001/mqtt", options)
+    //     client.subscribe('CFA_IOT/OakmontA/History')
+    //     client.on('message', function(topic, message){
+    //         console.log("Hello")
+    //         console.log(topic);
+    //         console.log(message);
+    //     })
+    // }, [])
+
+    let arrayManage = array => {
+        console.log(array)
+        if(array == undefined) {
+            result = [0, 0, 0, 0, 0, 0, 0, 0]
+        } else {
+        result = array.map(a => a.maximum)
+        // console.log(result)
+        }
+    }
     
     useEffect(() => {
              setobj(campusData[building][floorName][room])
+             setHist(campusHistoryData[building][floorName][room])
              dispatch({title: `${title} Details`})
             return history.listen(location => {
                 if(history.action === 'POP') {
@@ -26,9 +59,15 @@ const BuildingPage = (props) => {
         } //get data to pull into the dom
         , [history])
         // console.log(weekDatas)
-        console.log(Sunday)
-        console.log(typeof Sunday)
-        console.log(campusData)
+        // console.log(Sunday)
+        // console.log(typeof Sunday)
+        // console.log(campusData)
+        // console.log(campusHistoryData)
+        // console.log(histArr)
+        // console.log(histArr[0])
+        // console.log(typeof histArr[0])
+        arrayManage(histArr)
+        // console.log(hi)
     function handleBeforeUnload() {
         dispatch({room: ''})
         dispatch({title: floorName})
@@ -78,22 +117,22 @@ const BuildingPage = (props) => {
             <MDBContainer className='mt-3 backgroundColorforMain p-3 rounded-6 over' style = {{minWidth: 1200, maxHeight: 900}}>
                 <MDBRow>
                 
-                  <MDBCol className='d-flex justify-content-around'>{modifiedCard('Sunday',Sunday)}</MDBCol>
-                  <MDBCol className='d-flex justify-content-around'>{modifiedCard('Monday',Monday)}</MDBCol>
+                  <MDBCol className='d-flex justify-content-around'>{modifiedCard('Sunday',result[0])}</MDBCol>
+                  <MDBCol className='d-flex justify-content-around'>{modifiedCard('Monday',result[1])}</MDBCol>
                   <MDBCol className='d-flex justify-content-around'>
-                    {modifiedCard('Tuesday',Tuesday)}
+                    {modifiedCard('Tuesday',result[2])}
                   </MDBCol> 
                   <MDBCol className='d-flex justify-content-around'>
-                    {modifiedCard('Wednesday',Wednesday)}
+                    {modifiedCard('Wednesday',result[3])}
                   </MDBCol>
                   <MDBCol className='d-flex justify-content-around'>
-                    {modifiedCard('Thursday', Thursday)}
+                    {modifiedCard('Thursday', result[4])}
                   </MDBCol>
                   <MDBCol className='d-flex justify-content-around'>
-                    {modifiedCard('Friday',Friday)}
+                    {modifiedCard('Friday',result[5])}
                   </MDBCol>
                   <MDBCol className='d-flex justify-content-around'>
-                    {modifiedCard('Saturday', Saturday)}
+                    {modifiedCard('Saturday', result[6])}
                   </MDBCol>
                 
                 </MDBRow>

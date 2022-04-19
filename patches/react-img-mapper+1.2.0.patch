@@ -76,7 +76,7 @@ index e12d086..2e5b724 100644
 +        ctx.current.fill()
 +        ctx.current.fillStyle = '#ffffff'
 +        ctx.current.font = '18px roboto';
-+        ctx.current.fillText(text, center[0], center[1]);
++        ctx.current.fillText(text, (center[0]-5.7), (center[1]+6));
 +
 +    }
  };
