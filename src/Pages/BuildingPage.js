@@ -39,7 +39,25 @@ const BuildingPage = (props) => {
 
     let arrayManage = array => {
         console.log(array)
-        if(array == undefined) {
+        if(room == 'Bar_Tables_N'){
+            let objectNArray = campusHistoryData["MainSouth"]["Terrace"]["Bar_Tables_N/Count_Zn2/NumericCov/historyConfig/id"]
+            let newNArray = objectNArray.map(a => a.maximum);
+            let initialNArray = array.map(a => a.maximum);
+            console.log(newNArray)
+            result = newNArray.map(function (num, idx) {
+                return num + initialNArray[idx];
+              });
+        }
+        else if(room == 'Bar_Tables_S'){
+            let objectSArray = campusHistoryData["MainSouth"]["Terrace"]["Bar_Tables_S/Count_Zn2/NumericCov/historyConfig/id"]
+            let newSArray = objectSArray.map(a => a.maximum);
+            let initialSArray = array.map(a => a.maximum);
+            console.log(newSArray)
+            result = newSArray.map(function (num, idx) {
+                return num + initialSArray[idx];
+              });
+        }
+        else if(array == undefined) {
             result = [0, 0, 0, 0, 0, 0, 0, 0]
         } else {
         result = array.map(a => a.maximum)
