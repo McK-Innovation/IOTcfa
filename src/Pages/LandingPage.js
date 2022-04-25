@@ -1,7 +1,14 @@
-import {MDBCol, MDBContainer, MDBIcon, MDBRow} from "mdb-react-ui-kit";
+import {MDBCol, MDBContainer, MDBIcon, MDBRow, MDBBtn,
+    MDBModal,
+    MDBModalDialog,
+    MDBModalContent,
+    MDBModalHeader,
+    MDBModalTitle,
+    MDBModalBody,
+    MDBModalFooter,} from "mdb-react-ui-kit";
 import Hls from 'hls.js'
 import BuildingList from "./BuildingList";
-import {useContext, componentDidUpdate} from "react";
+import {useContext, componentDidUpdate, useEffect, useState} from "react";
 import BuildingPage from "./BuildingPage";
 // import move3 from '../Assets/newMovie.mp4';
 // import move3 from '../Assets/Untitled3.webm';
@@ -19,19 +26,21 @@ import { detect } from 'detect-browser'
 
 const LandingPage = () => {
     const { state: { building, floorName, title, cTotal }, dispatch } = useContext(CFAContext);
+    const [basicModal, setBasicModal] = useState(false);
     const browser = detect();
     // console.log(cTotal);
     // page that contains the video, building name/count label and building list component. Using MDBkit for faster styling
-
+    const toggleShow = () => setBasicModal(!basicModal);
     // COMMENT IN FOR DYNAMIC VIDOES
     // let move3 = 'http://10.9.9.212:3010/cfaIotMovies/cfaBackground.m3u8'
-
+    useEffect(() => {
     switch (browser && browser.name) {
         case 'chrome':
             console.log('working');
             break;
         case 'firefox':
           console.log('supported');
+          toggleShow();
           break;
       
         case 'edge':
@@ -41,6 +50,7 @@ const LandingPage = () => {
         default:
           console.log('not supported');
       }
+    }, [])
 
     if (Hls.isSupported()) {
         var video = document.getElementById('video');
@@ -115,6 +125,21 @@ const LandingPage = () => {
             ref={player => (this.player = player)}
             autoPlay={true}
           /> */}
+
+<MDBModal show={basicModal} setShow={setBasicModal} tabIndex='-1'>
+      <MDBModalDialog>
+        <MDBModalContent>
+          
+          <MDBModalBody>For the best user experience please use Chrome</MDBModalBody>
+
+          <MDBModalFooter>
+            <MDBBtn className='whiteBackgroundRed' onClick={toggleShow}>
+              Close
+            </MDBBtn>
+          </MDBModalFooter>
+        </MDBModalContent>
+      </MDBModalDialog>
+    </MDBModal>
         <MDBContainer fluid  className= 'content p-4' >
             {/*Header/Label with the campus count and building/floorname*/}
             <MDBRow className = 'g-1'>
