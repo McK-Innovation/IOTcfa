@@ -15,14 +15,32 @@ import Oakmont from '../Assets/Oakmont.mp4'
 import FloorPlan from "./FloorPlan";
 import {CFAContext} from "../State/Context";
 import {Route, Switch, Link} from "react-router-dom";
+import { detect } from 'detect-browser'
 
 const LandingPage = () => {
     const { state: { building, floorName, title, cTotal }, dispatch } = useContext(CFAContext);
+    const browser = detect();
     // console.log(cTotal);
     // page that contains the video, building name/count label and building list component. Using MDBkit for faster styling
 
     // COMMENT IN FOR DYNAMIC VIDOES
     // let move3 = 'http://10.9.9.212:3010/cfaIotMovies/cfaBackground.m3u8'
+
+    switch (browser && browser.name) {
+        case 'chrome':
+            console.log('working');
+            break;
+        case 'firefox':
+          console.log('supported');
+          break;
+      
+        case 'edge':
+          console.log('kinda ok');
+          break;
+      
+        default:
+          console.log('not supported');
+      }
 
     if (Hls.isSupported()) {
         var video = document.getElementById('video');
